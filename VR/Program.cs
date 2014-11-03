@@ -26,9 +26,6 @@ namespace VR
             //asd.SetTime(345);
             //Console.WriteLine(asd.SizeOf());
 
-            
-
-
         }
 
 
