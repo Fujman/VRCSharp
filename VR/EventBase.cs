@@ -203,20 +203,13 @@ namespace VR
         //{
         //    return (Marshal.SizeOf(this));
         //}
-        іваіва
+       
 
         public unsafe void* SetData()
         {
             return null;
         }
-         zfjdsakljdfljksdkljfjksdf 
-
-
-             sdf
-             sd
-             f
-             s
-             df
+       
     }
 
 }   
