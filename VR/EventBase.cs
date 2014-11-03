@@ -203,7 +203,8 @@ namespace VR
         //{
         //    return (Marshal.SizeOf(this));
         //}
-      
+        іваіва
+
         public unsafe void* SetData()
         {
             return null;
