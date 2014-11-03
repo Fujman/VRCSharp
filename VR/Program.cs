@@ -26,8 +26,7 @@ namespace VR
             //asd.SetTime(345);
             //Console.WriteLine(asd.SizeOf());
 
-            Console.WriteLine("\n Test Github");
-            Console.ReadKey();
+            
 
 
         }
