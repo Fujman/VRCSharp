@@ -26,8 +26,12 @@ namespace VR
             //asd.SetTime(345);
             //Console.WriteLine(asd.SizeOf());
 
+<<<<<<< HEAD
 
 
+=======
+            
+>>>>>>> parent of 0c85b4d... 123
 
 
         }
