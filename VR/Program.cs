@@ -29,7 +29,7 @@ namespace VR
             {
 
                 FsRead reader = new FsRead(readPath);
-                
+                //sd
 
                 for (int count = 0; count + 16 <= 800000; count ++)
                 {
