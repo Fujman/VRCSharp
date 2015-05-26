@@ -1,0 +1,681 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+#include "CLIENTS/CmdProtocol.rh"
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Neutral (Default) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_NEUD)
+#ifdef _WIN32
+LANGUAGE LANG_NEUTRAL, SUBLANG_DEFAULT
+#pragma code_page(1251)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_XABOUTDLG DIALOGEX 0, 0, 231, 90
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_STATICEDGE
+CAPTION "About..."
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,182,72,44,14,WS_GROUP
+    CONTROL         "IDB_XSRSEMBLEM",IDC_STATIC_SRS_EMBLEM,"Static",
+                    SS_BITMAP | SS_REALSIZEIMAGE,7,7,15,13
+    LTEXT           "Application name",IDC_APPNAME,54,15,144,8,SS_NOPREFIX
+    LTEXT           "Version",IDC_VERSION,95,28,104,9
+    LTEXT           "Company name. Copyright",IDC_COPYRIGHT,54,41,154,18,
+                    SS_NOPREFIX
+    LTEXT           "Date build",IDC_BUILD,54,60,124,9
+    ICON            "",IDC_APP_ICON,202,9,20,20
+    LTEXT           "Version:",IDC_STATIC,55,29,26,8
+    LTEXT           "",IDC_STATIC_INFO,54,73,77,11
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_XSRSEMBLEM          BITMAP  DISCARDABLE     "\\VR\\VR_RES\\SRS.BMP"
+#endif    // Neutral (Default) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Russian resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_RUS)
+#ifdef _WIN32
+LANGUAGE LANG_RUSSIAN, SUBLANG_DEFAULT
+#pragma code_page(1251)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_EVENTS_FILTER_EX DIALOGEX 0, 0, 572, 123
+STYLE WS_CHILD
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    CONTROL         "DateTimePicker2",IDC_TIMEPICKER_START,"SysDateTimePick32",
+                    DTS_RIGHTALIGN | DTS_UPDOWN | DTS_APPCANPARSE | 
+                    WS_TABSTOP | 0x8,10,28,45,14
+    CONTROL         "DateTimePicker2",IDC_TIMEPICKER_STOP,"SysDateTimePick32",
+                    DTS_RIGHTALIGN | DTS_UPDOWN | DTS_APPCANPARSE | 
+                    WS_TABSTOP | 0x8,10,44,45,14
+    EDITTEXT        IDC_EDIT_INFO,301,64,22,12,ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "Spin1",IDC_SPIN_INFO,"msctls_updown32",UDS_WRAP | 
+                    UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | 
+                    UDS_ARROWKEYS | UDS_NOTHOUSANDS,323,65,11,10
+    EDITTEXT        IDC_EDIT_WARNING,301,77,22,12,ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "Spin1",IDC_SPIN_WARNING,"msctls_updown32",UDS_WRAP | 
+                    UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | 
+                    UDS_ARROWKEYS | UDS_NOTHOUSANDS,322,79,11,10
+    EDITTEXT        IDC_EDIT_ERROR,301,91,22,12,ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "Spin1",IDC_SPIN_ERROR,"msctls_updown32",UDS_WRAP | 
+                    UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | 
+                    UDS_ARROWKEYS | UDS_NOTHOUSANDS,323,93,11,10
+    LTEXT           "Channels:",IDC_STATIC_CHANNELS,326,8,66,8
+    CONTROL         "List1",IDC_LIST_CHANNELS,"SysListView32",LVS_REPORT | 
+                    LVS_SORTASCENDING | LVS_NOCOLUMNHEADER | 
+                    LVS_NOSORTHEADER | WS_BORDER | WS_TABSTOP,249,17,224,45,
+                    WS_EX_CLIENTEDGE
+    CONTROL         "All channels",IDC_CHECK_ALL_CHANNELS,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,417,7,54,9
+    CONTROL         "Info:",IDC_CHECK_INFO,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,250,66,47,10
+    CONTROL         "Warnings:",IDC_CHECK_WARNING,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,250,78,47,10
+    CONTROL         "Errors:",IDC_CHECK_ERROR,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,250,90,46,10
+    COMBOBOX        IDC_COMBO_DATA_SPAN,10,83,46,78,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    CONTROL         "MonthCalendar1",IDC_MONTHCALENDAR,"SysMonthCal32",
+                    MCS_NOTODAY | WS_TABSTOP,57,11,104,86,WS_EX_CLIENTEDGE
+    CTEXT           "22.12.2007",IDC_STATIC_DATE_START,10,12,45,14,0,
+                    WS_EX_CLIENTEDGE
+    CTEXT           "22.12.2007",IDC_STATIC_DATE_STOP,10,60,45,14,0,
+                    WS_EX_CLIENTEDGE
+    GROUPBOX        "Date and time selection",IDC_STATIC,6,2,160,100
+END
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "#include ""CLIENTS/CmdProtocol.rh""\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#pragma code_page(1251)\r\n"
+    "#include ""CLIENTS/CmdProtocol.rc""\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\SRSLogView.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#include ""afxprint.rc""       // printing/print preview resources\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_ICON1               ICON    DISCARDABLE     "res\\Phone.ico"
+IDI_ICON2               ICON    DISCARDABLE     "res\\new.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_EVENTS_FILTER_EX, DIALOG
+    BEGIN
+        LEFTMARGIN, 1
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_EVENTS_FILTER_EX DLGINIT
+BEGIN
+    IDC_COMBO_DATA_SPAN, 0x403, 11, 0
+0x2031, 0x6f77, 0x6b72, 0x6420, 0x7961, "\000" 
+    IDC_COMBO_DATA_SPAN, 0x403, 12, 0
+0x2031, 0x6f77, 0x6b72, 0x7720, 0x6565, 0x006b, 
+    IDC_COMBO_DATA_SPAN, 0x403, 6, 0
+0x2031, 0x6164, 0x0079, 
+    IDC_COMBO_DATA_SPAN, 0x403, 7, 0
+0x2031, 0x6577, 0x6b65, "\000" 
+    IDC_COMBO_DATA_SPAN, 0x403, 8, 0
+0x2031, 0x6f6d, 0x746e, 0x0068, 
+    IDC_COMBO_DATA_SPAN, 0x403, 8, 0
+0x2033, 0x6f6d, 0x746e, 0x0068, 
+    IDC_COMBO_DATA_SPAN, 0x403, 7, 0
+0x2031, 0x6579, 0x7261, "\000" 
+    IDC_COMBO_DATA_SPAN, 0x403, 6, 0
+0x2031, 0xe0f7, 0x00f1, 
+    IDC_COMBO_DATA_SPAN, 0x403, 7, 0
+0x2031, 0xe5e4, 0xfced, "\000" 
+    IDC_COMBO_DATA_SPAN, 0x403, 9, 0
+0x2031, 0xe5ed, 0xe5e4, 0xffeb, "\000" 
+    IDC_COMBO_DATA_SPAN, 0x403, 8, 0
+0x2031, 0xe5ec, 0xfff1, 0x00f6, 
+    IDC_COMBO_DATA_SPAN, 0x403, 9, 0
+0x2033, 0xe5ec, 0xfff1, 0xe0f6, "\000" 
+    IDC_COMBO_DATA_SPAN, 0x403, 6, 0
+0x2031, 0xeee3, 0x00e4, 
+    IDC_COMBO_DATA_SPAN, 0x403, 7, 0
+0x3031, 0xeb20, 0xf2e5, "\000" 
+    IDC_COMBO_DATA_SPAN, 0x403, 6, 0
+0xfeeb, 0xeee1, 0x00e9, 
+    0
+END
+
+#endif    // Russian resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_SRSLOGVIEW_FORM DIALOG DISCARDABLE  0, 0, 225, 44
+STYLE WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "",IDC_STATIC_BOX,0,0,225,32,WS_BORDER
+    PUSHBUTTON      "open  mrec.log",IDC_BUTTON_OPENLOG,0,0,55,14,NOT 
+                    WS_VISIBLE | WS_DISABLED
+    PUSHBUTTON      "+1",IDC_BUTTON1,163,0,13,10,NOT WS_VISIBLE | 
+                    WS_DISABLED
+    PUSHBUTTON      "open  mrec.log (cur.session)",IDC_BUTTON_OPENLOG_CURSES,
+                    63,0,97,14,NOT WS_VISIBLE | WS_DISABLED
+    PUSHBUTTON      "+10",IDC_BUTTON2,175,0,14,10,NOT WS_VISIBLE | 
+                    WS_DISABLED
+    PUSHBUTTON      "message",IDC_BUTTON3,191,0,32,10,NOT WS_VISIBLE | 
+                    WS_DISABLED
+    PUSHBUTTON      "+1",IDC_BUTTON4,0,33,31,11
+    PUSHBUTTON      "Show\\hide details",IDC_BUTTON_SHOW_DETAILS,34,33,63,11
+    PUSHBUTTON      "Show\\hide status",IDC_BUTTON_SHOW_STATUS,101,33,63,11
+END
+
+IDR_EVENTS_FILTER DIALOGEX 0, 0, 376, 112
+STYLE DS_CONTROL | WS_CHILD
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    CONTROL         "Use",IDC_CHECK_START_USE,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,9,61,46,10,WS_EX_TRANSPARENT
+    GROUPBOX        " Start time ",IDC_STATIC_START,1,47,71,64,0,
+                    WS_EX_TRANSPARENT
+    CONTROL         "DateTimePicker2",IDC_DATEPICKER_START,"SysDateTimePick32",
+                    DTS_RIGHTALIGN | DTS_APPCANPARSE | WS_TABSTOP,9,75,53,14
+    CONTROL         "DateTimePicker2",IDC_TIMEPICKER_START,"SysDateTimePick32",
+                    DTS_RIGHTALIGN | DTS_UPDOWN | DTS_APPCANPARSE | 
+                    WS_TABSTOP | 0x8,9,92,53,14
+    CONTROL         "Use",IDC_CHECK_STOP_USE,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,82,61,29,10
+    GROUPBOX        " Stop time  ",IDC_STATIC_STOP,74,47,68,64,0,
+                    WS_EX_TRANSPARENT
+    CONTROL         "DateTimePicker2",IDC_DATEPICKER_STOP,"SysDateTimePick32",
+                    DTS_RIGHTALIGN | DTS_APPCANPARSE | WS_TABSTOP,82,75,53,
+                    14
+    CONTROL         "DateTimePicker2",IDC_TIMEPICKER_STOP,"SysDateTimePick32",
+                    DTS_RIGHTALIGN | DTS_UPDOWN | DTS_APPCANPARSE | 
+                    WS_TABSTOP | 0x8,82,92,53,14
+    EDITTEXT        IDC_EDIT_INFO,199,72,22,12,ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "Spin1",IDC_SPIN_INFO,"msctls_updown32",UDS_WRAP | 
+                    UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | 
+                    UDS_ARROWKEYS | UDS_NOTHOUSANDS,221,73,7,10
+    EDITTEXT        IDC_EDIT_WARNING,199,85,22,12,ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "Spin1",IDC_SPIN_WARNING,"msctls_updown32",UDS_WRAP | 
+                    UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | 
+                    UDS_ARROWKEYS | UDS_NOTHOUSANDS,220,87,8,10
+    EDITTEXT        IDC_EDIT_ERROR,199,99,22,12,ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "Spin1",IDC_SPIN_ERROR,"msctls_updown32",UDS_WRAP | 
+                    UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | 
+                    UDS_ARROWKEYS | UDS_NOTHOUSANDS,221,101,7,10
+    LTEXT           "Channels:",IDC_STATIC_CHANNELS,224,16,66,8
+    CONTROL         "List1",IDC_LIST_CHANNELS,"SysListView32",LVS_REPORT | 
+                    LVS_SORTASCENDING | LVS_NOCOLUMNHEADER | 
+                    LVS_NOSORTHEADER | WS_BORDER | WS_TABSTOP,147,25,224,45,
+                    WS_EX_CLIENTEDGE
+    CONTROL         "All channels",IDC_CHECK_ALL_CHANNELS,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,315,15,54,9
+    CONTROL         "Info:",IDC_CHECK_INFO,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,148,74,47,10
+    CONTROL         "Warnings:",IDC_CHECK_WARNING,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,148,86,47,10
+    CONTROL         "Errors:",IDC_CHECK_ERROR,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,148,98,46,10
+    COMBOBOX        IDC_COMBO_VIEW_RANGE,1,32,144,78,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    CONTROL         "Use filter",IDC_CHECK_USE_FILTER,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,1,1,103,9
+    CHECKBOX        "Apply",IDC_CHECK_APPLY,339,102,36,9,BS_PUSHLIKE
+    CONTROL         "Use",IDC_CHECK_CHANNELS_USE,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,149,14,29,10
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDR_MAINFRAME           BITMAP  MOVEABLE PURE   "res\\Toolbar.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\SRSLogView.ico"
+IDR_SRSLOGTYPE          ICON    DISCARDABLE     "res\\SRSLogViewDoc.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDR_EVENTS_FILTER, DIALOG
+    BEGIN
+        LEFTMARGIN, 1
+        RIGHTMARGIN, 375
+        TOPMARGIN, 1
+        BOTTOMMARGIN, 111
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_MAINFRAME TOOLBAR DISCARDABLE  16, 15
+BEGIN
+    BUTTON      ID_FILE_OPEN
+    BUTTON      ID_FILE_SAVE
+    SEPARATOR
+    BUTTON      ID_EDIT_CUT
+    BUTTON      ID_EDIT_COPY
+    BUTTON      ID_EDIT_PASTE
+    SEPARATOR
+    BUTTON      ID_FILE_PRINT
+    SEPARATOR
+    BUTTON      ID_APP_ABOUT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINFRAME MENU PRELOAD DISCARDABLE 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "&Open...\tCtrl+O",            ID_FILE_OPEN
+        MENUITEM SEPARATOR
+        MENUITEM "P&rint Setup...",             ID_FILE_PRINT_SETUP
+        MENUITEM SEPARATOR
+        MENUITEM "Recent File",                 ID_FILE_MRU_FILE1, GRAYED
+        MENUITEM SEPARATOR
+        MENUITEM "E&xit",                       ID_APP_EXIT
+    END
+    POPUP "&View"
+    BEGIN
+        MENUITEM "&Toolbar",                    ID_VIEW_TOOLBAR
+        MENUITEM "&Status Bar",                 ID_VIEW_STATUS_BAR
+    END
+    POPUP "&Tools"
+    BEGIN
+        MENUITEM "Resize log...",               ID_LOG_RESIZE
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&About SRSLogView...",        ID_APP_ABOUT
+    END
+END
+
+IDR_SRSLOGTYPE MENU PRELOAD DISCARDABLE 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "&Open...\tCtrl+O",            ID_FILE_OPEN
+        MENUITEM "&Close",                      ID_FILE_CLOSE
+        MENUITEM SEPARATOR
+        MENUITEM "&Print...\tCtrl+P",           ID_FILE_PRINT
+        MENUITEM "Print Pre&view",              ID_FILE_PRINT_PREVIEW
+        MENUITEM "P&rint Setup...",             ID_FILE_PRINT_SETUP
+        MENUITEM SEPARATOR
+        MENUITEM "Recent File",                 ID_FILE_MRU_FILE1, GRAYED
+        MENUITEM SEPARATOR
+        MENUITEM "E&xit",                       ID_APP_EXIT
+    END
+    POPUP "&View"
+    BEGIN
+        MENUITEM "&Toolbar",                    ID_VIEW_TOOLBAR
+        MENUITEM "&Status Bar",                 ID_VIEW_STATUS_BAR
+    END
+    POPUP "&Window"
+    BEGIN
+        MENUITEM "&New Window",                 ID_WINDOW_NEW
+        MENUITEM "&Cascade",                    ID_WINDOW_CASCADE
+        MENUITEM "&Tile",                       ID_WINDOW_TILE_HORZ
+        MENUITEM "&Arrange Icons",              ID_WINDOW_ARRANGE
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&About SRSLogView...",        ID_APP_ABOUT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME ACCELERATORS PRELOAD MOVEABLE PURE 
+BEGIN
+    "C",            ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    "O",            ID_FILE_OPEN,           VIRTKEY, CONTROL, NOINVERT
+    "P",            ID_FILE_PRINT,          VIRTKEY, CONTROL, NOINVERT
+    "V",            ID_EDIT_PASTE,          VIRTKEY, CONTROL, NOINVERT
+    VK_BACK,        ID_EDIT_UNDO,           VIRTKEY, ALT, NOINVERT
+    VK_DELETE,      ID_EDIT_CUT,            VIRTKEY, SHIFT, NOINVERT
+    VK_F6,          ID_NEXT_PANE,           VIRTKEY, NOINVERT
+    VK_F6,          ID_PREV_PANE,           VIRTKEY, SHIFT, NOINVERT
+    VK_INSERT,      ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    VK_INSERT,      ID_EDIT_PASTE,          VIRTKEY, SHIFT, NOINVERT
+    "X",            ID_EDIT_CUT,            VIRTKEY, CONTROL, NOINVERT
+    "Z",            ID_EDIT_UNDO,           VIRTKEY, CONTROL, NOINVERT
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,4,4
+ PRODUCTVERSION 1,0,0,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "Comments", "Written by Sergey Kondratyuk\0"
+            VALUE "CompanyName", "Special Recording Systems Ltd.\0"
+            VALUE "FileDescription", "SRS LogView\0"
+            VALUE "FileVersion", "1, 0, 4, 4\0"
+            VALUE "InternalName", "SRSLogView\0"
+            VALUE "LegalCopyright", "© Special Recording Systems, 1996-2008.          All rights reserved.\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "SRSLogView.EXE\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "SRSLogView Application\0"
+            VALUE "ProductVersion", "1, 0, 0, 0\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    IDR_MAINFRAME           "SRS Log Viewer"
+    IDR_SRSLOGTYPE          "\nSRSLog\nLOG\nSRSLog files (*.log)\n.log\nSRSLog.Document\nSRS Log Document"
+END
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    AFX_IDS_APP_TITLE       "SRSLogView"
+    AFX_IDS_IDLEMESSAGE     "Ready"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_INDICATOR_EXT        "EXT"
+    ID_INDICATOR_CAPS       "CAP"
+    ID_INDICATOR_NUM        "NUM"
+    ID_INDICATOR_SCRL       "SCRL"
+    ID_INDICATOR_OVR        "OVR"
+    ID_INDICATOR_REC        "REC"
+    ID_INDIATOR_LOADTIME    "                    "
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_NEW             "Create a new document\nNew"
+    ID_FILE_OPEN            "Open an existing document\nOpen"
+    ID_FILE_CLOSE           "Close the active document\nClose"
+    ID_FILE_SAVE            "Save the active document\nSave"
+    ID_FILE_SAVE_AS         "Save the active document with a new name\nSave As"
+    ID_FILE_PAGE_SETUP      "Change the printing options\nPage Setup"
+    ID_FILE_PRINT_SETUP     "Change the printer and printing options\nPrint Setup"
+    ID_FILE_PRINT           "Print the active document\nPrint"
+    ID_FILE_PRINT_PREVIEW   "Display full pages\nPrint Preview"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_APP_ABOUT            "Display program information, version number and copyright\nAbout"
+    ID_APP_EXIT             "Quit the application; prompts to save documents\nExit"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_MRU_FILE1       "Open this document"
+    ID_FILE_MRU_FILE2       "Open this document"
+    ID_FILE_MRU_FILE3       "Open this document"
+    ID_FILE_MRU_FILE4       "Open this document"
+    ID_FILE_MRU_FILE5       "Open this document"
+    ID_FILE_MRU_FILE6       "Open this document"
+    ID_FILE_MRU_FILE7       "Open this document"
+    ID_FILE_MRU_FILE8       "Open this document"
+    ID_FILE_MRU_FILE9       "Open this document"
+    ID_FILE_MRU_FILE10      "Open this document"
+    ID_FILE_MRU_FILE11      "Open this document"
+    ID_FILE_MRU_FILE12      "Open this document"
+    ID_FILE_MRU_FILE13      "Open this document"
+    ID_FILE_MRU_FILE14      "Open this document"
+    ID_FILE_MRU_FILE15      "Open this document"
+    ID_FILE_MRU_FILE16      "Open this document"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_NEXT_PANE            "Switch to the next window pane\nNext Pane"
+    ID_PREV_PANE            "Switch back to the previous window pane\nPrevious Pane"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_WINDOW_NEW           "Open another window for the active document\nNew Window"
+    ID_WINDOW_ARRANGE       "Arrange icons at the bottom of the window\nArrange Icons"
+    ID_WINDOW_CASCADE       "Arrange windows so they overlap\nCascade Windows"
+    ID_WINDOW_TILE_HORZ     "Arrange windows as non-overlapping tiles\nTile Windows"
+    ID_WINDOW_TILE_VERT     "Arrange windows as non-overlapping tiles\nTile Windows"
+    ID_WINDOW_SPLIT         "Split the active window into panes\nSplit"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_EDIT_CLEAR           "Erase the selection\nErase"
+    ID_EDIT_CLEAR_ALL       "Erase everything\nErase All"
+    ID_EDIT_COPY            "Copy the selection and put it on the Clipboard\nCopy"
+    ID_EDIT_CUT             "Cut the selection and put it on the Clipboard\nCut"
+    ID_EDIT_FIND            "Find the specified text\nFind"
+    ID_EDIT_PASTE           "Insert Clipboard contents\nPaste"
+    ID_EDIT_REPEAT          "Repeat the last action\nRepeat"
+    ID_EDIT_REPLACE         "Replace specific text with different text\nReplace"
+    ID_EDIT_SELECT_ALL      "Select the entire document\nSelect All"
+    ID_EDIT_UNDO            "Undo the last action\nUndo"
+    ID_EDIT_REDO            "Redo the previously undone action\nRedo"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_VIEW_TOOLBAR         "Show or hide the toolbar\nToggle ToolBar"
+    ID_VIEW_STATUS_BAR      "Show or hide the status bar\nToggle StatusBar"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_SCSIZE          "Change the window size"
+    AFX_IDS_SCMOVE          "Change the window position"
+    AFX_IDS_SCMINIMIZE      "Reduce the window to an icon"
+    AFX_IDS_SCMAXIMIZE      "Enlarge the window to full size"
+    AFX_IDS_SCNEXTWINDOW    "Switch to the next document window"
+    AFX_IDS_SCPREVWINDOW    "Switch to the previous document window"
+    AFX_IDS_SCCLOSE         "Close the active window and prompts to save the documents"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_SCRESTORE       "Restore the window to normal size"
+    AFX_IDS_SCTASKLIST      "Activate Task List"
+    AFX_IDS_MDICHILD        "Activate this window"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_PREVIEW_CLOSE   "Close print preview mode\nCancel Preview"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    STANDARD_WORDS          "OK\nCancel\nAbort\nRetry\nIgnore\nYes\nNo\nClose\nHelp"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_UNALLOWABLE_LOG_TYPE "Unallowable type of log file.  Still open?"
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#pragma code_page(1251)
+#include "CLIENTS/CmdProtocol.rc"
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif //_WIN32
+#include "res\SRSLogView.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#include "afxprint.rc"       // printing/print preview resources
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

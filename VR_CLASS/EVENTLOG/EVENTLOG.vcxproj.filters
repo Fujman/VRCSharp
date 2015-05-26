@@ -1,0 +1,208 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4e993981-b531-4f82-9630-274d2638e3d6}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{4e2b2d85-6926-4614-b9f2-e3013a45afe0}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Xpackage">
+      <UniqueIdentifier>{8e5c23b4-2fad-4676-99be-489e02fa34de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ypackage">
+      <UniqueIdentifier>{018bf0f2-e01b-441a-9682-89bf4f4797e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ypackage\_common_">
+      <UniqueIdentifier>{c1f04917-3928-43ac-b405-81190cc7fe52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ypackage\MM">
+      <UniqueIdentifier>{daac3ca8-986e-4783-b938-8a09fde64608}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ypackage\OS">
+      <UniqueIdentifier>{21b22690-b525-41a0-9c8c-455173632d1b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Event.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EventBase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EventClass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EventDBG.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EventEx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EventLog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EventObj.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EventRsz.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EventWin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EvntApp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EvntChan.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EvntData.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EvntMIDI.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EvntPort.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EvntStr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Event.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EventBase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EventClass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EventEx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EventLog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EventObj.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Events.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EventWin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EvntApp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EvntChan.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EvntData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EvntInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EvntMIDI.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EvntPort.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EvntStr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\VR_INC\MM\MMEvent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\VR_INC\INT64.H">
+      <Filter>Xpackage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\VR_TOOLS\SRSLogView\xCExcept.h">
+      <Filter>Xpackage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\VR_TOOLS\SRSLogView\xCString.h">
+      <Filter>Xpackage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\VR_INC\xCSyncOb.h">
+      <Filter>Xpackage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\VR_INC\xGUID.h">
+      <Filter>Xpackage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\VR_INC\XLOG.H">
+      <Filter>Xpackage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\VR_INC\xnew.h">
+      <Filter>Xpackage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\VR_INC\xstring.h">
+      <Filter>Xpackage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\VR_INC\YClass.h">
+      <Filter>Ypackage\_common_</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\VR_INC\YTime.h">
+      <Filter>Ypackage\_common_</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\VR_INC\MM\MM4cc.h">
+      <Filter>Ypackage\MM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\VR_INC\OS\OsLock.h">
+      <Filter>Ypackage\OS</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="Event.inl">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="EventBase.inl">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="EventClass.inl">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="EventEx.inl">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="EventLog.inl">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="EventObj.inl">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="EvntApp.inl">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="EvntChan.inl">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="EvntData.inl">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="EvntMIDI.inl">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="EvntPort.INL">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="EvntStr.inl">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\VR_INC\YClass.inl">
+      <Filter>Ypackage\_common_</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>

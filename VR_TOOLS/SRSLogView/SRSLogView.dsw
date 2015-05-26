@@ -1,0 +1,107 @@
+Microsoft Developer Studio Workspace File, Format Version 6.00
+# WARNING: DO NOT EDIT OR DELETE THIS WORKSPACE FILE!
+
+###############################################################################
+
+Project: "CLIENTS"=..\..\VR_CLASS\CLIENTS\CLIENTS.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "CONTROLS"=..\..\VR_INC\CONTROLS\CONTROLS.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "EVENTLOG"=..\..\VR_CLASS\EVENTLOG\EVENTLOG.DSP - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "FS"=..\..\VR_INC\FS\FS.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "SRSLogView"=.\SRSLogView.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name ResizableLib
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name EVENTLOG
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name CLIENTS
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name CONTROLS
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name FS
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name ZLIB
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "ZLIB"=..\..\VR_CLASS\MathAlgo\ZLIB\ZLIB.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Global:
+
+Package=<5>
+{{{
+}}}
+
+Package=<3>
+{{{
+}}}
+
+###############################################################################
+

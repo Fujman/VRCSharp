@@ -1,0 +1,17 @@
+c:\users\narek\documents\visual studio 2012\Projects\VR\VR\bin\Debug\VR.exe.config
+C:\Users\Narek\Documents\Visual Studio 2012\Projects\VR\VR\obj\Debug\VR.csprojResolveAssemblyReference.cache
+C:\Users\Narek\Documents\Visual Studio 2012\Projects\VR\VR\bin\Debug\VR.exe
+C:\Users\Narek\Documents\Visual Studio 2012\Projects\VR\VR\bin\Debug\VR.pdb
+C:\Users\Narek\Documents\Visual Studio 2012\Projects\VR\VR\obj\Debug\VR.exe
+C:\Users\Narek\Documents\Visual Studio 2012\Projects\VR\VR\obj\Debug\VR.pdb
+C:\Users\Fujman\Desktop\VR\VR\bin\Debug\VR.exe.config
+C:\Users\Fujman\Desktop\VR\VR\obj\Debug\VR.exe
+C:\Users\Fujman\Desktop\VR\VR\obj\Debug\VR.pdb
+C:\Users\Fujman\Desktop\VR\VR\bin\Debug\VR.exe
+C:\Users\Fujman\Desktop\VR\VR\bin\Debug\VR.pdb
+C:\Users\Narek\Desktop\vr1\vr\VR\bin\Debug\VR.exe.config
+C:\Users\Narek\Desktop\vr1\vr\VR\obj\Debug\VR.exe
+C:\Users\Narek\Desktop\vr1\vr\VR\obj\Debug\VR.pdb
+C:\Users\Narek\Desktop\vr1\vr\VR\obj\Debug\VR.csprojResolveAssemblyReference.cache
+C:\Users\Narek\Desktop\vr1\vr\VR\bin\Debug\VR.exe
+C:\Users\Narek\Desktop\vr1\vr\VR\bin\Debug\VR.pdb

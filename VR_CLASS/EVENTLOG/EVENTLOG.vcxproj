@@ -1,0 +1,304 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Unicode Debug|Win32">
+      <Configuration>Unicode Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Unicode Release|Win32">
+      <Configuration>Unicode Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <SccProjectName />
+    <SccLocalPath />
+    <Keyword>MFCProj</Keyword>
+    <ProjectGuid>{94C3A925-F80C-429C-BD30-BCC5B03D1EFD}</ProjectGuid>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Unicode Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+    <UseOfMfc>Static</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+    <UseOfMfc>Static</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Unicode Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Unicode Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.Cpp.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.Cpp.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.Cpp.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Unicode Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.Cpp.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Unicode Debug|Win32'">
+    <OutDir>O:\VR\TMP\VR_CLASS\EVENTLOG\Unicode_Debug\</OutDir>
+    <IntDir>O:\VR\TMP\VR_CLASS\EVENTLOG\Unicode_Debug\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>O:\VR\TMP\VR_CLASS\EVENTLOG\Release\</OutDir>
+    <IntDir>O:\VR\TMP\VR_CLASS\EVENTLOG\Release\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>O:\VR\TMP\VR_CLASS\EVENTLOG\Debug\</OutDir>
+    <IntDir>O:\VR\TMP\VR_CLASS\EVENTLOG\Debug\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Unicode Release|Win32'">
+    <OutDir>O:\VR\TMP\VR_CLASS\EVENTLOG\Unicode_Release\</OutDir>
+    <IntDir>O:\VR\TMP\VR_CLASS\EVENTLOG\Unicode_Release\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Unicode Debug|Win32'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <FunctionLevelLinking>false</FunctionLevelLinking>
+      <Optimization>Disabled</Optimization>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <MinimalRebuild>true</MinimalRebuild>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <AdditionalIncludeDirectories>\VR\VR_INC;\VR\VR_DLG;\VR\VR_CLASS;\VR\VR_CLASS\CLIENTS;J:\VR\VR_CLASS;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;UNICODE;MULTILANG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>O:\VR\TMP\VR_CLASS\EVENTLOG\Unicode_Debug\</AssemblerListingLocation>
+      <BrowseInformation>true</BrowseInformation>
+      <PrecompiledHeaderOutputFile>O:\VR\TMP\VR_CLASS\EVENTLOG\Unicode_Debug\EVENTLOG.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <ObjectFileName>O:\VR\TMP\VR_CLASS\EVENTLOG\Unicode_Debug\</ObjectFileName>
+      <ProgramDataBaseFileName>O:\VR\TMP\VR_CLASS\EVENTLOG\Unicode_Debug\</ProgramDataBaseFileName>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+    </ClCompile>
+    <ResourceCompile>
+      <Culture>0x0419</Culture>
+      <AdditionalIncludeDirectories>\VR\VR_DLG;\VR\VR_CLASS\CLIENTS;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>O:\VR\TMP\VR_CLASS\EVENTLOG\Unicode_Debug\EVENTLOG.bsc</OutputFile>
+    </Bscmake>
+    <Lib>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>o:\vr\VR_LIB\EVENTLOGUd.lib</OutputFile>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <StringPooling>true</StringPooling>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <Optimization>MaxSpeed</Optimization>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>OldStyle</DebugInformationFormat>
+      <AdditionalIncludeDirectories>\VR\VR_INC;\VR\VR_DLG;\VR\VR_CLASS;\VR\VR_CLASS\CLIENTS;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;MULTILANG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>O:\VR\TMP\VR_CLASS\EVENTLOG\Release\</AssemblerListingLocation>
+      <PrecompiledHeaderOutputFile>O:\VR\TMP\VR_CLASS\EVENTLOG\Release\EVENTLOG.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <ObjectFileName>O:\VR\TMP\VR_CLASS\EVENTLOG\Release\</ObjectFileName>
+      <ProgramDataBaseFileName>O:\VR\TMP\VR_CLASS\EVENTLOG\Release\</ProgramDataBaseFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <Culture>0x0419</Culture>
+      <AdditionalIncludeDirectories>\VR\VR_DLG;\VR\VR_CLASS\CLIENTS;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>O:\VR\TMP\VR_CLASS\EVENTLOG\Release\EVENTLOG.bsc</OutputFile>
+    </Bscmake>
+    <Lib>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>o:\vr\VR_LIB\EVENTLOG.lib</OutputFile>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <FunctionLevelLinking>false</FunctionLevelLinking>
+      <Optimization>Disabled</Optimization>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <MinimalRebuild>true</MinimalRebuild>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <AdditionalIncludeDirectories>\VR\VR_INC;\VR\VR_DLG;\VR\VR_CLASS;\VR\VR_CLASS\CLIENTS;J:\VR\VR_CLASS;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;MULTILANG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>O:\VR\TMP\VR_CLASS\EVENTLOG\Debug\</AssemblerListingLocation>
+      <BrowseInformation>true</BrowseInformation>
+      <PrecompiledHeaderOutputFile>O:\VR\TMP\VR_CLASS\EVENTLOG\Debug\EVENTLOG.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <ObjectFileName>O:\VR\TMP\VR_CLASS\EVENTLOG\Debug\</ObjectFileName>
+      <ProgramDataBaseFileName>O:\VR\TMP\VR_CLASS\EVENTLOG\Debug\</ProgramDataBaseFileName>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+    </ClCompile>
+    <ResourceCompile>
+      <Culture>0x0419</Culture>
+      <AdditionalIncludeDirectories>\VR\VR_DLG;\VR\VR_CLASS\CLIENTS;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>O:\VR\TMP\VR_CLASS\EVENTLOG\Debug\EVENTLOG.bsc</OutputFile>
+    </Bscmake>
+    <Lib>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>o:\vr\VR_LIB\EVENTLOGd.lib</OutputFile>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Unicode Release|Win32'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <StringPooling>true</StringPooling>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <Optimization>MaxSpeed</Optimization>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>OldStyle</DebugInformationFormat>
+      <AdditionalIncludeDirectories>\VR\VR_INC;\VR\VR_DLG;\VR\VR_CLASS;\VR\VR_CLASS\CLIENTS;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;UNICODE;MULTILANG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>O:\VR\TMP\VR_CLASS\EVENTLOG\Unicode_Release\</AssemblerListingLocation>
+      <PrecompiledHeaderOutputFile>O:\VR\TMP\VR_CLASS\EVENTLOG\Unicode_Release\EVENTLOG.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <ObjectFileName>O:\VR\TMP\VR_CLASS\EVENTLOG\Unicode_Release\</ObjectFileName>
+      <ProgramDataBaseFileName>O:\VR\TMP\VR_CLASS\EVENTLOG\Unicode_Release\</ProgramDataBaseFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <Culture>0x0419</Culture>
+      <AdditionalIncludeDirectories>\VR\VR_DLG;\VR\VR_CLASS\CLIENTS;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>O:\VR\TMP\VR_CLASS\EVENTLOG\Unicode_Release\EVENTLOG.bsc</OutputFile>
+    </Bscmake>
+    <Lib>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>o:\vr\VR_LIB\EVENTLOGU.lib</OutputFile>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Event.cpp" />
+    <ClCompile Include="EventBase.cpp" />
+    <ClCompile Include="EventClass.cpp" />
+    <ClCompile Include="EventDBG.cpp" />
+    <ClCompile Include="EventEx.cpp" />
+    <ClCompile Include="EventLog.cpp" />
+    <ClCompile Include="EventObj.cpp" />
+    <ClCompile Include="EventRsz.cpp" />
+    <ClCompile Include="EventWin.cpp" />
+    <ClCompile Include="EvntApp.cpp" />
+    <ClCompile Include="EvntChan.cpp" />
+    <ClCompile Include="EvntData.cpp" />
+    <ClCompile Include="EvntMIDI.cpp" />
+    <ClCompile Include="EvntPort.cpp" />
+    <ClCompile Include="EvntStr.cpp" />
+    <ClCompile Include="StdAfx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Unicode Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Unicode Debug|Win32'">stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Unicode Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Unicode Release|Win32'">stdafx.h</PrecompiledHeaderFile>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Event.h" />
+    <ClInclude Include="EventBase.h" />
+    <ClInclude Include="EventClass.h" />
+    <ClInclude Include="EventEx.h" />
+    <ClInclude Include="EventLog.h" />
+    <ClInclude Include="EventObj.h" />
+    <ClInclude Include="Events.h" />
+    <ClInclude Include="EventWin.h" />
+    <ClInclude Include="EvntApp.h" />
+    <ClInclude Include="EvntChan.h" />
+    <ClInclude Include="EvntData.h" />
+    <ClInclude Include="EvntInfo.h" />
+    <ClInclude Include="EvntMIDI.H" />
+    <ClInclude Include="EvntPort.H" />
+    <ClInclude Include="EvntStr.h" />
+    <ClInclude Include="..\..\VR_INC\MM\MMEvent.h" />
+    <ClInclude Include="StdAfx.h" />
+    <ClInclude Include="..\..\VR_INC\INT64.H" />
+    <ClInclude Include="..\..\VR_TOOLS\SRSLogView\xCExcept.h" />
+    <ClInclude Include="..\..\VR_TOOLS\SRSLogView\xCString.h" />
+    <ClInclude Include="..\..\VR_INC\xCSyncOb.h" />
+    <ClInclude Include="..\..\VR_INC\xGUID.h" />
+    <ClInclude Include="..\..\VR_INC\XLOG.H" />
+    <ClInclude Include="..\..\VR_INC\xnew.h" />
+    <ClInclude Include="..\..\VR_INC\xstring.h" />
+    <ClInclude Include="..\..\VR_INC\YClass.h" />
+    <ClInclude Include="..\..\VR_INC\YTime.h" />
+    <ClInclude Include="..\..\VR_INC\MM\MM4cc.h" />
+    <ClInclude Include="..\..\VR_INC\OS\OsLock.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="Event.inl" />
+    <CustomBuild Include="EventBase.inl" />
+    <CustomBuild Include="EventClass.inl" />
+    <CustomBuild Include="EventEx.inl" />
+    <CustomBuild Include="EventLog.inl" />
+    <CustomBuild Include="EventObj.inl" />
+    <CustomBuild Include="EvntApp.inl" />
+    <CustomBuild Include="EvntChan.inl" />
+    <CustomBuild Include="EvntData.inl" />
+    <CustomBuild Include="EvntMIDI.inl" />
+    <CustomBuild Include="EvntPort.INL" />
+    <CustomBuild Include="EvntStr.inl" />
+    <CustomBuild Include="..\..\VR_INC\YClass.inl" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

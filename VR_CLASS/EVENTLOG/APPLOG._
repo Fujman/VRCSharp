@@ -1,0 +1,14 @@
+#ifndef __applog_h
+#define __applog_h
+
+#include "eventlog.h"
+
+extern YEventsProtocol theEventsProtocol; // defined in MREC.CPP
+
+inline YEventsProtocol* GetLog() {
+  YEvent::SetLog(&theEventsProtocol); return &theEventsProtocol;
+}
+
+#endif/*__applog_h*/
+#pragma once
+
