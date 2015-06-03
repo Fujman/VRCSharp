@@ -49,7 +49,7 @@ namespace VR
 
         public override string GetLine()
         {
-            string text = "Class:" + m_nClass + " | Type:" + m_nType + " | MessageID:" + m_nData + " | Time:" + GetTimeEx() + "String message:" + m_str;
+            string text = "Class:" + m_nClass + " | Type:" + m_nType + " | MessageID:" + Convert.ToString(m_nData,16) + " | Time:" + GetTimeEx() + "String message:" + m_str;
             return text;
         }
     }

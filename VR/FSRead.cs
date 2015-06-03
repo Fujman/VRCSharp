@@ -17,18 +17,20 @@ namespace VR
             //Create a file stream from an existing file.
             FileInfo fi = new FileInfo(path);
             FileStream fs = fi.OpenRead();
-
+            
             //Read 4096 bytes into an array from the specified file.
-            const int nBytes = 4096;
-            byte[] byteArray = new byte[nBytes];
-            int nBytesRead = fs.Read(byteArray, 0, nBytes);
+
+            
+           // const int nBytes = 4096;
+            byte[] byteArray = new byte[fs.Length];
+            int nBytesRead = fs.Read(byteArray, 0,(int) fs.Length);
             Console.WriteLine("{0} bytes have been read from the specified file.", nBytesRead);
             _byteArray = byteArray;
         }
 
         public byte[] GetArrayFromFile()
         {
-            if (_byteArray.Length < i + 16)
+            if (_byteArray.Length < i + 30)
                 return null;
 
             //presumably skips title
@@ -54,6 +56,7 @@ namespace VR
                     return shortArr1;
 
                 case 2:
+                    
                     byte [] shortArr2 =new byte[16];
                     for (int j = 0; j < 16; j++,i++)
                         shortArr2[j] = _byteArray[i];
@@ -63,7 +66,9 @@ namespace VR
                     // calculating EVN_xxBIT_CLASS data size 
                     int dataSize = BitConverter.ToUInt16(_byteArray,i+10);
                     byte [] shortArr3= new byte[16+dataSize];
-                    for (int j = 0; j < 16 + dataSize; j++, i++)
+                   
+                    
+                    for (int j = 0; j < 16 + dataSize && i<_byteArray.Length; j++, i++)
                     {
                         shortArr3[j] = _byteArray[i];
                     }

@@ -18,3 +18,6 @@ C:\Users\Narek\Desktop\vr1\vr\VR\bin\Debug\VR.pdb
 C:\Users\Narek\Desktop\vr1\VRC-\VR\bin\Debug\VR.exe.config
 C:\Users\Narek\Desktop\vr1\VRC-\VR\obj\Debug\VR.exe
 C:\Users\Narek\Desktop\vr1\VRC-\VR\obj\Debug\VR.pdb
+C:\Users\Narek\Desktop\vr1\VRC-\VR\bin\Debug\VR.exe
+C:\Users\Narek\Desktop\vr1\VRC-\VR\bin\Debug\VR.pdb
+C:\Users\Narek\Desktop\vr1\VRC-\VR\obj\Debug\VR.csprojResolveAssemblyReference.cache

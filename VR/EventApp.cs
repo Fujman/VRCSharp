@@ -52,8 +52,8 @@ namespace VR
         }
         public override string  GetLine()
         {
-            string text = "\nClass:" + m_nClass + " | Type:" + m_nType + " | MessageID:" + m_nData +
-                          " | Time:" + GetTimeEx()+" | Ints: "+m_dwData1+"  "+m_dwData2;
+            string text = "\nClass:" + m_nClass + " | Type:" + m_nType + " | MessageID:" + Convert.ToString(m_nData, 16) +
+                          " | Time:" + GetTimeEx()+" | Ints: "+Convert.ToString(m_dwData1,16)+"  "+Convert.ToString(m_dwData2,16);
             return text;    
         }
 

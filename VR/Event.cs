@@ -53,8 +53,7 @@ namespace VR
 
 
             uint time = BitConverter.ToUInt32(byte_arr, 4);
-            uint dword1 = BitConverter.ToUInt32(byte_arr,8);
-            uint dword2 = BitConverter.ToUInt32(byte_arr,12);
+            
             //dword1 = BitConverter.ToUInt32(byte_arr, 8);
             //dword2 = BitConverter.ToUInt32(byte_arr, 8);
 
@@ -64,11 +63,15 @@ namespace VR
                     switch (type_id)
                     {
                         case 1:
-                            EventChan eventChan = new EventChan( milliseconds, data, time, dword1, dword2);
+                            uint dword1ch = BitConverter.ToUInt32(byte_arr,8);
+                            uint dword2ch = BitConverter.ToUInt32(byte_arr,12);
+                            EventChan eventChan = new EventChan( milliseconds, data, time, dword1ch, dword2ch);
                             return eventChan;
                             
                         case 2:
-                            EventApp eventApp = new EventApp( milliseconds, data, time, dword1, dword2);
+                            uint dword1app = BitConverter.ToUInt32(byte_arr,8);
+                            uint dword2app = BitConverter.ToUInt32(byte_arr,12);
+                            EventApp eventApp = new EventApp( milliseconds, data, time, dword1app, dword2app);
                             return eventApp;
                             
                         default:
@@ -82,7 +85,7 @@ namespace VR
                         default:
                             ushort stringSize = Convert.ToUInt16(byte_arr[10]);
                             byte[] stringArr=new byte[stringSize];
-                            for (int i = 16, j=0; j < stringSize; i++,j++)
+                            for (int i = 0, j=0; j < stringSize; i++,j++)
                             {
                                 stringArr[j] = byte_arr[i];
                             }
