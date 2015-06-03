@@ -10,7 +10,8 @@ namespace VR
     class FsRead
     {
         private readonly byte[] _byteArray;
-        private int i=16;
+        private int i=0;
+        private int _pager=4096;
 
         public FsRead(string path="c:\\mrec.log")
         {
@@ -21,7 +22,7 @@ namespace VR
             //Read 4096 bytes into an array from the specified file.
 
             
-           // const int nBytes = 4096;
+            // const int nBytes = 4096;
             byte[] byteArray = new byte[fs.Length];
             int nBytesRead = fs.Read(byteArray, 0,(int) fs.Length);
             Console.WriteLine("{0} bytes have been read from the specified file.", nBytesRead);
@@ -30,6 +31,13 @@ namespace VR
 
         public byte[] GetArrayFromFile()
         {
+            
+            if (i >= _pager)
+            {
+                i = _pager;
+                _pager += 4096;
+            }
+            
             if (_byteArray.Length < i + 30)
                 return null;
 

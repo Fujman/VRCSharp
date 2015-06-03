@@ -85,7 +85,7 @@ namespace VR
                         default:
                             ushort stringSize = Convert.ToUInt16(byte_arr[10]);
                             byte[] stringArr=new byte[stringSize];
-                            for (int i = 0, j=0; j < stringSize; i++,j++)
+                            for (int i = 16, j=0; j < stringSize; i++,j++)
                             {
                                 stringArr[j] = byte_arr[i];
                             }
