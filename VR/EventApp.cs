@@ -20,7 +20,7 @@ namespace VR
 
         public EventApp( ushort nMsec, ushort nData, uint tTime, uint dwData1, uint dwData2)
         {
-            m_nClass = 2;
+            m_nClass = 0;
             m_nType = 2;
             m_nMsec = nMsec;
             m_nData = nData;

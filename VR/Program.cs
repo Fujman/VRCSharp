@@ -7,6 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Collections;
 using System.IO;
+using System.Xml;
 
 namespace VR
 {
@@ -14,6 +15,47 @@ namespace VR
     {
         private static void Main(string[] args)
         {
+            // TEST
+            //
+            //
+            
+                XmlDocument xDoc = new XmlDocument();
+                xDoc.Load("Resource.xml");
+                // получим корневой элемент
+                XmlElement xRoot = xDoc.DocumentElement;
+                // обход всех узлов в корневом элементе
+                foreach (XmlNode xnode in xRoot)
+                {
+                    // получаем атрибут name
+                    if (xnode.Attributes.Count > 0)
+                    {
+                        XmlNode attr = xnode.Attributes.GetNamedItem("name");
+                        if (attr != null)
+                            Console.WriteLine(attr.Value);
+                    }
+                    // обходим все дочерние узлы элемента user
+                    foreach (XmlNode childnode in xnode.ChildNodes)
+                    {
+                        // если узел - company
+                        if (childnode.Name == "company")
+                        {
+                            Console.WriteLine("Компания: {0}", childnode.InnerText);
+                        }
+                        // если узел age
+                        if (childnode.Name == "age")
+                        {
+                            Console.WriteLine("Возраст: {0}", childnode.InnerText);
+                        }
+                    }
+                    Console.WriteLine();
+                }
+                Console.Read();
+            
+
+
+
+            //
+            // Test\
             Console.WriteLine("Введите путь к файлу для чтения:");
             var readPath = Console.ReadLine();
             if (readPath=="")

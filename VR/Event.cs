@@ -59,7 +59,7 @@ namespace VR
 
             switch (class_id)
             {
-                case 2:
+                case 0:
                     switch (type_id)
                     {
                         case 1:

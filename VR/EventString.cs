@@ -24,7 +24,7 @@ namespace VR
             m_nData = nData;
             m_tTime = tTime;
             m_nSize = nSize;
-            m_str = Encoding.Unicode.GetString(stringMessageArr);
+            m_str = Encoding.Unicode.GetString(decryption(stringMessageArr));
 
         }
         public DateTime GetTimeEx()
@@ -47,9 +47,40 @@ namespace VR
         //    }
         //}
 
+        private byte[] decryption(byte[] stringBytes)
+        {
+            for (int i = 0; i < stringBytes.Length; i+=4)
+            {
+                stringBytes[i] ^= 196;
+                
+                if (i+3< stringBytes.Length)
+                {
+                    stringBytes[i + 1] ^= 146;
+                    stringBytes[i + 2] ^= 93;
+                    stringBytes[i + 3] ^= 74;
+                }
+                else
+                {
+                    if (i+2<stringBytes.Length)
+                    {
+                        stringBytes[i + 1] ^= 146;
+                        stringBytes[i + 2] ^= 93;
+                    }
+                    else
+                    {
+                        if (i+1<stringBytes.Length)
+                        {
+                            stringBytes[i + 1] ^= 146;
+                        }
+                    }
+                }
+            }
+            return stringBytes;
+        }
+
         public override string GetLine()
         {
-            string text = "Class:" + m_nClass + " | Type:" + m_nType + " | MessageID:" + Convert.ToString(m_nData,16) + " | Time:" + GetTimeEx() + "String message:" + m_str;
+            string text = "Class:" + m_nClass + " | Type:" + m_nType + " | MessageID:" + Convert.ToString(m_nData,16) + " | Time:" + GetTimeEx() + " String message: " + m_str;
             return text;
         }
     }
