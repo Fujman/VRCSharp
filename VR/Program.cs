@@ -18,44 +18,43 @@ namespace VR
             // TEST
             //
             //
-            
-                XmlDocument xDoc = new XmlDocument();
-                xDoc.Load("Resource.xml");
-                // получим корневой элемент
-                XmlElement xRoot = xDoc.DocumentElement;
-                // обход всех узлов в корневом элементе
-                foreach (XmlNode xnode in xRoot)
-                {
-                    // получаем атрибут name
-                    if (xnode.Attributes.Count > 0)
-                    {
-                        XmlNode attr = xnode.Attributes.GetNamedItem("name");
-                        if (attr != null)
-                            Console.WriteLine(attr.Value);
-                    }
-                    // обходим все дочерние узлы элемента user
-                    foreach (XmlNode childnode in xnode.ChildNodes)
-                    {
-                        // если узел - company
-                        if (childnode.Name == "company")
-                        {
-                            Console.WriteLine("Компания: {0}", childnode.InnerText);
-                        }
-                        // если узел age
-                        if (childnode.Name == "age")
-                        {
-                            Console.WriteLine("Возраст: {0}", childnode.InnerText);
-                        }
-                    }
-                    Console.WriteLine();
-                }
-                Console.Read();
+                //XmlDocument xDoc = new XmlDocument();
+                //xDoc.Load("messages_en.xml");
+                //// получим корневой элемент
+                //XmlElement xRoot = xDoc.DocumentElement;
+                //// обход всех узлов в корневом элементе
+                //foreach (XmlNode xnode in xRoot)
+                //{
+                    
+                //    // обходим все дочерние узлы элемента user
+                //    foreach (XmlNode childnode in xnode.ChildNodes)
+                //    {
+                //        // если узел - company
+                //        if (childnode.Name == "messageID")
+                //        {
+                //            Console.WriteLine("MessageID: {0}", childnode.InnerText);
+                //        }
+                //        // если узел age
+                //        if (childnode.Name == "symbolicName")
+                //        {
+                //            Console.WriteLine("Symbolic name: {0}", childnode.InnerText);
+                //        }
+                //        if (childnode.Name == "text")
+                //        {
+                //            Console.WriteLine("Text: {0}", childnode.InnerText);
+                //        }
+                //    }
+                //    Console.WriteLine();
+                //}
+                //Console.Read();
             
 
 
 
             //
             // Test\
+           
+            
             Console.WriteLine("Введите путь к файлу для чтения:");
             var readPath = Console.ReadLine();
             if (readPath=="")

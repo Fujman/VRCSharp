@@ -15,6 +15,8 @@ namespace VR
         //private ushort m_nData;(Message)          // data (16 bits)
         private string m_str;
         private ushort m_nSize;
+        //protected byte priority; // 1-10
+        //protected byte messageType; // warning/ error / information
 
         public EventString(ushort nMsec, ushort nData, uint tTime,ushort nSize, byte[] stringMessageArr)
         {

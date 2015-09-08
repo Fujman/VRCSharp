@@ -15,6 +15,8 @@ namespace VR
         //private ushort m_nData;(Message)         // data (16 bits)
         private uint m_dwData1;//(Channel)          // data (64 bits)
         private uint m_dwData2;
+        //protected byte priority; // 1-10
+        //protected byte messageType; // warning/ error / information
 
         public EventChan( ushort nMsec, ushort nData, uint tTime, uint dwData1, uint dwData2)
         {
@@ -25,7 +27,11 @@ namespace VR
             m_nData = nData;
             m_dwData1 = dwData1;
             m_dwData2 = dwData2;
+            messageText = ResourceHandler.getText(m_nData);
+            setMessageTypePriority();
+
         }
+        
         // Temp method 
         public override void Created()
         {
@@ -48,6 +54,34 @@ namespace VR
             return datetime;
 
         }
+        private void GetText()
+        {
+            if (messageText.Contains("%lu"))
+            {
+                // making 64-bit variable from 2 32-bit ones
+                ulong finalVariable = (ulong)m_dwData2 << 32 | m_dwData1;
+
+                messageText = messageText.Replace("%lu", finalVariable.ToString());
+            }
+
+
+
+            //IN PROGRESS
+
+            if (messageText.Contains("%d"))
+            {
+                var m_dwData1_2 = m_dwData1 >>16; // taking last 2 bytes
+                Int16 put = (Int16) m_dwData1_2;
+                messageText = messageText.Replace("%d", put.ToString());
+            }
+            if (messageText.Contains("%.0d"))
+            {
+                var m_dwData1_1 = m_dwData1 & 0xFFFF;
+                var put = m_dwData1_1;
+                messageText = messageText.Replace("%.0d", put.ToString());
+            }
+
+        }
 
         //public override void Write()
         //{
@@ -62,8 +96,9 @@ namespace VR
         //}
         public override string GetLine()
         {   
+            GetText();
             // to add variables
-            string text = "Class:" + m_nClass + " | Type:" + m_nType + " | MessageID:" + Convert.ToString(m_nData, 16) + " | Time:" + GetTimeEx();
+            string text = "Class:" + m_nClass + " | Type:" + m_nType + " | MessageID:" + Convert.ToString(m_nData, 16) + " | Time:" + GetTimeEx() +"  "+ messageText;
             return text;
         }
     }

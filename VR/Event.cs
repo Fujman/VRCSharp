@@ -1,19 +1,24 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace VR
 {
+
     public abstract class Event
     {
+        protected const byte INFORMATION = 1;
+        protected const byte WARNING = 2;
+        protected const byte ERROR = 3;
+
+
         protected ushort m_nClass;
         protected ushort m_nType;
         protected uint m_tTime;
         protected ushort m_nMsec;
         protected ushort m_nData;          // data (16 bits)
-        
+        protected string messageText; // text of message from xml
+        protected byte priority; // 1-10
+        protected byte messageType; // warning/ error / information
+
 
         // Temp method 
         public virtual void Created()
@@ -34,6 +39,29 @@ namespace VR
         public virtual string GetLine()
         {
             return null;
+        }
+
+        public virtual void setMessageTypePriority()
+        {
+            if (messageText.Substring(0, 1) == "$")
+            {
+                switch (messageText.Substring(1,1))
+                {
+                    case "I":
+                        messageType = INFORMATION;
+                        break;
+                    case "W":
+                        messageType = WARNING;
+                        break;
+                    case "E":
+                        messageType = ERROR;
+                        break;
+                }
+                priority = Convert.ToByte(messageText.Substring(2, 1));
+
+                var replaced = messageText.Substring(0, 3);
+                messageText = messageText.Replace(replaced, " ");
+            }
         }
 
         public static Event CreateObject(byte[] byte_arr)

@@ -1,0 +1,3557 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<messages xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<message>
+		<messageID>0x0000</messageID>
+		<symbolicName>IDSX_BASE_IDENTIFIER</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xFFFF</messageID>
+		<symbolicName>IDSX_LAST_IDENTIFIER</symbolicName>
+		<text> </text>
+	</message>
+	<message>
+		<messageID>0x0001</messageID>
+		<symbolicName>LANGUAGE_NAME</symbolicName>
+		<text>English</text>
+	</message>
+	<message>
+		<messageID>0x0002</messageID>
+		<symbolicName>FONTS_MAPPING</symbolicName>
+		<text/>
+	</message>
+	<message>
+		<messageID>0x0003</messageID>
+		<symbolicName>STANDARD_WORDS</symbolicName>
+		<text>OK\nCancel\nAbort\nRetry\nIgnore\nYes\nNo\nClose\nHelp\nApply\nRevert\nDefaults\nOpen\nSave\nSave As</text>
+	</message>
+	<message>
+		<messageID>0x000F</messageID>
+		<symbolicName>SELECT_LANGUAGE</symbolicName>
+		<text>Select language</text>
+	</message>
+	<message/>
+	<message>
+		<messageID>0x0100</messageID>
+		<symbolicName>IDC_STATIC_PRODUCT</symbolicName>
+		<text>SRS® Court recorder</text>
+	</message>
+	<message>
+		<messageID>0x0101</messageID>
+		<symbolicName>IDC_STATIC_COPYRIGHT</symbolicName>
+		<text>Copyright © Special Recording Systems. Ltd. 2001-2014, all rights reserved.</text>
+	</message>
+	<message>
+		<messageID>0x0102</messageID>
+		<symbolicName>IDC_STATIC_LICENSED</symbolicName>
+		<text>This software licensed to:</text>
+	</message>
+	<message>
+		<messageID>0x0103</messageID>
+		<symbolicName>IDC_STATIC_WARNING</symbolicName>
+		<text>ATTENTION! This computer program is protected by copyright law and international treaties. Unauthorized reproduction or distribution of this program, or any portion of it, may result in severe civil and criminal penalties.</text>
+	</message>
+	<message>
+		<messageID>0x0104</messageID>
+		<symbolicName>IDC_STATIC_CONTACTS</symbolicName>
+		<text>Contacts and technical support:</text>
+	</message>
+	<message>
+		<messageID>0x0105</messageID>
+		<symbolicName>IDC_STATIC_PHONE</symbolicName>
+		<text>Phone:        +380(44) 248-79-91</text>
+	</message>
+	<message>
+		<messageID>0x0106</messageID>
+		<symbolicName>IDC_STATIC_PHONEFAX</symbolicName>
+		<text>Phone/fax:  +380(44) 248-79-90</text>
+	</message>
+	<message/>
+	<message>
+		<messageID>0x05DC</messageID>
+		<symbolicName>IDS_COL_TIME</symbolicName>
+		<text>Time</text>
+	</message>
+	<message>
+		<messageID>0x05DD</messageID>
+		<symbolicName>IDS_COL_ACTION</symbolicName>
+		<text>Action</text>
+	</message>
+	<message>
+		<messageID>0x05DE</messageID>
+		<symbolicName>IDS_COL_PERSONE</symbolicName>
+		<text>Participant</text>
+	</message>
+	<message>
+		<messageID>0x05DF</messageID>
+		<symbolicName>IDS_COL_NOTES</symbolicName>
+		<text>Note</text>
+	</message>
+	<message>
+		<messageID>0x05E0</messageID>
+		<symbolicName>IDS_CASE_NUMBER</symbolicName>
+		<text>Case number:</text>
+	</message>
+	<message>
+		<messageID>0x05E6</messageID>
+		<symbolicName>IDS_QUERY_NEW_TEMPLATE</symbolicName>
+		<text>Open a new case type based on \"%s\" ?</text>
+	</message>
+	<message>
+		<messageID>0x05E7</messageID>
+		<symbolicName>IDS_QUERY_DELETE_TEMPLATE</symbolicName>
+		<text>Do you want to remove this type of case  \"%s\" ?</text>
+	</message>
+	<message>
+		<messageID>0x05E8</messageID>
+		<symbolicName>IDS_QUERY_START</symbolicName>
+		<text>Mode selection</text>
+	</message>
+	<message>
+		<messageID>0x05E9</messageID>
+		<symbolicName>IDS_QUERY_STOP_RECORD</symbolicName>
+		<text>Record is in progress. Would you like to exit without stopping it?</text>
+	</message>
+	<message>
+		<messageID>0x05EA</messageID>
+		<symbolicName>IDS_QUERY_IMPORT_PERSONES</symbolicName>
+		<text>Would you like to import the list of participants from the previous trial? </text>
+	</message>
+	<message>
+		<messageID>0x05EB</messageID>
+		<symbolicName>IDS_ENTER_MEDIA_NUMBER</symbolicName>
+		<text>Enter the media (CD-R) serial number:</text>
+	</message>
+	<message>
+		<messageID>0x05EC</messageID>
+		<symbolicName>IDS_QUERY_BUSINESS_EXISTS</symbolicName>
+		<text>This case already exists!</text>
+	</message>
+	<message>
+		<messageID>0x05ED</messageID>
+		<symbolicName>IDS_TEMPLATE_NAME_CONFLICT</symbolicName>
+		<text>This template already exists. \n Do you want to overwrite or copy it?</text>
+	</message>
+	<message>
+		<messageID>0x05EE</messageID>
+		<symbolicName>IDS_TEMPLATE_SAVE</symbolicName>
+		<text>Do you want to save template? </text>
+	</message>
+	<message>
+		<messageID>0x05EF</messageID>
+		<symbolicName>IDS_USE_SIGNATURE</symbolicName>
+		<text>Use digital signature</text>
+	</message>
+	<message>
+		<messageID>0x05F0</messageID>
+		<symbolicName>IDS_QUERY_KILL_BACKUP</symbolicName>
+		<text>A backup copy will be completely removed! Would you like to continue? </text>
+	</message>
+	<message>
+		<messageID>0x0618</messageID>
+		<symbolicName>IDS_ERROR_EDITOR_CALL</symbolicName>
+		<text>Text editor is not found!\n%s</text>
+	</message>
+	<message>
+		<messageID>0x0619</messageID>
+		<symbolicName>IDS_ERROR_MAKE_FILE</symbolicName>
+		<text>The file cannot be created\n%s\nClose all windows with this document.</text>
+	</message>
+	<message>
+		<messageID>0x061A</messageID>
+		<symbolicName>IDS_QUERY_DISABLE_VIDEO</symbolicName>
+		<text>Video server is not found. Would you like to disable video features?</text>
+	</message>
+	<message>
+		<messageID>0x061B</messageID>
+		<symbolicName>IDS_QUERY_OVERWRITE</symbolicName>
+		<text>Do you want to overwrite?</text>
+	</message>
+	<message>
+		<messageID>0x061C</messageID>
+		<symbolicName>IDS_QUERY_WORK_OFFLINE</symbolicName>
+		<text>Work offline?</text>
+	</message>
+	<message>
+		<messageID>0x061D</messageID>
+		<symbolicName>IDS_MESSAGE_WORK_OFFLINE</symbolicName>
+		<text>Offline work</text>
+	</message>
+	<message>
+		<messageID>0x061E</messageID>
+		<symbolicName>IDS_MESSAGE_UNKNOWN_VERSION_LOADED</symbolicName>
+		<text>Unknown version of the file will be loaded from disk</text>
+	</message>
+	<message>
+		<messageID>0x061F</messageID>
+		<symbolicName>IDS_QUERY_SELECT_VERSION</symbolicName>
+		<text>Select version</text>
+	</message>
+	<message>
+		<messageID>0x0620</messageID>
+		<symbolicName>IDS_MESSAGE_VERSION_LOCKED</symbolicName>
+		<text>Version %d is already open. Close it, or ask your system administrator to unlock version.</text>
+	</message>
+	<message>
+		<messageID>0x0640</messageID>
+		<symbolicName>IDS_MESSAGE_ON_LANGUAGE_SELECT</symbolicName>
+		<text>Restart the program for the interface language changes to take effect.</text>
+	</message>
+	<message>
+		<messageID>0x0641</messageID>
+		<symbolicName>IDS_MESSAGE_LOCKED_DURING_RECORDING</symbolicName>
+		<text>This operation cannot be performed while recording.</text>
+	</message>
+	<message>
+		<messageID>0x0642</messageID>
+		<symbolicName>IDS_MESSAGE_PREVIOUS_TRIAL_NOT_FOUND</symbolicName>
+		<text>Previous trials cannot be found. </text>
+	</message>
+	<message>
+		<messageID>0x0643</messageID>
+		<symbolicName>IDS_OUT_OF_LICENSE</symbolicName>
+		<text>Out of license</text>
+	</message>
+	<message>
+		<messageID>0x07BC</messageID>
+		<symbolicName>IDS_BUSINESS_WORD</symbolicName>
+		<text>Case #</text>
+	</message>
+	<message>
+		<messageID>0x07BD</messageID>
+		<symbolicName>IDS_SESSION_WORD</symbolicName>
+		<text>Date</text>
+	</message>
+	<message>
+		<messageID>0x07BE</messageID>
+		<symbolicName>IDS_NAME_WORD</symbolicName>
+		<text>Name</text>
+	</message>
+	<message>
+		<messageID>0x07BF</messageID>
+		<symbolicName>IDS_NAME_WORD2</symbolicName>
+		<text>Accused in /charged with:</text>
+	</message>
+	<message>
+		<messageID>0x07C0</messageID>
+		<symbolicName>IDS_WORD_SIZE</symbolicName>
+		<text>Size</text>
+	</message>
+	<message>
+		<messageID>0x07C1</messageID>
+		<symbolicName>IDS_SIZE_FORMAT1</symbolicName>
+		<text>%s, %d records, %d dirs</text>
+	</message>
+	<message>
+		<messageID>0x07C2</messageID>
+		<symbolicName>IDS_SIZE_FORMAT2</symbolicName>
+		<text>%s, %d records</text>
+	</message>
+	<message>
+		<messageID>0x07C3</messageID>
+		<symbolicName>IDS_SIZE_FORMAT3</symbolicName>
+		<text>%s</text>
+	</message>
+	<message>
+		<messageID>0x07C4</messageID>
+		<symbolicName>IDS_KB</symbolicName>
+		<text>kB</text>
+	</message>
+	<message>
+		<messageID>0x07C5</messageID>
+		<symbolicName>IDS_MB</symbolicName>
+		<text>MB</text>
+	</message>
+	<message>
+		<messageID>0x07C6</messageID>
+		<symbolicName>IDS_GB</symbolicName>
+		<text>GB</text>
+	</message>
+	<message>
+		<messageID>0x07C7</messageID>
+		<symbolicName>IDS_WORD_TYPE</symbolicName>
+		<text>Type</text>
+	</message>
+	<message>
+		<messageID>0x07CF</messageID>
+		<symbolicName>IDS_BUSINESS_FILENAME_FORMAT</symbolicName>
+		<text>Case #%s from %s</text>
+	</message>
+	<message>
+		<messageID>0x07D0</messageID>
+		<symbolicName>IDS_BUSINESS_TITLE_FORMAT</symbolicName>
+		<text>Case #%s from %s</text>
+	</message>
+	<message>
+		<messageID>0x07D1</messageID>
+		<symbolicName>IDS_CURRENT_TEMPLATE</symbolicName>
+		<text>&lt;&lt;&lt;current&gt;&gt;&gt;</text>
+	</message>
+	<message>
+		<messageID>0x07D2</messageID>
+		<symbolicName>IDS_RECORDING_START</symbolicName>
+		<text>&lt;&lt;&lt;recording start&gt;&gt;&gt;</text>
+	</message>
+	<message>
+		<messageID>0x07D3</messageID>
+		<symbolicName>IDS_RECORDING_STOP</symbolicName>
+		<text>&lt;&lt;&lt;recording stop&gt;&gt;&gt;</text>
+	</message>
+	<message>
+		<messageID>0x07D4</messageID>
+		<symbolicName>IDS_WORD_COPY</symbolicName>
+		<text> [Copy %d]</text>
+	</message>
+	<message>
+		<messageID>0x07D5</messageID>
+		<symbolicName>IDS_WORD_INTERNAL</symbolicName>
+		<text>*</text>
+	</message>
+	<message>
+		<messageID>0x07D6</messageID>
+		<symbolicName>IDS_DOCUMENT_VARIABLES_LOCALIZED</symbolicName>
+		<text>number\ndate\nname\nnumroom\nvolume\nstart\nfinish\naudiorecording journal\nactual persones\nsignature\nserial number\ndate_local\n</text>
+	</message>
+	<message>
+		<messageID>0x07D7</messageID>
+		<symbolicName>IDS_DOCUMENT_BODY_VARIABLE_LOCALIZED</symbolicName>
+		<text>time\naction\nperson\nnote\ndate_local\n</text>
+	</message>
+	<message>
+		<messageID>0x07D8</messageID>
+		<symbolicName>IDS_DOCUMENT_VARIABLES</symbolicName>
+		<text>number\ndate\nname\nnumroom\nvolume\nstart\nfinish\naudiorecording journal\nactual persones\nsignature\nserial number\ndate_local\n</text>
+	</message>
+	<message>
+		<messageID>0x07D9</messageID>
+		<symbolicName>IDS_DOCUMENT_BODY_VARIABLE</symbolicName>
+		<text>time\naction\nperson\nnote\ndate_local\n</text>
+	</message>
+	<message>
+		<messageID>0x07DD</messageID>
+		<symbolicName>IDS_CHOOSE_FOLDER</symbolicName>
+		<text>Please select folder for trial documents.</text>
+	</message>
+	<message>
+		<messageID>0x07DF</messageID>
+		<symbolicName>IDS_OK_CANCEL</symbolicName>
+		<text>OK\nCancel\n</text>
+	</message>
+	<message>
+		<messageID>0x07E0</messageID>
+		<symbolicName>IDS_BUTTONS_TEMPLATE_ACTIONS</symbolicName>
+		<text>New action (Ins)\nDelete action (Del)\nEdit action (Alt + F2)\nIncrease level (Alt + &lt;-)\nDecrease level (Alt + -&gt;)\nMove up (Alt + Up)\nMove down (Alt + Down)\nAdd format of the paragraph (Alt + Ins)\nDelete format of the paragraph (Alt + Del)\n</text>
+	</message>
+	<message>
+		<messageID>0x07E1</messageID>
+		<symbolicName>IDS_BUTTONS_TEMPLATE_PERSONES</symbolicName>
+		<text>New person (Ins)\nDelete person (Del)\nEdit (Alt + F2)\nEdit preview (Alt+F3)\nInsert as variable (Alt + Enter)\n</text>
+	</message>
+	<message>
+		<messageID>0x07E2</messageID>
+		<symbolicName>IDS_BUTTONS_TEMPLATE_AUTO</symbolicName>
+		<text>Edit preview (Alt+F3)\nInsert as variable (Alt + Enter)\n</text>
+	</message>
+	<message>
+		<messageID>0x07E3</messageID>
+		<symbolicName>IDS_BUTTONS_TEMPLATE_FORMATTING</symbolicName>
+		<text>Font\nFont size\nZoom\nText\nText by condition: all variables\nText by condition: any variable\nBold\nItalic\nUnderlined\nFlush left\nFlush center\nFlush right\nFlush justify\nMarked list\nSuperscript\nSubscript\n</text>
+	</message>
+	<message>
+		<messageID>0x07E4</messageID>
+		<symbolicName>IDS_INPUT_TEMPLATE_NAME</symbolicName>
+		<text>Template renaming\nPlease enter a new name:</text>
+	</message>
+	<message>
+		<messageID>0x07EE</messageID>
+		<symbolicName>IDS_DOCUMENT_VARIABLES_LOCALIZED_TRANSLATED</symbolicName>
+		<text>number\ndate\nname\nnumroom\nvolume\nstart\nfinish\naudiorecording journal\nactual persones\nsignature\nserial number\n</text>
+	</message>
+	<message>
+		<messageID>0x07EF</messageID>
+		<symbolicName>IDS_DOCUMENT_BODY_VARIABLE_LOCALIZED_TRANSLATED</symbolicName>
+		<text>time\naction\nperson\nnote\n</text>
+	</message>
+	<message>
+		<messageID>0x0BB8</messageID>
+		<symbolicName>IDS_COMBO_ARCHIVE_PERIOD</symbolicName>
+		<text>15 15 seconds\n30 30 seconds\n60 60 seconds\n120 2 minutes\n300 5 minutes\n600 10 minutes</text>
+	</message>
+	<message>
+		<messageID>0x0BB9</messageID>
+		<symbolicName>IDS_COMBO_CDRW_PERIOD</symbolicName>
+		<text>300 5 minutes\n600 10 minutes\n1800 30 minutes\n3600 1 hour</text>
+	</message>
+	<message>
+		<messageID>0x0BBA</messageID>
+		<symbolicName>IDS_COMBO_TIMEOUT</symbolicName>
+		<text>100 0.1 seconds\n250 0.25 seconds\n500 0.5 seconds\n750 0.75 seconds\n1000 1 seconds</text>
+	</message>
+	<message>
+		<messageID>0x0BBB</messageID>
+		<symbolicName>IDS_WORD_READONLY</symbolicName>
+		<text>(read only)</text>
+	</message>
+	<message/>
+	<message>
+		<messageID>0x0BEA</messageID>
+		<symbolicName>IDS_PLAYER_SPEED_TOOLTIPS</symbolicName>
+		<text>100%% - Normal speed\n%d%% - Speedup to %3.1lf times\n%d%% - Deceleration in %3.1lf times</text>
+	</message>
+	<message>
+		<messageID>0x0BEB</messageID>
+		<symbolicName>IDS_PLAYER_VOLUME_TOOLTIPS</symbolicName>
+		<text>Volume - %d%%</text>
+	</message>
+	<message>
+		<messageID>0x0BEC</messageID>
+		<symbolicName>IDS_PLAYER_MASTER_VOLUME_TOOLTIPS</symbolicName>
+		<text>Master volume - %d%%</text>
+	</message>
+	<message>
+		<messageID>0x0BED</messageID>
+		<symbolicName>IDS_PLAYER_CONTROL_SPEED_TOOLTIPS</symbolicName>
+		<text>Speed control</text>
+	</message>
+	<message>
+		<messageID>0x0BEE</messageID>
+		<symbolicName>IDS_PLAYER_CONTROL_VOLUME_TOOLTIPS</symbolicName>
+		<text>Control of channel %d. Right-click to tune.</text>
+	</message>
+	<message>
+		<messageID>0x0BEF</messageID>
+		<symbolicName>IDS_PLAYER_CONTROL_MASTER_VOLUME_TOOLTIPS</symbolicName>
+		<text>Playback control. Right-click to tune.</text>
+	</message>
+	<message>
+		<messageID>0x0BF0</messageID>
+		<symbolicName>IDS_PLAYER_CONTROL_AGC</symbolicName>
+		<text>Auto Gain Control.\nDepth: %d dB\nThreshold: %d%%\nSpeed of reaction: %d%%\nAuto Gain Control: %s</text>
+	</message>
+	<message>
+		<messageID>0x0BF1</messageID>
+		<symbolicName>IDS_PLAYER_CONTROL_AGC_PREDEFINED</symbolicName>
+		<text>User\nDefault\n6dB max\n20dB max</text>
+	</message>
+	<message>
+		<messageID>0x0BF2</messageID>
+		<symbolicName>IDS_PLAYER_CONTROL_EQUALIZER</symbolicName>
+		<text>Equalizer.\n%d dB - %s\nEqualizer: %s</text>
+	</message>
+	<message>
+		<messageID>0x0BF3</messageID>
+		<symbolicName>IDS_PLAYER_CONTROL_EQUALIZER_PREDEFINED</symbolicName>
+		<text>User\nDefault\nVoice\nRemove 50 Hz</text>
+	</message>
+	<message>
+		<messageID>0x0BF4</messageID>
+		<symbolicName>IDS_PLAYER_CONTROL_EQUALIZER_NAMES</symbolicName>
+		<text>Low (%dHz)\nLow middle (%dHz)\nMiddle (%dHz)\nHigh middle (%dHz)\nHigh (%dHz)</text>
+	</message>
+	<message>
+		<messageID>0x0BF6</messageID>
+		<symbolicName>IDS_PLAYER_CONTROL_EQUALIZER_PREDEFINED2</symbolicName>
+		<text>User\nDefault\nVoice\nRemove 50 Hz\nPresence\nBrightness\nArticulation</text>
+	</message>
+	<message>
+		<messageID>0x0BF7</messageID>
+		<symbolicName>IDS_PLAYER_CONTROL_PROCESSING</symbolicName>
+		<text>Sound Processing.\n%d dB\nProcessing: %s</text>
+	</message>
+	<message>
+		<messageID>0x0BF8</messageID>
+		<symbolicName>IDS_PLAYER_CONTROL_PROCESSING_HZCLICKSTIMBRE</symbolicName>
+		<text>Hz\nClicks\nNormalize Tone\nSignal Processing\nAdvanced...</text>
+	</message>
+	<message/>
+	<message>
+		<messageID>0x0BFF</messageID>
+		<symbolicName>IDS_AUDIO_PLAYER</symbolicName>
+		<text>SRS Audio Player</text>
+	</message>
+	<message>
+		<messageID>0x0C00</messageID>
+		<symbolicName>IDS_VIDEO_PLAYER</symbolicName>
+		<text>SRS Video Player</text>
+	</message>
+	<message>
+		<messageID>0x0C01</messageID>
+		<symbolicName>IDS_VIDEO_PREVIEW</symbolicName>
+		<text>SRS Video Preview</text>
+	</message>
+	<message>
+		<messageID>0x0C02</messageID>
+		<symbolicName>IDS_CAMERA_INSIDE</symbolicName>
+		<text>&amp;Docked</text>
+	</message>
+	<message>
+		<messageID>0x0C03</messageID>
+		<symbolicName>IDS_CAMERA_OUTSIDE</symbolicName>
+		<text>&amp;Undocked</text>
+	</message>
+	<message>
+		<messageID>0x0C04</messageID>
+		<symbolicName>IDS_CAMERA_FULL_SCREEN</symbolicName>
+		<text>&amp;Full Screen</text>
+	</message>
+	<message/>
+	<message>
+		<messageID>0x0C10</messageID>
+		<symbolicName>IDS_IMAPI_FORMAT2_DATA_WRITE_ACTION_VALIDATING_MEDIA</symbolicName>
+		<text>Validating current media...</text>
+	</message>
+	<message>
+		<messageID>0x0C11</messageID>
+		<symbolicName>IDS_IMAPI_FORMAT2_DATA_WRITE_ACTION_FORMATTING_MEDIA</symbolicName>
+		<text>Formatting media...</text>
+	</message>
+	<message>
+		<messageID>0x0C12</messageID>
+		<symbolicName>IDS_IMAPI_FORMAT2_DATA_WRITE_ACTION_INITIALIZING_HARDWARE</symbolicName>
+		<text>Initializing hardware...</text>
+	</message>
+	<message>
+		<messageID>0x0C13</messageID>
+		<symbolicName>IDS_IMAPI_FORMAT2_DATA_WRITE_ACTION_CALIBRATING_POWER</symbolicName>
+		<text>Optimizing laser intensity...</text>
+	</message>
+	<message>
+		<messageID>0x0C14</messageID>
+		<symbolicName>IDS_IMAPI_FORMAT2_DATA_WRITE_ACTION_WRITING_DATA</symbolicName>
+		<text>Writing data...</text>
+	</message>
+	<message>
+		<messageID>0x0C15</messageID>
+		<symbolicName>IDS_IMAPI_FORMAT2_DATA_WRITE_ACTION_FINALIZATION</symbolicName>
+		<text>Finalizing writing...</text>
+	</message>
+	<message>
+		<messageID>0x0C16</messageID>
+		<symbolicName>IDS_IMAPI_FORMAT2_DATA_WRITE_ACTION_COMPLETED</symbolicName>
+		<text>Completed!</text>
+	</message>
+	<message>
+		<messageID>0x0C17</messageID>
+		<symbolicName>IDS_IMAPI_ERASE_DISK</symbolicName>
+		<text>Erase disk...</text>
+	</message>
+	<message/>
+	<message>
+		<messageID>0x0C7F</messageID>
+		<symbolicName>IDS_YFTDLG_FORMATS</symbolicName>
+		<text>Folder: \t%A\nFile: \t%N\nSource file: \t%S%P%N\nTarget file: \t%T%P%N\n%F files in %D folders (%B bytes)\nTotal %tF files in %tD folders (%tB bytes)\nFolder: \t%S%P\nOperation: %s\nHardware buffer usage:\nTime: %s total, %s left\n\n</text>
+	</message>
+	<message>
+		<messageID>0x0C80</messageID>
+		<symbolicName>IDS_YFTDLG_COPY</symbolicName>
+		<text>Prepare copying...\nCopying files...\nDeleting files...\nChecking space...\nErasing...\nBurning...\n\n</text>
+	</message>
+	<message>
+		<messageID>0x0C81</messageID>
+		<symbolicName>IDS_YFTDLG_DELETE</symbolicName>
+		<text>Prepare deleting...\nCopying files...\nDeleting files...\nVerifying...\n</text>
+	</message>
+	<message>
+		<messageID>0x0C82</messageID>
+		<symbolicName>IDS_YFTDLG_PROCESS</symbolicName>
+		<text>Scanning files...\nProcessing files...\nProcessing files...\nVerifying...\n</text>
+	</message>
+	<message>
+		<messageID>0x0C83</messageID>
+		<symbolicName>IDS_YFTDLG_IMPORT_FORMATS</symbolicName>
+		<text>Folder: \t%A\nFile: \t%N\nSource file: \t%S%P%N\nTarget file: \t%a\n%F files in %D folders (%B bytes)\nTotal %tF files in %tD folders (%tB bytes)\nFolder: \t%S%P\n\n</text>
+	</message>
+	<message/>
+	<message>
+		<messageID>0x0C88</messageID>
+		<symbolicName>IDS_IMPORT_IMPOSSIBLE</symbolicName>
+		<text>Import cannot be performed. Last saving was terminated abnormally. </text>
+	</message>
+	<message>
+		<messageID>0x0C89</messageID>
+		<symbolicName>IDS_QUERY_IMPORT_UPDATE</symbolicName>
+		<text>Do you want to import document to the primary archive?</text>
+	</message>
+	<message>
+		<messageID>0x0C8A</messageID>
+		<symbolicName>IDS_QUERY_IMPORT_OVERWRITE</symbolicName>
+		<text>Do you want to import document to the primary archive?\nATTENTION! During importing the newer version of document will be deleted!</text>
+	</message>
+	<message>
+		<messageID>0x0C8B</messageID>
+		<symbolicName>IDS_RECORD_IMPOSSIBLE</symbolicName>
+		<text>Record cannot be continued without importing to the primary archive.</text>
+	</message>
+	<message/>
+	<message>
+		<messageID>0x0D00</messageID>
+		<symbolicName>IDCS_ROOM_NUMBER</symbolicName>
+		<text>Room</text>
+	</message>
+	<message>
+		<messageID>0x0D01</messageID>
+		<symbolicName>IDCS_MEDIA_SERIAL_NUMBER</symbolicName>
+		<text>Media serial number (CD/DVD)</text>
+	</message>
+	<message>
+		<messageID>0x0D02</messageID>
+		<symbolicName>IDCS_CASE_TYPE</symbolicName>
+		<text>Type of case</text>
+	</message>
+	<message>
+		<messageID>0x0D03</messageID>
+		<symbolicName>IDS_INTERVALS</symbolicName>
+		<text>any\nhour\nday\nweek\nmonth\n3 months\n1 year\n10 years\n</text>
+	</message>
+	<message>
+		<messageID>0x0D04</messageID>
+		<symbolicName>IDS_SEPARATE_WINDOW</symbolicName>
+		<text>Separate Window</text>
+	</message>
+	<message/>
+	<message>
+		<messageID>0x0FA0</messageID>
+		<symbolicName>IDS_TEMPLATE_NAME_STAGE</symbolicName>
+		<text>Stage</text>
+	</message>
+	<message>
+		<messageID>0x0FA1</messageID>
+		<symbolicName>IDS_TEMPLATE_NAME_ACTION</symbolicName>
+		<text>Action</text>
+	</message>
+	<message>
+		<messageID>0x0FA2</messageID>
+		<symbolicName>IDS_TEMPLATE_NAME_PERSON</symbolicName>
+		<text>Person</text>
+	</message>
+	<message>
+		<messageID>0x0FA3</messageID>
+		<symbolicName>IDS_TEMPLATE_NAME_ACTION_PERSON</symbolicName>
+		<text>Action + person</text>
+	</message>
+	<message>
+		<messageID>0x0FA4</messageID>
+		<symbolicName>IDS_TEMPLATE_NAME_ACTION_PERSON_NOTE</symbolicName>
+		<text>Action + person + note</text>
+	</message>
+	<message>
+		<messageID>0x0FA5</messageID>
+		<symbolicName>IDS_TEMPLATE_NAME_ACTION_NOTE</symbolicName>
+		<text>Action + note</text>
+	</message>
+	<message>
+		<messageID>0x0FA6</messageID>
+		<symbolicName>IDS_TEMPLATE_NAME_PERSON_NOTE</symbolicName>
+		<text>Person + note</text>
+	</message>
+	<message>
+		<messageID>0x0FA7</messageID>
+		<symbolicName>IDS_TEMPLATE_NAME_NOTE</symbolicName>
+		<text>Note</text>
+	</message>
+	<message/>
+	<message/>
+	<message/>
+	<message>
+		<messageID>0x0FC1</messageID>
+		<symbolicName>IDS_FIND_SERVERS</symbolicName>
+		<text>Find servers…</text>
+	</message>
+	<message>
+		<messageID>0x0FC2</messageID>
+		<symbolicName>IDS_WORD_CLUSTER</symbolicName>
+		<text>Cluster</text>
+	</message>
+	<message>
+		<messageID>0x0FC3</messageID>
+		<symbolicName>IDS_WORD_SERVER</symbolicName>
+		<text>Server</text>
+	</message>
+	<message>
+		<messageID>0x0FC7</messageID>
+		<symbolicName>IDS_WORD_DEVICES</symbolicName>
+		<text>Devices</text>
+	</message>
+	<message>
+		<messageID>0x0FC4</messageID>
+		<symbolicName>IDS_APPLICATION_ALREADY_ACTIVE</symbolicName>
+		<text>Application already loaded!</text>
+	</message>
+	<message>
+		<messageID>0x0FC5</messageID>
+		<symbolicName>IDS_SECONDS_REMAINED</symbolicName>
+		<text>%d second(s) remained</text>
+	</message>
+	<message>
+		<messageID>0x0FC6</messageID>
+		<symbolicName>IDS_INTERNAL_SERVER</symbolicName>
+		<text>Internal Server</text>
+	</message>
+	<message/>
+	<message>
+		<messageID>0x0643</messageID>
+		<symbolicName>IDC_CHECK_NO_VIDEO</symbolicName>
+		<text>Disable video support</text>
+	</message>
+	<message>
+		<messageID>0x0644</messageID>
+		<symbolicName>IDC_PRINT_CASE</symbolicName>
+		<text>Print Case</text>
+	</message>
+	<message/>
+	<message>
+		<messageID>0x8000</messageID>
+		<symbolicName>ID_CANCEL_EDIT_CNTR</symbolicName>
+		<text>Cancel edit control\n</text>
+	</message>
+	<message>
+		<messageID>0x8001</messageID>
+		<symbolicName>ID_CANCEL_EDIT_SRVR</symbolicName>
+		<text>\n</text>
+	</message>
+	<message>
+		<messageID>0x8005</messageID>
+		<symbolicName>ID_PROTOCOL_ANSWER</symbolicName>
+		<text>Question/Answer\nQuestion/Answer</text>
+	</message>
+	<message/>
+	<message>
+		<messageID>0x8010</messageID>
+		<symbolicName>ID_SYSMENU_ABOUT</symbolicName>
+		<text>&amp;About program...</text>
+	</message>
+	<message>
+		<messageID>0x8020</messageID>
+		<symbolicName>ID_SYSMENU_LANGUAGE</symbolicName>
+		<text>&amp;Language selection...</text>
+	</message>
+	<message>
+		<messageID>0x8030</messageID>
+		<symbolicName>ID_SYSMENU_OPTIONS</symbolicName>
+		<text>&amp;Options...</text>
+	</message>
+	<message>
+		<messageID>0x9850</messageID>
+		<symbolicName>ID_SYSMENU_TUNE_KEYBOARD</symbolicName>
+		<text>&amp;Keyboard settings...</text>
+	</message>
+	<message>
+		<messageID>0x9860</messageID>
+		<symbolicName>ID_SYSMENU_CHANGE_PARAMETERS</symbolicName>
+		<text>&amp;Change case number and name</text>
+	</message>
+	<message>
+		<messageID>0x9870</messageID>
+		<symbolicName>ID_SYSMENU_SAVE_AS</symbolicName>
+		<text>&amp;Save as...</text>
+	</message>
+	<message>
+		<messageID>0x9880</messageID>
+		<symbolicName>ID_SYSMENU_HELP_1</symbolicName>
+		<text>&amp;Help... </text>
+	</message>
+	<message>
+		<messageID>0x9890</messageID>
+		<symbolicName>ID_SYSMENU_HELP_2</symbolicName>
+		<text>&amp;Help... </text>
+	</message>
+	<message>
+		<messageID>0x98A0</messageID>
+		<symbolicName>ID_SYSMENU_HELP_3</symbolicName>
+		<text>&amp;Help... </text>
+	</message>
+	<message>
+		<messageID>0x98B0</messageID>
+		<symbolicName>ID_SYSMENU_HELP_4</symbolicName>
+		<text>&amp;Help... </text>
+	</message>
+	<message>
+		<messageID>0x98C0</messageID>
+		<symbolicName>ID_SYSMENU_HELP_5</symbolicName>
+		<text>&amp;Help... </text>
+	</message>
+	<message>
+		<messageID>0x98D0</messageID>
+		<symbolicName>ID_SYSMENU_HELP_6</symbolicName>
+		<text>&amp;Help... </text>
+	</message>
+	<message>
+		<messageID>0x98E0</messageID>
+		<symbolicName>ID_SYSMENU_HELP_7</symbolicName>
+		<text>&amp;Help... </text>
+	</message>
+	<message>
+		<messageID>0x98F0</messageID>
+		<symbolicName>ID_SYSMENU_HELP_8</symbolicName>
+		<text>&amp;Help... </text>
+	</message>
+	<message>
+		<messageID>0x9900</messageID>
+		<symbolicName>ID_SYSMENU_HELP_9</symbolicName>
+		<text>&amp;Help... </text>
+	</message>
+	<message>
+		<messageID>0x9910</messageID>
+		<symbolicName>ID_SYSMENU_HELP_10</symbolicName>
+		<text>&amp;Help... </text>
+	</message>
+	<message>
+		<messageID>0x9920</messageID>
+		<symbolicName>ID_SYSMENU_HELP_11</symbolicName>
+		<text>&amp;Help... </text>
+	</message>
+	<message>
+		<messageID>0x9930</messageID>
+		<symbolicName>ID_SYSMENU_HELP_12</symbolicName>
+		<text>&amp;Help... </text>
+	</message>
+	<message>
+		<messageID>0x9940</messageID>
+		<symbolicName>ID_SYSMENU_HELP_13</symbolicName>
+		<text>&amp;Help... </text>
+	</message>
+	<message>
+		<messageID>0x9950</messageID>
+		<symbolicName>ID_SYSMENU_HELP_14</symbolicName>
+		<text>&amp;Help... </text>
+	</message>
+	<message>
+		<messageID>0x9960</messageID>
+		<symbolicName>ID_SYSMENU_HELP_15</symbolicName>
+		<text>&amp;Help... </text>
+	</message>
+	<message>
+		<messageID>0x9970</messageID>
+		<symbolicName>ID_SYSMENU_HELP_16</symbolicName>
+		<text>&amp;Help... </text>
+	</message>
+	<message>
+		<messageID>0x9980</messageID>
+		<symbolicName>ID_SYSMENU_MERGE</symbolicName>
+		<text>&amp;Merge…</text>
+	</message>
+	<message>
+		<messageID>0x9A50</messageID>
+		<symbolicName>ID_SYSMENU_IMPORT</symbolicName>
+		<text>&amp;Import…</text>
+	</message>
+	<message>
+		<messageID>0x9A60</messageID>
+		<symbolicName>ID_SYSMENU_EXPORT</symbolicName>
+		<text>&amp;Export…</text>
+	</message>
+	<message>
+		<messageID>0x9A70</messageID>
+		<symbolicName>ID_SYSMENU_EVENTS</symbolicName>
+		<text>System E&amp;vent Log…</text>
+	</message>
+	<message/>
+	<message>
+		<messageID>0x991F</messageID>
+		<symbolicName>ID_RUN</symbolicName>
+		<text>&amp;Run</text>
+	</message>
+	<message>
+		<messageID>0x991E</messageID>
+		<symbolicName>ID_STOP_STOP</symbolicName>
+		<text>&amp;Stop</text>
+	</message>
+	<message>
+		<messageID>0x991D</messageID>
+		<symbolicName>ID_EXIT</symbolicName>
+		<text>&amp;Exit</text>
+	</message>
+	<message/>
+	<message>
+		<messageID>0x9921</messageID>
+		<symbolicName>ID_PLAY</symbolicName>
+		<text>Play</text>
+	</message>
+	<message>
+		<messageID>0x9922</messageID>
+		<symbolicName>ID_STOP</symbolicName>
+		<text>Stop</text>
+	</message>
+	<message>
+		<messageID>0x9923</messageID>
+		<symbolicName>ID_PAUSE</symbolicName>
+		<text>Pause</text>
+	</message>
+	<message>
+		<messageID>0x9924</messageID>
+		<symbolicName>ID_RESUME</symbolicName>
+		<text>Resume</text>
+	</message>
+	<message>
+		<messageID>0x9925</messageID>
+		<symbolicName>ID_POSITION</symbolicName>
+		<text>Position</text>
+	</message>
+	<message>
+		<messageID>0x9926</messageID>
+		<symbolicName>ID_AGC</symbolicName>
+		<text>&amp;Automatic gain control</text>
+	</message>
+	<message>
+		<messageID>0x9927</messageID>
+		<symbolicName>ID_ACB</symbolicName>
+		<text>Automatic channel &amp;balance</text>
+	</message>
+	<message>
+		<messageID>0x9928</messageID>
+		<symbolicName>ID_INVERT_CHANNEL</symbolicName>
+		<text>&amp;Invert channel</text>
+	</message>
+	<message>
+		<messageID>0x9929</messageID>
+		<symbolicName>ID_SELECT_SOUND_DEVICE</symbolicName>
+		<text>&amp;Select output device...</text>
+	</message>
+	<message>
+		<messageID>0x992A</messageID>
+		<symbolicName>ID_EQUALIZER</symbolicName>
+		<text>&amp;Equalizer...</text>
+	</message>
+	<message>
+		<messageID>0x992B</messageID>
+		<symbolicName>ID_AGC_PARAMETERS</symbolicName>
+		<text>Automatic gain control &amp;parameters...</text>
+	</message>
+	<message>
+		<messageID>0x992C</messageID>
+		<symbolicName>ID_SUMMARIZE</symbolicName>
+		<text>&amp;Multiple channels\n&amp;Single channel</text>
+	</message>
+	<message>
+		<messageID>0x992D</messageID>
+		<symbolicName>ID_ENABLE_DIASABLE</symbolicName>
+		<text>&amp;Enable\n&amp;Disable</text>
+	</message>
+	<message>
+		<messageID>0x992E</messageID>
+		<symbolicName>ID_PEDAL_RIGHT</symbolicName>
+		<text>Right button of foot pedal</text>
+	</message>
+	<message>
+		<messageID>0x992F</messageID>
+		<symbolicName>ID_PEDAL_LEFT</symbolicName>
+		<text>Left button of foot pedal</text>
+	</message>
+	<message/>
+	<message>
+		<messageID>0x9931</messageID>
+		<symbolicName>ID_PLAYER_PLAYPAUSE</symbolicName>
+		<text>Play/Pause</text>
+	</message>
+	<message>
+		<messageID>0x9932</messageID>
+		<symbolicName>ID_PLAYER_STOP</symbolicName>
+		<text>Stop</text>
+	</message>
+	<message>
+		<messageID>0x9933</messageID>
+		<symbolicName>ID_RECORD_START</symbolicName>
+		<text>Record</text>
+	</message>
+	<message>
+		<messageID>0x9934</messageID>
+		<symbolicName>ID_RECORD_STOP</symbolicName>
+		<text>Stop recording</text>
+	</message>
+	<message>
+		<messageID>0x9935</messageID>
+		<symbolicName>ID_PLAYER_NEXT</symbolicName>
+		<text>Forward</text>
+	</message>
+	<message>
+		<messageID>0x9936</messageID>
+		<symbolicName>ID_PLAYER_PRIOR</symbolicName>
+		<text>Back</text>
+	</message>
+	<message>
+		<messageID>0x9937</messageID>
+		<symbolicName>ID_PLAYER_INCREASE_SCALE</symbolicName>
+		<text>Zoom in</text>
+	</message>
+	<message>
+		<messageID>0x9938</messageID>
+		<symbolicName>ID_PLAYER_DECREASE_SCALE</symbolicName>
+		<text>Zoom out</text>
+	</message>
+	<message>
+		<messageID>0x9939</messageID>
+		<symbolicName>ID_PLAYER_SCROLL_FORWARD</symbolicName>
+		<text>Scroll forward</text>
+	</message>
+	<message>
+		<messageID>0x993A</messageID>
+		<symbolicName>ID_PLAYER_SCROLL_BACK</symbolicName>
+		<text>Scroll back</text>
+	</message>
+	<message>
+		<messageID>0x993B</messageID>
+		<symbolicName>ID_EXPERT_SETTINGS</symbolicName>
+		<text>&amp;Advanced settings...</text>
+	</message>
+	<message>
+		<messageID>0x993C</messageID>
+		<symbolicName>ID_PROCESSING</symbolicName>
+		<text>&amp;Sound Processing</text>
+	</message>
+	<message/>
+	<message>
+		<messageID>0x993D</messageID>
+		<symbolicName>ID_EDITOR_ACTION</symbolicName>
+		<text>Action</text>
+	</message>
+	<message>
+		<messageID>0x993E</messageID>
+		<symbolicName>ID_EDITOR_PERSONE</symbolicName>
+		<text>Participant</text>
+	</message>
+	<message>
+		<messageID>0x993F</messageID>
+		<symbolicName>ID_EDITOR_LOCATION</symbolicName>
+		<text>Location</text>
+	</message>
+	<message>
+		<messageID>0x9941</messageID>
+		<symbolicName>ID_EDITOR_LOCATION1</symbolicName>
+		<text>Location 1</text>
+	</message>
+	<message>
+		<messageID>0x9942</messageID>
+		<symbolicName>ID_EDITOR_LOCATION2</symbolicName>
+		<text>Location 2</text>
+	</message>
+	<message>
+		<messageID>0x9943</messageID>
+		<symbolicName>ID_EDITOR_LOCATION3</symbolicName>
+		<text>Location 3</text>
+	</message>
+	<message>
+		<messageID>0x9944</messageID>
+		<symbolicName>ID_EDITOR_LOCATION4</symbolicName>
+		<text>Location 4</text>
+	</message>
+	<message>
+		<messageID>0x9945</messageID>
+		<symbolicName>ID_EDITOR_LOCATION5</symbolicName>
+		<text>Location 5</text>
+	</message>
+	<message>
+		<messageID>0x9946</messageID>
+		<symbolicName>ID_EDITOR_LOCATION6</symbolicName>
+		<text>Location 6</text>
+	</message>
+	<message>
+		<messageID>0x9947</messageID>
+		<symbolicName>ID_EDITOR_LOCATION7</symbolicName>
+		<text>Location 7</text>
+	</message>
+	<message>
+		<messageID>0x9948</messageID>
+		<symbolicName>ID_EDITOR_LOCATION8</symbolicName>
+		<text>Location 8</text>
+	</message>
+	<message>
+		<messageID>0x9949</messageID>
+		<symbolicName>ID_EDITOR_LOCATION9</symbolicName>
+		<text>Location 9</text>
+	</message>
+	<message>
+		<messageID>0x994A</messageID>
+		<symbolicName>ID_PLAYER_LOCATION</symbolicName>
+		<text>Listen location</text>
+	</message>
+	<message>
+		<messageID>0x994B</messageID>
+		<symbolicName>ID_EDITOR_EVENT</symbolicName>
+		<text>New event</text>
+	</message>
+	<message>
+		<messageID>0x9984</messageID>
+		<symbolicName>ID_RESET_VOLUMES</symbolicName>
+		<text>&amp;Reset Volumes</text>
+	</message>
+	<message>
+		<messageID>0x9990</messageID>
+		<symbolicName>ID_SEARCH</symbolicName>
+		<text>&amp;Search…</text>
+	</message>
+	<message>
+		<messageID>0x9991</messageID>
+		<symbolicName>ID_SEARCH_AND_REPLACE</symbolicName>
+		<text>&amp;Replace…</text>
+	</message>
+	<message>
+		<messageID>0x9992</messageID>
+		<symbolicName>ID_PEDAL_MIDDLE</symbolicName>
+		<text>Middle button of foot pedal</text>
+	</message>
+	<message>
+		<messageID>0x9993</messageID>
+		<symbolicName>ID_REPORT_APPOINT</symbolicName>
+		<text>Assign transcription task</text>
+	</message>
+	<message>
+		<messageID>0x9994</messageID>
+		<symbolicName>ID_REPORT_UPDATE</symbolicName>
+		<text>Update transcriptions</text>
+	</message>
+	<message/>
+	<message>
+		<messageID>0x99A0</messageID>
+		<symbolicName>IDC_STATIC_REPLACE_MESSAGE_A</symbolicName>
+		<text>Current document template is not present on disk. Do you want to save template on disk?\nSave template on disk.\nReplace document template without saving (current document template will be deleted completely!)\n</text>
+	</message>
+	<message>
+		<messageID>0x99A1</messageID>
+		<symbolicName>IDC_STATIC_REPLACE_MESSAGE_B</symbolicName>
+		<text/>
+	</message>
+	<message>
+		<messageID>0x99A2</messageID>
+		<symbolicName>IDC_STATIC_REPLACE_MESSAGE_C</symbolicName>
+		<text>Current document template and template on disk mismatch. Do you want to update template on disk?\nUpdate template on disk.\nSave current document template with other name.\nReplace document template without saving (current document template will be deleted completely!)\n</text>
+	</message>
+	<message>
+		<messageID>0x99A3</messageID>
+		<symbolicName>IDC_STATIC_REPLACE_MESSAGE_D</symbolicName>
+		<text>Current document template and template on disk mismatch. Do you want to save template on disk?\nSave current document template with other name.\nReplace document template without saving (current document template will be deleted completely!)\n</text>
+	</message>
+	<message/>
+	<message>
+		<messageID>0x9C40</messageID>
+		<symbolicName>ERR_FAILURE</symbolicName>
+		<text>Unknown error</text>
+	</message>
+	<message>
+		<messageID>0x9D08</messageID>
+		<symbolicName>ERR_RECORD_NOT_FOUND</symbolicName>
+		<text>There's no record</text>
+	</message>
+	<message>
+		<messageID>0x9D09</messageID>
+		<symbolicName>ERR_BAD_TEMPLATE</symbolicName>
+		<text>Wrong format of template</text>
+	</message>
+	<message>
+		<messageID>0x9D0A</messageID>
+		<symbolicName>ERR_TEMPLATES_NOT_FOUND</symbolicName>
+		<text>Templates of trials are not found</text>
+	</message>
+	<message>
+		<messageID>0x9D0B</messageID>
+		<symbolicName>ERR_TEMPLATE_NAME_ALREDY_EXIST</symbolicName>
+		<text>Such name was already used</text>
+	</message>
+	<message>
+		<messageID>0x9D0C</messageID>
+		<symbolicName>ERR_NAME_NOT_DEFINED</symbolicName>
+		<text>Surname is not given</text>
+	</message>
+	<message>
+		<messageID>0x9D0D</messageID>
+		<symbolicName>ERR_PERSONE_ALREADY_DEFINED</symbolicName>
+		<text>Such person already exists</text>
+	</message>
+	<message>
+		<messageID>0x9D0E</messageID>
+		<symbolicName>ERR_BAD_HEADER_FORMAT</symbolicName>
+		<text>Wrong format of record of template of title</text>
+	</message>
+	<message>
+		<messageID>0x9D0F</messageID>
+		<symbolicName>ERR_BAD_DATE</symbolicName>
+		<text>Wrong date</text>
+	</message>
+	<message>
+		<messageID>0x9D10</messageID>
+		<symbolicName>ERR_BAD_BUSINESS_NUMBER</symbolicName>
+		<text>Wrong case number - \nThe case number cannot be blank and\n include symbols / : &gt; &lt; = \? \" \\ |</text>
+	</message>
+	<message>
+		<messageID>0x9D11</messageID>
+		<symbolicName>ERR_TEMPLATE_NOT_FOUND</symbolicName>
+		<text>Template is not found</text>
+	</message>
+	<message>
+		<messageID>0x9D12</messageID>
+		<symbolicName>ERR_NOT_SAVED</symbolicName>
+		<text>Changes you made are not saved. Do you want to save them?\n\"Yes\" - changes will be saved\n\"No\" - changes will be lost \n\"Cancel\" - close this dialog window and return to the main window.</text>
+	</message>
+	<message>
+		<messageID>0x9D13</messageID>
+		<symbolicName>ERR_PHONO_BOUNDARIES</symbolicName>
+		<text>Start and end points of sound track cannot be defined. \nThe sound track cannot be empty and has to be marked with &lt;&lt;&lt;end&gt;&gt;&gt;  or &lt;&lt;&lt;break&gt;&gt;&gt; at the end.</text>
+	</message>
+	<message>
+		<messageID>0x9D14</messageID>
+		<symbolicName>ERR_OUT_OF_DISK_SPACE</symbolicName>
+		<text>Not enough free space on disk.\nPlease insert an empty disk \n to burn it. </text>
+	</message>
+	<message>
+		<messageID>0x9D15</messageID>
+		<symbolicName>ERR_PROTOCOL_IS_NOT_FORMED</symbolicName>
+		<text>Please enter any action!</text>
+	</message>
+	<message>
+		<messageID>0x9D16</messageID>
+		<symbolicName>ERR_CHANGE_RECORDING_SETTINGS_IMPOSSIBLE</symbolicName>
+		<text>You cannot change record options while recording! </text>
+	</message>
+	<message>
+		<messageID>0x9D17</messageID>
+		<symbolicName>ERR_CAN_NOT_CREATE_DIRECTORY</symbolicName>
+		<text>The file cannot be created \n\"%s\"</text>
+	</message>
+	<message>
+		<messageID>0x9D18</messageID>
+		<symbolicName>ERR_BACKUP_PRESENT</symbolicName>
+		<text>Last saving was terminated abnormally.\nWould you like to restore data from backup?</text>
+	</message>
+	<message>
+		<messageID>0x9D19</messageID>
+		<symbolicName>ERR_DLL_SAVE_TO_ANOTHER</symbolicName>
+		<text>Saving was terminated.\nDo you want to save to another directory?</text>
+	</message>
+	<message>
+		<messageID>0x9D1A</messageID>
+		<symbolicName>ERR_CHANNELS_IS_NOT_SELECTED</symbolicName>
+		<text>Please select channels! </text>
+	</message>
+	<message>
+		<messageID>0x9D1B</messageID>
+		<symbolicName>ERR_BAD_RECORD_FORMAT</symbolicName>
+		<text>Unknown format of record!</text>
+	</message>
+	<message>
+		<messageID>0x9D1C</messageID>
+		<symbolicName>ERR_ROLE_NOT_DEFINED</symbolicName>
+		<text>Role is not specified.</text>
+	</message>
+	<message>
+		<messageID>0x9D1E</messageID>
+		<symbolicName>ERR_DISK_NOT_FORMATTED</symbolicName>
+		<text>Disk is not formatted</text>
+	</message>
+	<message>
+		<messageID>0x9D1F</messageID>
+		<symbolicName>ERR_AUDIO_OUTPUT_DEVICE_NOT_FOUND</symbolicName>
+		<text>Audio output device is not found</text>
+	</message>
+	<message>
+		<messageID>0x9D20</messageID>
+		<symbolicName>ERR_REPLICATION_FAILED</symbolicName>
+		<text>Replication failed</text>
+	</message>
+	<message>
+		<messageID>0x9D21</messageID>
+		<symbolicName>ERR_SELECTION_NOT_DEFINED</symbolicName>
+		<text>Selection is not defined</text>
+	</message>
+	<message>
+		<messageID>0x9D22</messageID>
+		<symbolicName>ERR_SERVER_NOT_DEFINED</symbolicName>
+		<text>Server is not specified. Continue by default?</text>
+	</message>
+	<message>
+		<messageID>0x9D23</messageID>
+		<symbolicName>IDS_NETWORK_ALSO</symbolicName>
+		<text>save to network archive also</text>
+	</message>
+	<message>
+		<messageID>0x9D24</messageID>
+		<symbolicName>ERR_IMAPI_FORMAT2_DATA_MEDIA_STATE</symbolicName>
+		<text>overwrite only\nrandomly writable\nblank\nappendable\nfninal session\ndamaged\nerase required\nnon empty session\nwrite protected\nfinalized\nunsupported media</text>
+	</message>
+	<message/>
+	<message>
+		<messageID>0x9D25</messageID>
+		<symbolicName>ERR_next</symbolicName>
+		<text>next</text>
+	</message>
+	<message/>
+	<message>
+		<messageID>0xE000</messageID>
+		<symbolicName>AFX_IDS_APP_TITLE</symbolicName>
+		<text/>
+	</message>
+	<message>
+		<messageID>0xE010</messageID>
+		<symbolicName>IDS_APP_LICENSE</symbolicName>
+		<text>User:%s\r\nOrganization:%s\r\nSerial number:%s</text>
+	</message>
+	<message>
+		<messageID>0xE011</messageID>
+		<symbolicName>IDS_APP_LICENSE_LOCALIZED</symbolicName>
+		<text/>
+	</message>
+	<message/>
+	<message>
+		<messageID>0xE100</messageID>
+		<symbolicName>ID_FILE_NEW</symbolicName>
+		<text>Create a new document\nNew</text>
+	</message>
+	<message>
+		<messageID>0xE101</messageID>
+		<symbolicName>ID_FILE_OPEN</symbolicName>
+		<text>Open an existing document\nOpen</text>
+	</message>
+	<message>
+		<messageID>0xE102</messageID>
+		<symbolicName>ID_FILE_CLOSE</symbolicName>
+		<text>Close the active document\nClose</text>
+	</message>
+	<message>
+		<messageID>0xE103</messageID>
+		<symbolicName>ID_FILE_SAVE</symbolicName>
+		<text>Save the active document\nSave</text>
+	</message>
+	<message>
+		<messageID>0xE104</messageID>
+		<symbolicName>ID_FILE_SAVE_AS</symbolicName>
+		<text>Save the active document with a new name\nSave As</text>
+	</message>
+	<message>
+		<messageID>0xE105</messageID>
+		<symbolicName>ID_FILE_PAGE_SETUP</symbolicName>
+		<text>Change the printing options\nPage Setup</text>
+	</message>
+	<message>
+		<messageID>0xE106</messageID>
+		<symbolicName>ID_FILE_PRINT_SETUP</symbolicName>
+		<text>Change the printer and printing options\nPrint Setup</text>
+	</message>
+	<message>
+		<messageID>0xE107</messageID>
+		<symbolicName>ID_FILE_PRINT</symbolicName>
+		<text>Print the active document\nPrint</text>
+	</message>
+	<message>
+		<messageID>0xE108</messageID>
+		<symbolicName>ID_FILE_PRINT_DIRECT</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xE109</messageID>
+		<symbolicName>ID_FILE_PRINT_PREVIEW</symbolicName>
+		<text>Display full pages\nPrint Preview</text>
+	</message>
+	<message>
+		<messageID>0xE10A</messageID>
+		<symbolicName>ID_FILE_UPDATE</symbolicName>
+		<text>Update the container to show any changes\nUpdate</text>
+	</message>
+	<message>
+		<messageID>0xE10B</messageID>
+		<symbolicName>ID_FILE_SAVE_COPY_AS</symbolicName>
+		<text>Save a copy of the active document with a new name\nSave Copy</text>
+	</message>
+	<message>
+		<messageID>0xE10C</messageID>
+		<symbolicName>ID_FILE_SEND_MAIL</symbolicName>
+		<text>Send the active document through electronic mail\nSend Mail</text>
+	</message>
+	<message>
+		<messageID>0xE10D</messageID>
+		<symbolicName>ID_FILE_NEW_FRAME</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xE110</messageID>
+		<symbolicName>ID_FILE_MRU_FILE1</symbolicName>
+		<text>Open this document</text>
+	</message>
+	<message>
+		<messageID>0xE111</messageID>
+		<symbolicName>ID_FILE_MRU_FILE2</symbolicName>
+		<text>Open this document</text>
+	</message>
+	<message>
+		<messageID>0xE112</messageID>
+		<symbolicName>ID_FILE_MRU_FILE3</symbolicName>
+		<text>Open this document</text>
+	</message>
+	<message>
+		<messageID>0xE113</messageID>
+		<symbolicName>ID_FILE_MRU_FILE4</symbolicName>
+		<text>Open this document</text>
+	</message>
+	<message>
+		<messageID>0xE114</messageID>
+		<symbolicName>ID_FILE_MRU_FILE5</symbolicName>
+		<text>Open this document</text>
+	</message>
+	<message>
+		<messageID>0xE115</messageID>
+		<symbolicName>ID_FILE_MRU_FILE6</symbolicName>
+		<text>Open this document</text>
+	</message>
+	<message>
+		<messageID>0xE116</messageID>
+		<symbolicName>ID_FILE_MRU_FILE7</symbolicName>
+		<text>Open this document</text>
+	</message>
+	<message>
+		<messageID>0xE117</messageID>
+		<symbolicName>ID_FILE_MRU_FILE8</symbolicName>
+		<text>Open this document</text>
+	</message>
+	<message>
+		<messageID>0xE118</messageID>
+		<symbolicName>ID_FILE_MRU_FILE9</symbolicName>
+		<text>Open this document</text>
+	</message>
+	<message>
+		<messageID>0xE119</messageID>
+		<symbolicName>ID_FILE_MRU_FILE10</symbolicName>
+		<text>Open this document</text>
+	</message>
+	<message>
+		<messageID>0xE11A</messageID>
+		<symbolicName>ID_FILE_MRU_FILE11</symbolicName>
+		<text>Open this document</text>
+	</message>
+	<message>
+		<messageID>0xE11B</messageID>
+		<symbolicName>ID_FILE_MRU_FILE12</symbolicName>
+		<text>Open this document</text>
+	</message>
+	<message>
+		<messageID>0xE11C</messageID>
+		<symbolicName>ID_FILE_MRU_FILE13</symbolicName>
+		<text>Open this document</text>
+	</message>
+	<message>
+		<messageID>0xE11D</messageID>
+		<symbolicName>ID_FILE_MRU_FILE14</symbolicName>
+		<text>Open this document</text>
+	</message>
+	<message>
+		<messageID>0xE11E</messageID>
+		<symbolicName>ID_FILE_MRU_FILE15</symbolicName>
+		<text>Open this document</text>
+	</message>
+	<message>
+		<messageID>0xE11F</messageID>
+		<symbolicName>ID_FILE_MRU_FILE16</symbolicName>
+		<text>Open this document</text>
+	</message>
+	<message>
+		<messageID>0xE120</messageID>
+		<symbolicName>ID_EDIT_CLEAR        </symbolicName>
+		<text>Erase the selection\nErase</text>
+	</message>
+	<message>
+		<messageID>0xE121</messageID>
+		<symbolicName>ID_EDIT_CLEAR_ALL    </symbolicName>
+		<text>Erase everything\nErase All</text>
+	</message>
+	<message>
+		<messageID>0xE122</messageID>
+		<symbolicName>ID_EDIT_COPY         </symbolicName>
+		<text>Copy the selection and put it on the Clipboard\nCopy</text>
+	</message>
+	<message>
+		<messageID>0xE123</messageID>
+		<symbolicName>ID_EDIT_CUT          </symbolicName>
+		<text>Cut the selection and put it on the Clipboard\nCut</text>
+	</message>
+	<message>
+		<messageID>0xE124</messageID>
+		<symbolicName>ID_EDIT_FIND         </symbolicName>
+		<text>Find the specified text\nFind</text>
+	</message>
+	<message>
+		<messageID>0xE125</messageID>
+		<symbolicName>ID_EDIT_PASTE        </symbolicName>
+		<text>Insert Clipboard contents\nPaste</text>
+	</message>
+	<message>
+		<messageID>0xE126</messageID>
+		<symbolicName>ID_EDIT_PASTE_LINK   </symbolicName>
+		<text>Insert Clipboard contents and a link to its source\nPaste Link</text>
+	</message>
+	<message>
+		<messageID>0xE127</messageID>
+		<symbolicName>ID_EDIT_PASTE_SPECIAL</symbolicName>
+		<text>Insert Clipboard contents with options\nPaste Special</text>
+	</message>
+	<message>
+		<messageID>0xE128</messageID>
+		<symbolicName>ID_EDIT_REPEAT       </symbolicName>
+		<text>Repeat the last action\nRepeat</text>
+	</message>
+	<message>
+		<messageID>0xE129</messageID>
+		<symbolicName>ID_EDIT_REPLACE      </symbolicName>
+		<text>Replace specific text with different text\nReplace</text>
+	</message>
+	<message>
+		<messageID>0xE12A</messageID>
+		<symbolicName>ID_EDIT_SELECT_ALL   </symbolicName>
+		<text>Select the entire document\nSelect All</text>
+	</message>
+	<message>
+		<messageID>0xE12B</messageID>
+		<symbolicName>ID_EDIT_UNDO         </symbolicName>
+		<text>Undo the last action\nUndo</text>
+	</message>
+	<message>
+		<messageID>0xE12C</messageID>
+		<symbolicName>ID_EDIT_REDO         </symbolicName>
+		<text>Redo the previously undone action\nRedo</text>
+	</message>
+	<message>
+		<messageID>0xE130</messageID>
+		<symbolicName>ID_WINDOW_NEW      </symbolicName>
+		<text>Open another window for the active document\nNew Window</text>
+	</message>
+	<message>
+		<messageID>0xE131</messageID>
+		<symbolicName>ID_WINDOW_ARRANGE  </symbolicName>
+		<text>Arrange icons at the bottom of the window\nArrange Icons</text>
+	</message>
+	<message>
+		<messageID>0xE132</messageID>
+		<symbolicName>ID_WINDOW_CASCADE  </symbolicName>
+		<text>Arrange windows so they overlap\nCascade Windows</text>
+	</message>
+	<message>
+		<messageID>0xE133</messageID>
+		<symbolicName>ID_WINDOW_TILE_HORZ</symbolicName>
+		<text>Arrange windows as non-overlapping tiles\nTile Windows</text>
+	</message>
+	<message>
+		<messageID>0xE134</messageID>
+		<symbolicName>ID_WINDOW_TILE_VERT</symbolicName>
+		<text>Arrange windows as non-overlapping tiles\nTile Windows</text>
+	</message>
+	<message>
+		<messageID>0xE135</messageID>
+		<symbolicName>ID_WINDOW_SPLIT    </symbolicName>
+		<text>Split the active window into panes\nSplit</text>
+	</message>
+	<message>
+		<messageID>0xE140</messageID>
+		<symbolicName>ID_APP_ABOUT    </symbolicName>
+		<text>Display program information, version number and copyright\nAbout</text>
+	</message>
+	<message>
+		<messageID>0xE141</messageID>
+		<symbolicName>ID_APP_EXIT     </symbolicName>
+		<text>Quit the application; prompts to save documents\nExit</text>
+	</message>
+	<message>
+		<messageID>0xE142</messageID>
+		<symbolicName>ID_HELP_INDEX   </symbolicName>
+		<text>List Help topics\nHelp Index</text>
+	</message>
+	<message>
+		<messageID>0xE143</messageID>
+		<symbolicName>ID_HELP_FINDER  </symbolicName>
+		<text>List Help topics\nHelp Topics</text>
+	</message>
+	<message>
+		<messageID>0xE144</messageID>
+		<symbolicName>ID_HELP_USING   </symbolicName>
+		<text>Display instructions about how to use help\nHelp</text>
+	</message>
+	<message>
+		<messageID>0xE145</messageID>
+		<symbolicName>ID_CONTEXT_HELP </symbolicName>
+		<text>Display help for clicked on buttons, menus and windows\nHelp</text>
+	</message>
+	<message>
+		<messageID>0xE146</messageID>
+		<symbolicName>ID_HELP         </symbolicName>
+		<text>Display help for current task or command\nHelp</text>
+	</message>
+	<message>
+		<messageID>0xE147</messageID>
+		<symbolicName>ID_DEFAULT_HELP </symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xE150</messageID>
+		<symbolicName>ID_NEXT_PANE</symbolicName>
+		<text>Switch to the next window pane\nNext Pane</text>
+	</message>
+	<message>
+		<messageID>0xE151</messageID>
+		<symbolicName>ID_PREV_PANE</symbolicName>
+		<text>Switch back to the previous window pane\nPrevious Pane</text>
+	</message>
+	<message>
+		<messageID>0xE160</messageID>
+		<symbolicName>ID_FORMAT_FONT</symbolicName>
+		<text>Select font for current selection\nFont</text>
+	</message>
+	<message>
+		<messageID>0xE200</messageID>
+		<symbolicName>ID_OLE_INSERT_NEW       </symbolicName>
+		<text>Insert new embedded object\nNew Object</text>
+	</message>
+	<message>
+		<messageID>0xE201</messageID>
+		<symbolicName>ID_OLE_EDIT_LINKS       </symbolicName>
+		<text>Edit linked objects\nEdit Links</text>
+	</message>
+	<message>
+		<messageID>0xE202</messageID>
+		<symbolicName>ID_OLE_EDIT_CONVERT     </symbolicName>
+		<text>Convert selected object between types\nConvert Object</text>
+	</message>
+	<message>
+		<messageID>0xE203</messageID>
+		<symbolicName>ID_OLE_EDIT_CHANGE_ICON </symbolicName>
+		<text>Change icon of selected object\nChange Icon</text>
+	</message>
+	<message>
+		<messageID>0xE204</messageID>
+		<symbolicName>ID_OLE_EDIT_PROPERTIES  </symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xE210</messageID>
+		<symbolicName>ID_OLE_VERB_FIRST       </symbolicName>
+		<text>Activate embedded or linked object</text>
+	</message>
+	<message>
+		<messageID>0xE21F</messageID>
+		<symbolicName>ID_OLE_VERB_LAST        </symbolicName>
+		<text>Activate embedded or linked object</text>
+	</message>
+	<message>
+		<messageID>0xE230</messageID>
+		<symbolicName>AFX_ID_PREVIEW_CLOSE   </symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xE231</messageID>
+		<symbolicName>AFX_ID_PREVIEW_NUMPAGE </symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xE232</messageID>
+		<symbolicName>AFX_ID_PREVIEW_NEXT    </symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xE233</messageID>
+		<symbolicName>AFX_ID_PREVIEW_PREV    </symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xE234</messageID>
+		<symbolicName>AFX_ID_PREVIEW_PRINT   </symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xE235</messageID>
+		<symbolicName>AFX_ID_PREVIEW_ZOOMIN  </symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xE236</messageID>
+		<symbolicName>AFX_ID_PREVIEW_ZOOMOUT </symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xE700</messageID>
+		<symbolicName>ID_INDICATOR_EXT</symbolicName>
+		<text>EXT</text>
+	</message>
+	<message>
+		<messageID>0xE701</messageID>
+		<symbolicName>ID_INDICATOR_CAPS</symbolicName>
+		<text>CAP</text>
+	</message>
+	<message>
+		<messageID>0xE702</messageID>
+		<symbolicName>ID_INDICATOR_NUM</symbolicName>
+		<text>NUM</text>
+	</message>
+	<message>
+		<messageID>0xE703</messageID>
+		<symbolicName>ID_INDICATOR_SCRL</symbolicName>
+		<text>SCRL</text>
+	</message>
+	<message>
+		<messageID>0xE704</messageID>
+		<symbolicName>ID_INDICATOR_OVR</symbolicName>
+		<text>OVR</text>
+	</message>
+	<message>
+		<messageID>0xE705</messageID>
+		<symbolicName>ID_INDICATOR_REC</symbolicName>
+		<text>REC</text>
+	</message>
+	<message>
+		<messageID>0xE800</messageID>
+		<symbolicName>ID_VIEW_TOOLBAR    </symbolicName>
+		<text>Show or hide the toolbar\nToggle ToolBar</text>
+	</message>
+	<message>
+		<messageID>0xE801</messageID>
+		<symbolicName>ID_VIEW_STATUS_BAR </symbolicName>
+		<text>Show or hide the status bar\nToggle StatusBar</text>
+	</message>
+	<message>
+		<messageID>0xE804</messageID>
+		<symbolicName>ID_VIEW_REBAR      </symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xE805</messageID>
+		<symbolicName>ID_VIEW_AUTOARRANGE</symbolicName>
+		<text>Arrange icons on a grid.</text>
+	</message>
+	<message>
+		<messageID>0xE810</messageID>
+		<symbolicName>ID_VIEW_SMALLICON  </symbolicName>
+		<text>Display items by using small icons.\nSmall Icons</text>
+	</message>
+	<message>
+		<messageID>0xE811</messageID>
+		<symbolicName>ID_VIEW_LARGEICON  </symbolicName>
+		<text>Display items by using large icons.\nLarge Icons</text>
+	</message>
+	<message>
+		<messageID>0xE812</messageID>
+		<symbolicName>ID_VIEW_LIST       </symbolicName>
+		<text>Displays items in a list.\nList</text>
+	</message>
+	<message>
+		<messageID>0xE813</messageID>
+		<symbolicName>ID_VIEW_DETAILS    </symbolicName>
+		<text>Displays detailed information about each item in the window.\nDetails</text>
+	</message>
+	<message>
+		<messageID>0xE814</messageID>
+		<symbolicName>ID_VIEW_LINEUP     </symbolicName>
+		<text>Arranges icons in a grid.</text>
+	</message>
+	<message>
+		<messageID>0xE815</messageID>
+		<symbolicName>ID_VIEW_BYNAME     </symbolicName>
+		<text>Sorts the icons alphabetically.</text>
+	</message>
+	<message>
+		<messageID>0xE900</messageID>
+		<symbolicName>ID_RECORD_FIRST</symbolicName>
+		<text>Move to first record\nFirst Record</text>
+	</message>
+	<message>
+		<messageID>0xE901</messageID>
+		<symbolicName>ID_RECORD_LAST </symbolicName>
+		<text>Move to final record\nLast Record</text>
+	</message>
+	<message>
+		<messageID>0xE902</messageID>
+		<symbolicName>ID_RECORD_NEXT </symbolicName>
+		<text>Move to next record\nNext Record</text>
+	</message>
+	<message>
+		<messageID>0xE903</messageID>
+		<symbolicName>ID_RECORD_PREV </symbolicName>
+		<text>Move to previous record\nPrevious Record</text>
+	</message>
+	<message>
+		<messageID>0xEF00</messageID>
+		<symbolicName>AFX_IDS_SCSIZE      </symbolicName>
+		<text>Change the window size</text>
+	</message>
+	<message>
+		<messageID>0xEF01</messageID>
+		<symbolicName>AFX_IDS_SCMOVE      </symbolicName>
+		<text>Change the window position</text>
+	</message>
+	<message>
+		<messageID>0xEF02</messageID>
+		<symbolicName>AFX_IDS_SCMINIMIZE  </symbolicName>
+		<text>Reduce the window to an icon</text>
+	</message>
+	<message>
+		<messageID>0xEF03</messageID>
+		<symbolicName>AFX_IDS_SCMAXIMIZE  </symbolicName>
+		<text>Enlarge the window to full size</text>
+	</message>
+	<message>
+		<messageID>0xEF04</messageID>
+		<symbolicName>AFX_IDS_SCNEXTWINDOW</symbolicName>
+		<text>Switch to the next document window</text>
+	</message>
+	<message>
+		<messageID>0xEF05</messageID>
+		<symbolicName>AFX_IDS_SCPREVWINDOW</symbolicName>
+		<text>Switch to the previous document window</text>
+	</message>
+	<message>
+		<messageID>0xEF06</messageID>
+		<symbolicName>AFX_IDS_SCCLOSE</symbolicName>
+		<text>Close the active window and prompts to save the documents</text>
+	</message>
+	<message>
+		<messageID>0xEF12</messageID>
+		<symbolicName>AFX_IDS_SCRESTORE  </symbolicName>
+		<text>Restore the window to normal size</text>
+	</message>
+	<message>
+		<messageID>0xEF13</messageID>
+		<symbolicName>AFX_IDS_SCTASKLIST </symbolicName>
+		<text>Activate Task List</text>
+	</message>
+	<message/>
+	<message>
+		<messageID>0xEFDA</messageID>
+		<symbolicName>AFX_IDS_DESKACCESSORY</symbolicName>
+		<text>Open the selected item</text>
+	</message>
+	<message/>
+	<message>
+		<messageID>0xF000</messageID>
+		<symbolicName>AFX_IDS_OPENFILE     </symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF001</messageID>
+		<symbolicName>AFX_IDS_SAVEFILE     </symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF002</messageID>
+		<symbolicName>AFX_IDS_ALLFILTER    </symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF003</messageID>
+		<symbolicName>AFX_IDS_UNTITLED     </symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF004</messageID>
+		<symbolicName>AFX_IDS_SAVEFILECOPY </symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF005</messageID>
+		<symbolicName>AFX_IDS_PREVIEW_CLOSE</symbolicName>
+		<text>Close print preview mode\nCancel Preview</text>
+	</message>
+	<message>
+		<messageID>0xF006</messageID>
+		<symbolicName>AFX_IDS_UNNAMED_FILE </symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF011</messageID>
+		<symbolicName>AFX_IDS_HIDE         </symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF020</messageID>
+		<symbolicName>AFX_IDP_NO_ERROR_AVAILABLE     </symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF021</messageID>
+		<symbolicName>AFX_IDS_NOT_SUPPORTED_EXCEPTION</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF022</messageID>
+		<symbolicName>AFX_IDS_RESOURCE_EXCEPTION     </symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF023</messageID>
+		<symbolicName>AFX_IDS_MEMORY_EXCEPTION       </symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF024</messageID>
+		<symbolicName>AFX_IDS_USER_EXCEPTION         </symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF025</messageID>
+		<symbolicName>AFX_IDS_INVALID_ARG_EXCEPTION  </symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF040</messageID>
+		<symbolicName>AFX_IDS_PRINTONPORT    </symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF041</messageID>
+		<symbolicName>AFX_IDS_ONEPAGE        </symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF042</messageID>
+		<symbolicName>AFX_IDS_TWOPAGE        </symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF043</messageID>
+		<symbolicName>AFX_IDS_PRINTPAGENUM   </symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF044</messageID>
+		<symbolicName>AFX_IDS_PREVIEWPAGEDESC</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF045</messageID>
+		<symbolicName>AFX_IDS_PRINTDEFAULTEXT</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF046</messageID>
+		<symbolicName>AFX_IDS_PRINTDEFAULT   </symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF047</messageID>
+		<symbolicName>AFX_IDS_PRINTFILTER    </symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF048</messageID>
+		<symbolicName>AFX_IDS_PRINTCAPTION   </symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF049</messageID>
+		<symbolicName>AFX_IDS_PRINTTOFILE    </symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF080</messageID>
+		<symbolicName>AFX_IDS_OBJECT_MENUITEM</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF081</messageID>
+		<symbolicName>AFX_IDS_EDIT_VERB</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF082</messageID>
+		<symbolicName>AFX_IDS_ACTIVATE_VERB</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF083</messageID>
+		<symbolicName>AFX_IDS_CHANGE_LINK</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF084</messageID>
+		<symbolicName>AFX_IDS_AUTO</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF085</messageID>
+		<symbolicName>AFX_IDS_MANUAL</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF086</messageID>
+		<symbolicName>AFX_IDS_FROZEN</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF087</messageID>
+		<symbolicName>AFX_IDS_ALL_FILES</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF088</messageID>
+		<symbolicName>AFX_IDS_SAVE_MENU</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF089</messageID>
+		<symbolicName>AFX_IDS_UPDATE_MENU</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF08A</messageID>
+		<symbolicName>AFX_IDS_SAVE_AS_MENU</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF08B</messageID>
+		<symbolicName>AFX_IDS_SAVE_COPY_AS_MENU</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF08C</messageID>
+		<symbolicName>AFX_IDS_EXIT_MENU</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF08D</messageID>
+		<symbolicName>AFX_IDS_UPDATING_ITEMS</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF08E</messageID>
+		<symbolicName>AFX_IDS_METAFILE_FORMAT</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF08F</messageID>
+		<symbolicName>AFX_IDS_DIB_FORMAT</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF090</messageID>
+		<symbolicName>AFX_IDS_BITMAP_FORMAT</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF091</messageID>
+		<symbolicName>AFX_IDS_LINKSOURCE_FORMAT</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF092</messageID>
+		<symbolicName>AFX_IDS_EMBED_FORMAT</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF094</messageID>
+		<symbolicName>AFX_IDS_PASTELINKEDTYPE</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF095</messageID>
+		<symbolicName>AFX_IDS_UNKNOWNTYPE</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF096</messageID>
+		<symbolicName>AFX_IDS_RTF_FORMAT</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF097</messageID>
+		<symbolicName>AFX_IDS_TEXT_FORMAT</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF098</messageID>
+		<symbolicName>AFX_IDS_INVALID_CURRENCY</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF099</messageID>
+		<symbolicName>AFX_IDS_INVALID_DATETIME</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF09A</messageID>
+		<symbolicName>AFX_IDS_INVALID_DATETIMESPAN</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF100</messageID>
+		<symbolicName>AFX_IDP_INVALID_FILENAME</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF101</messageID>
+		<symbolicName>AFX_IDP_FAILED_TO_OPEN_DOC</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF102</messageID>
+		<symbolicName>AFX_IDP_FAILED_TO_SAVE_DOC</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF103</messageID>
+		<symbolicName>AFX_IDP_ASK_TO_SAVE</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF104</messageID>
+		<symbolicName>AFX_IDP_FAILED_TO_CREATE_DOC</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF105</messageID>
+		<symbolicName>AFX_IDP_FILE_TOO_LARGE</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF106</messageID>
+		<symbolicName>AFX_IDP_FAILED_TO_START_PRINT</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF107</messageID>
+		<symbolicName>AFX_IDP_FAILED_TO_LAUNCH_HELP</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF108</messageID>
+		<symbolicName>AFX_IDP_INTERNAL_FAILURE</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF109</messageID>
+		<symbolicName>AFX_IDP_COMMAND_FAILURE</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF10A</messageID>
+		<symbolicName>AFX_IDP_FAILED_MEMORY_ALLOC</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF10B</messageID>
+		<symbolicName>AFX_IDP_UNREG_DONE</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF10C</messageID>
+		<symbolicName>AFX_IDP_UNREG_FAILURE</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF10D</messageID>
+		<symbolicName>AFX_IDP_DLL_LOAD_FAILED</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF10E</messageID>
+		<symbolicName>AFX_IDP_DLL_BAD_VERSION</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF110</messageID>
+		<symbolicName>AFX_IDP_PARSE_INT</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF111</messageID>
+		<symbolicName>AFX_IDP_PARSE_REAL</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF112</messageID>
+		<symbolicName>AFX_IDP_PARSE_INT_RANGE</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF113</messageID>
+		<symbolicName>AFX_IDP_PARSE_REAL_RANGE</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF114</messageID>
+		<symbolicName>AFX_IDP_PARSE_STRING_SIZE</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF115</messageID>
+		<symbolicName>AFX_IDP_PARSE_RADIO_BUTTON</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF116</messageID>
+		<symbolicName>AFX_IDP_PARSE_BYTE</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF117</messageID>
+		<symbolicName>AFX_IDP_PARSE_UINT</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF118</messageID>
+		<symbolicName>AFX_IDP_PARSE_DATETIME</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF119</messageID>
+		<symbolicName>AFX_IDP_PARSE_CURRENCY</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF11A</messageID>
+		<symbolicName>AFX_IDP_PARSE_GUID</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF11B</messageID>
+		<symbolicName>AFX_IDP_PARSE_TIME</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF11C</messageID>
+		<symbolicName>AFX_IDP_PARSE_DATE</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF120</messageID>
+		<symbolicName>AFX_IDP_FAILED_INVALID_FORMAT</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF121</messageID>
+		<symbolicName>AFX_IDP_FAILED_INVALID_PATH</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF122</messageID>
+		<symbolicName>AFX_IDP_FAILED_DISK_FULL</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF123</messageID>
+		<symbolicName>AFX_IDP_FAILED_ACCESS_READ</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF124</messageID>
+		<symbolicName>AFX_IDP_FAILED_ACCESS_WRITE</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF125</messageID>
+		<symbolicName>AFX_IDP_FAILED_IO_ERROR_READ</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF126</messageID>
+		<symbolicName>AFX_IDP_FAILED_IO_ERROR_WRITE</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF130</messageID>
+		<symbolicName>AFX_IDP_SCRIPT_ERROR</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF131</messageID>
+		<symbolicName>AFX_IDP_SCRIPT_DISPATCH_EXCEPTION</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF180</messageID>
+		<symbolicName>AFX_IDP_STATIC_OBJECT</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF181</messageID>
+		<symbolicName>AFX_IDP_FAILED_TO_CONNECT</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF182</messageID>
+		<symbolicName>AFX_IDP_SERVER_BUSY</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF183</messageID>
+		<symbolicName>AFX_IDP_BAD_VERB</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF184</messageID>
+		<symbolicName>AFX_IDS_NOT_DOCOBJECT</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF185</messageID>
+		<symbolicName>AFX_IDP_FAILED_TO_NOTIFY</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF186</messageID>
+		<symbolicName>AFX_IDP_FAILED_TO_LAUNCH</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF187</messageID>
+		<symbolicName>AFX_IDP_ASK_TO_UPDATE</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF188</messageID>
+		<symbolicName>AFX_IDP_FAILED_TO_UPDATE</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF189</messageID>
+		<symbolicName>AFX_IDP_FAILED_TO_REGISTER</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF18A</messageID>
+		<symbolicName>AFX_IDP_FAILED_TO_AUTO_REGISTER</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF18B</messageID>
+		<symbolicName>AFX_IDP_FAILED_TO_CONVERT</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF18C</messageID>
+		<symbolicName>AFX_IDP_GET_NOT_SUPPORTED</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF18D</messageID>
+		<symbolicName>AFX_IDP_SET_NOT_SUPPORTED</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF18E</messageID>
+		<symbolicName>AFX_IDP_ASK_TO_DISCARD</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF18F</messageID>
+		<symbolicName>AFX_IDP_FAILED_TO_CREATE</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF190</messageID>
+		<symbolicName>AFX_IDP_FAILED_MAPI_LOAD</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF191</messageID>
+		<symbolicName>AFX_IDP_INVALID_MAPI_DLL</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF192</messageID>
+		<symbolicName>AFX_IDP_FAILED_MAPI_SEND</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF1A0</messageID>
+		<symbolicName>AFX_IDP_FILE_NONE</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF1A1</messageID>
+		<symbolicName>AFX_IDP_FILE_GENERIC</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF1A2</messageID>
+		<symbolicName>AFX_IDP_FILE_NOT_FOUND</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF1A3</messageID>
+		<symbolicName>AFX_IDP_FILE_BAD_PATH</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF1A4</messageID>
+		<symbolicName>AFX_IDP_FILE_TOO_MANY_OPEN</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF1A5</messageID>
+		<symbolicName>AFX_IDP_FILE_ACCESS_DENIED</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF1A6</messageID>
+		<symbolicName>AFX_IDP_FILE_INVALID_FILE</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF1A7</messageID>
+		<symbolicName>AFX_IDP_FILE_REMOVE_CURRENT</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF1A8</messageID>
+		<symbolicName>AFX_IDP_FILE_DIR_FULL</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF1A9</messageID>
+		<symbolicName>AFX_IDP_FILE_BAD_SEEK</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF1AA</messageID>
+		<symbolicName>AFX_IDP_FILE_HARD_IO</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF1AB</messageID>
+		<symbolicName>AFX_IDP_FILE_SHARING</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF1AC</messageID>
+		<symbolicName>AFX_IDP_FILE_LOCKING</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF1AD</messageID>
+		<symbolicName>AFX_IDP_FILE_DISKFULL</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF1AE</messageID>
+		<symbolicName>AFX_IDP_FILE_EOF</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF1B0</messageID>
+		<symbolicName>AFX_IDP_ARCH_NONE</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF1B1</messageID>
+		<symbolicName>AFX_IDP_ARCH_GENERIC</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF1B2</messageID>
+		<symbolicName>AFX_IDP_ARCH_READONLY</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF1B3</messageID>
+		<symbolicName>AFX_IDP_ARCH_ENDOFFILE</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF1B4</messageID>
+		<symbolicName>AFX_IDP_ARCH_WRITEONLY</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF1B5</messageID>
+		<symbolicName>AFX_IDP_ARCH_BADINDEX</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF1B6</messageID>
+		<symbolicName>AFX_IDP_ARCH_BADCLASS</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF1B7</messageID>
+		<symbolicName>AFX_IDP_ARCH_BADSCHEMA</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF1C0</messageID>
+		<symbolicName>AFX_IDS_OCC_SCALEUNITS_PIXELS</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF230</messageID>
+		<symbolicName>AFX_IDS_STATUS_FONT</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF231</messageID>
+		<symbolicName>AFX_IDS_TOOLTIP_FONT</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF232</messageID>
+		<symbolicName>AFX_IDS_UNICODE_FONT</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF233</messageID>
+		<symbolicName>AFX_IDS_MINI_FONT</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF280</messageID>
+		<symbolicName>AFX_IDP_SQL_FIRST</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF281</messageID>
+		<symbolicName>AFX_IDP_SQL_CONNECT_FAIL</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF282</messageID>
+		<symbolicName>AFX_IDP_SQL_RECORDSET_FORWARD_ONLY</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF283</messageID>
+		<symbolicName>AFX_IDP_SQL_EMPTY_COLUMN_LIST</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF284</messageID>
+		<symbolicName>AFX_IDP_SQL_FIELD_SCHEMA_MISMATCH</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF285</messageID>
+		<symbolicName>AFX_IDP_SQL_ILLEGAL_MODE</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF286</messageID>
+		<symbolicName>AFX_IDP_SQL_MULTIPLE_ROWS_AFFECTED</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF287</messageID>
+		<symbolicName>AFX_IDP_SQL_NO_CURRENT_RECORD</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF288</messageID>
+		<symbolicName>AFX_IDP_SQL_NO_ROWS_AFFECTED</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF289</messageID>
+		<symbolicName>AFX_IDP_SQL_RECORDSET_READONLY</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF28A</messageID>
+		<symbolicName>AFX_IDP_SQL_SQL_NO_TOTAL</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF28B</messageID>
+		<symbolicName>AFX_IDP_SQL_ODBC_LOAD_FAILED</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF28C</messageID>
+		<symbolicName>AFX_IDP_SQL_DYNASET_NOT_SUPPORTED</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF28D</messageID>
+		<symbolicName>AFX_IDP_SQL_SNAPSHOT_NOT_SUPPORTED</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF28E</messageID>
+		<symbolicName>AFX_IDP_SQL_API_CONFORMANCE</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF28F</messageID>
+		<symbolicName>AFX_IDP_SQL_SQL_CONFORMANCE</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF290</messageID>
+		<symbolicName>AFX_IDP_SQL_NO_DATA_FOUND</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF291</messageID>
+		<symbolicName>AFX_IDP_SQL_ROW_UPDATE_NOT_SUPPORTED</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF292</messageID>
+		<symbolicName>AFX_IDP_SQL_ODBC_V2_REQUIRED</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF293</messageID>
+		<symbolicName>AFX_IDP_SQL_NO_POSITIONED_UPDATES</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF294</messageID>
+		<symbolicName>AFX_IDP_SQL_LOCK_MODE_NOT_SUPPORTED</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF295</messageID>
+		<symbolicName>AFX_IDP_SQL_DATA_TRUNCATED</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF296</messageID>
+		<symbolicName>AFX_IDP_SQL_ROW_FETCH</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF297</messageID>
+		<symbolicName>AFX_IDP_SQL_INCORRECT_ODBC</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF298</messageID>
+		<symbolicName>AFX_IDP_SQL_UPDATE_DELETE_FAILED</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF299</messageID>
+		<symbolicName>AFX_IDP_SQL_DYNAMIC_CURSOR_NOT_SUPPORTED</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF29A</messageID>
+		<symbolicName>AFX_IDP_SQL_FIELD_NOT_FOUND</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF29B</messageID>
+		<symbolicName>AFX_IDP_SQL_BOOKMARKS_NOT_SUPPORTED</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF29C</messageID>
+		<symbolicName>AFX_IDP_SQL_BOOKMARKS_NOT_ENABLED</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF29D</messageID>
+		<symbolicName>AFX_IDS_DELETED</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF2B0</messageID>
+		<symbolicName>AFX_IDP_DAO_ENGINE_INITIALIZATION</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF2B1</messageID>
+		<symbolicName>AFX_IDP_DAO_DFX_BIND</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF2B2</messageID>
+		<symbolicName>AFX_IDP_DAO_OBJECT_NOT_OPEN</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF2B3</messageID>
+		<symbolicName>AFX_IDP_DAO_ROWTOOSHORT</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF2B4</messageID>
+		<symbolicName>AFX_IDP_DAO_BADBINDINFO</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF2B5</messageID>
+		<symbolicName>AFX_IDP_DAO_COLUMNUNAVAILABLE</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF2D1</messageID>
+		<symbolicName>AFX_IDS_HTTP_TITLE</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF2D2</messageID>
+		<symbolicName>AFX_IDS_HTTP_NO_TEXT</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF2D3</messageID>
+		<symbolicName>AFX_IDS_HTTP_BAD_REQUEST</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF2D4</messageID>
+		<symbolicName>AFX_IDS_HTTP_AUTH_REQUIRED</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF2D5</messageID>
+		<symbolicName>AFX_IDS_HTTP_FORBIDDEN</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF2D6</messageID>
+		<symbolicName>AFX_IDS_HTTP_NOT_FOUND</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF2D7</messageID>
+		<symbolicName>AFX_IDS_HTTP_SERVER_ERROR</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF2D8</messageID>
+		<symbolicName>AFX_IDS_HTTP_NOT_IMPLEMENTED</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF2E1</messageID>
+		<symbolicName>AFX_IDS_CHECKLISTBOX_UNCHECK</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF2E2</messageID>
+		<symbolicName>AFX_IDS_CHECKLISTBOX_CHECK</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF2E3</messageID>
+		<symbolicName>AFX_IDS_CHECKLISTBOX_MIXED</symbolicName>
+		<text>?</text>
+	</message>
+	<message/>
+	<message>
+		<messageID>0x803F</messageID>
+		<symbolicName>____EVENT_LOG_BEGIN_ID</symbolicName>
+		<text>!!!!!!!!!!!!!!!!!external identifier!!!!!!!!!!!!!!!!!!!!</text>
+	</message>
+	<message>
+		<messageID>0x9800</messageID>
+		<symbolicName>____EVENT_LOG_END_ID</symbolicName>
+		<text>!!!!!!!!!!!!!!!!!external identifier!!!!!!!!!!!!!!!!!!!!</text>
+	</message>
+	<message>
+		<messageID>0xEF1F</messageID>
+		<symbolicName>____EVENT_LOG_BEGIN_ID2</symbolicName>
+		<text>!!!!!!!!!!!!!!!!!external identifier!!!!!!!!!!!!!!!!!!!!</text>
+	</message>
+	<message>
+		<messageID>0xEF30</messageID>
+		<symbolicName>____EVENT_LOG_END_ID2</symbolicName>
+		<text>!!!!!!!!!!!!!!!!!external identifier!!!!!!!!!!!!!!!!!!!!</text>
+	</message>
+	<message>
+		<messageID>0x8040</messageID>
+		<symbolicName>IDEV____BEGIN_____</symbolicName>
+		<text>!!!!!!!!!!!!!!!!! first identifier !!!!!!!!!!!!!!!!!!!!</text>
+	</message>
+	<message>
+		<messageID>0x8048</messageID>
+		<symbolicName>IDSE_APP_BOARD_DETECTED</symbolicName>
+		<text>$I1 Phone adapter %s detected</text>
+	</message>
+	<message>
+		<messageID>0x8049</messageID>
+		<symbolicName>IDSE_APP_LOGON</symbolicName>
+		<text>$I2 Logon of user: %s</text>
+	</message>
+	<message>
+		<messageID>0x804A</messageID>
+		<symbolicName>IDSE_CHN_START</symbolicName>
+		<text>$I1 Recording started</text>
+	</message>
+	<message>
+		<messageID>0x804B</messageID>
+		<symbolicName>IDSE_CHN_STOP</symbolicName>
+		<text>$I1 Recording stopped</text>
+	</message>
+	<message>
+		<messageID>0x804C</messageID>
+		<symbolicName>IDSE_APP_LOGON2</symbolicName>
+		<text>$I2 %s</text>
+	</message>
+	<message>
+		<messageID>0x804D</messageID>
+		<symbolicName>IDSE_APP_LOGOFF</symbolicName>
+		<text>$I2 Logged off</text>
+	</message>
+	<message>
+		<messageID>0x804E</messageID>
+		<symbolicName>IDSE_CHN_CHANGE_PROPERTIES</symbolicName>
+		<text>$I1 Channel properties were changed</text>
+	</message>
+	<message>
+		<messageID>0x804F</messageID>
+		<symbolicName>IDSE_APP_CHANGE_PROPERTIES</symbolicName>
+		<text>$I1 Application properties were changed</text>
+	</message>
+	<message>
+		<messageID>0x8050</messageID>
+		<symbolicName>IDSE_APP_USER_CHANGE_RIGHTS</symbolicName>
+		<text>$I2 User rights were changed</text>
+	</message>
+	<message>
+		<messageID>0x8051</messageID>
+		<symbolicName>IDSE_APP_USER_ADDED</symbolicName>
+		<text>$I2 User account was added</text>
+	</message>
+	<message>
+		<messageID>0x8052</messageID>
+		<symbolicName>IDSE_APP_USER_PASSWORD_CHANGED</symbolicName>
+		<text>$I2 User password was changed</text>
+	</message>
+	<message>
+		<messageID>0x8053</messageID>
+		<symbolicName>IDSE_APP_USER_REMOVED</symbolicName>
+		<text>$I2 User was removed</text>
+	</message>
+	<message>
+		<messageID>0x8054</messageID>
+		<symbolicName>IDSE_APP_FREE_SPACE</symbolicName>
+		<text>$I6 %ld MB free on operational disk</text>
+	</message>
+	<message>
+		<messageID>0x8055</messageID>
+		<symbolicName>IDSE_APP_PURGE_SPACE</symbolicName>
+		<text>$I3 Old files were removed</text>
+	</message>
+	<message>
+		<messageID>0x8056</messageID>
+		<symbolicName>IDSE_APP_PURGE_ERROR</symbolicName>
+		<text>$E0 ERROR: operational disk cannot be purged!</text>
+	</message>
+	<message>
+		<messageID>0x8057</messageID>
+		<symbolicName>IDSE_APP_PURGE_DIRECTORY</symbolicName>
+		<text>$I6 Clear directory %s.SRS</text>
+	</message>
+	<message>
+		<messageID>0x8058</messageID>
+		<symbolicName>IDSE_APP_PURGE_INFO</symbolicName>
+		<text>$I3 %lu files deleted. %lu bytes purged.</text>
+	</message>
+	<message>
+		<messageID>0x8059</messageID>
+		<symbolicName>IDSE_APP_PURGE_FILE_ERROR</symbolicName>
+		<text>$E1 ERROR: file %s cannot be deleted!</text>
+	</message>
+	<message>
+		<messageID>0x805A</messageID>
+		<symbolicName>IDSE_APP_PURGE_DIR_ERROR</symbolicName>
+		<text>$E1 ERROR: directory %s cannot be deleted!</text>
+	</message>
+	<message>
+		<messageID>0x805B</messageID>
+		<symbolicName>IDSE_APP_ADD_CHANNEL</symbolicName>
+		<text>$I1 Channels were added</text>
+	</message>
+	<message>
+		<messageID>0x805C</messageID>
+		<symbolicName>IDSE_APP_DELETE_CHANNEL</symbolicName>
+		<text>$I1 Channels were deleted</text>
+	</message>
+	<message>
+		<messageID>0x805D</messageID>
+		<symbolicName>IDSE_APP_PROPERTY_CHANNEL</symbolicName>
+		<text>$I1 Channels were reconfigured</text>
+	</message>
+	<message>
+		<messageID>0x805E</messageID>
+		<symbolicName>IDSE_APP_WATCHDOG_DETECTED</symbolicName>
+		<text>$I4 Watchdog device initialized %s</text>
+	</message>
+	<message>
+		<messageID>0x805F</messageID>
+		<symbolicName>IDSE_APP_PHONE_UNEXPECTED_COMMAND</symbolicName>
+		<text>$I4 Unexpected command on phone adapter %s</text>
+	</message>
+	<message>
+		<messageID>0x8060</messageID>
+		<symbolicName>IDSE_APP_PHONE_UNRECOGNIZED_COMMAND</symbolicName>
+		<text>$E4 Unrecognized command on phone adapter %s</text>
+	</message>
+	<message>
+		<messageID>0x8061</messageID>
+		<symbolicName>IDSE_APP_PHONE_UNRECOGNIZED_COMMAND2</symbolicName>
+		<text>$E4   unrecognized %lu commands of %lu total</text>
+	</message>
+	<message>
+		<messageID>0x8062</messageID>
+		<symbolicName>IDSE_APP_PHONE_REJECT</symbolicName>
+		<text>$I6 Skipped query cycle on phone adapter %s</text>
+	</message>
+	<message>
+		<messageID>0x8063</messageID>
+		<symbolicName>IDSE_APP_PHONE_REJECT2</symbolicName>
+		<text>$I6   %lu cycles skipped total</text>
+	</message>
+	<message>
+		<messageID>0x8064</messageID>
+		<symbolicName>IDSE_APP_CPU_OVERLOADED</symbolicName>
+		<text>$W0 CPU loading is %lu%%</text>
+	</message>
+	<message>
+		<messageID>0x8065</messageID>
+		<symbolicName>IDSE_APP_PHONE_LOST_QUERIES</symbolicName>
+		<text>$I6   %lu%% queries lost</text>
+	</message>
+	<message>
+		<messageID>0x8066</messageID>
+		<symbolicName>IDSE_APP_VERSION</symbolicName>
+		<text>$I1 Version: %s</text>
+	</message>
+	<message>
+		<messageID>0x8067</messageID>
+		<symbolicName>IDSE_APP_SERIAL_NUMBER</symbolicName>
+		<text>$I2 Serial number: %s</text>
+	</message>
+	<message>
+		<messageID>0x8068</messageID>
+		<symbolicName>IDSE_APP_CHANGE_ENVIRONMENT</symbolicName>
+		<text>$I1 Computer configuration has been changed</text>
+	</message>
+	<message>
+		<messageID>0x8069</messageID>
+		<symbolicName>IDSE_APP_ANY_STRING</symbolicName>
+		<text>$I1 %s</text>
+	</message>
+	<message>
+		<messageID>0x806A</messageID>
+		<symbolicName>IDSE_APP_ANY_STRING_AS_WARNING</symbolicName>
+		<text>$W1 %s</text>
+	</message>
+	<message>
+		<messageID>0x8084</messageID>
+		<symbolicName>IDSE_CHN_AON_DETECT</symbolicName>
+		<text>$I7 Incoming phone number detecting %B</text>
+	</message>
+	<message>
+		<messageID>0x8085</messageID>
+		<symbolicName>IDSE_CHN_AON_DETECT2</symbolicName>
+		<text>$I7 Incoming phone number detecting (2) %B</text>
+	</message>
+	<message>
+		<messageID>0x8086</messageID>
+		<symbolicName>IDSE_CHN_AON_DETECT_END</symbolicName>
+		<text>$I4 Incoming phone number detected %B</text>
+	</message>
+	<message>
+		<messageID>0x8087</messageID>
+		<symbolicName>IDSE_CHN_AON_DETECT_END2</symbolicName>
+		<text>$I4 Incoming phone number detected (2) %B</text>
+	</message>
+	<message>
+		<messageID>0x8088</messageID>
+		<symbolicName>IDSE_CHN_AON_DETECT_FAILURE</symbolicName>
+		<text>$I6 Incoming phone number detection failure</text>
+	</message>
+	<message>
+		<messageID>0x8089</messageID>
+		<symbolicName>IDSE_CHN_AON_DETECT_FAILURE2</symbolicName>
+		<text>$I6 Incoming phone number detection failure (2)</text>
+	</message>
+	<message>
+		<messageID>0x808A</messageID>
+		<symbolicName>IDSE_CHN_AON_DETECT_START</symbolicName>
+		<text>$I7 Phone number detection...</text>
+	</message>
+	<message>
+		<messageID>0x808B</messageID>
+		<symbolicName>IDSE_CHN_AON_DETECT_START2</symbolicName>
+		<text>$I7 Incoming phone number detection (2)...</text>
+	</message>
+	<message>
+		<messageID>0x808C</messageID>
+		<symbolicName>IDSE_CHN_ERROR</symbolicName>
+		<text>$E0 ERROR: Channel failure!</text>
+	</message>
+	<message>
+		<messageID>0x808D</messageID>
+		<symbolicName>IDSE_CHN_NO_ERROR</symbolicName>
+		<text>$W0 Channel functions properly</text>
+	</message>
+	<message>
+		<messageID>0x808E</messageID>
+		<symbolicName>IDSE_LOGRECREATE</symbolicName>
+		<text>$E0 Event log error. Dumping was performed. Event log was renewed.</text>
+	</message>
+	<message>
+		<messageID>0x808F</messageID>
+		<symbolicName>IDSE_CHN_DTMF_DETECT</symbolicName>
+		<text>$I7 Outcoming phone number detection %B</text>
+	</message>
+	<message>
+		<messageID>0x8090</messageID>
+		<symbolicName>IDSE_CHN_DTMF_DETECT_END</symbolicName>
+		<text>$I4 Outcoming phone number detected %B</text>
+	</message>
+	<message>
+		<messageID>0x8091</messageID>
+		<symbolicName>IDSE_CHN_DTMF_DETECT_FAILURE</symbolicName>
+		<text>$I6 Outcoming phone number detection failure</text>
+	</message>
+	<message>
+		<messageID>0x8092</messageID>
+		<symbolicName>IDSE_CHN_PULSE_DETECT</symbolicName>
+		<text>$I6 Outcoming phone number detection %B (Dial Pulsing)</text>
+	</message>
+	<message>
+		<messageID>0x8093</messageID>
+		<symbolicName>IDSE_CHN_PULSE_DETECT_END</symbolicName>
+		<text>$I4 Outcoming phone number detected %B (Dial Pulsing)</text>
+	</message>
+	<message>
+		<messageID>0x8094</messageID>
+		<symbolicName>IDSE_CHN_PULSE_FAILURE</symbolicName>
+		<text>$I6 Outcoming phone number detection failure (Dial Pulsing)</text>
+	</message>
+	<message>
+		<messageID>0x8095</messageID>
+		<symbolicName>IDSE_APP_VOX_DETECT_START</symbolicName>
+		<text>$I1 Voice activation enabled %s</text>
+	</message>
+	<message>
+		<messageID>0x8096</messageID>
+		<symbolicName>IDSE_APP_VOX_DETECT_STOP</symbolicName>
+		<text>$I1 Voice activation disabled</text>
+	</message>
+	<message>
+		<messageID>0x8097</messageID>
+		<symbolicName>IDSE_APP_THREAD</symbolicName>
+		<text>$I7 Thread %8.8X %Z.\nstarted\nterminated\naborted</text>
+	</message>
+	<message>
+		<messageID>0x8098</messageID>
+		<symbolicName>IDSE_APP_THREAD_CONVERSION</symbolicName>
+		<text>$I7 Conversion thread %8.8X %Z.\nstarted\nterminated\naborted</text>
+	</message>
+	<message>
+		<messageID>0x8099</messageID>
+		<symbolicName>IDSE_CHN_THREAD_CHANNEL</symbolicName>
+		<text>$I7 Channel thread %8.8X %Z.\nstarted\nterminated\naborted</text>
+	</message>
+	<message>
+		<messageID>0x809A</messageID>
+		<symbolicName>IDSE_APP_THREAD_LINE</symbolicName>
+		<text>$I7 Line thread %8.8X %Z.\nstarted\nterminated\naborted</text>
+	</message>
+	<message>
+		<messageID>0x809B</messageID>
+		<symbolicName>IDSE_APP_THREAD_MAIN</symbolicName>
+		<text>$I7 Main thread %8.8X %Z.\nstarted\nterminated\naborted</text>
+	</message>
+	<message>
+		<messageID>0x809C</messageID>
+		<symbolicName>IDSE_APP_THREAD_DEVICE</symbolicName>
+		<text>$I7 Device thread %8.8X %Z.\nstarted\nterminating...\naborted</text>
+	</message>
+	<message>
+		<messageID>0x809D</messageID>
+		<symbolicName>IDSE_APP_THREAD_TIMER</symbolicName>
+		<text>$I7 Timer thread %8.8X %Z.\nstarted\nterminating...\naborted</text>
+	</message>
+	<message>
+		<messageID>0x809E</messageID>
+		<symbolicName>IDSE_APP_NSP_INIT_FAILURE</symbolicName>
+		<text>$I7 The NSP library is not found</text>
+	</message>
+	<message>
+		<messageID>0x809F</messageID>
+		<symbolicName>IDSE_APP_NSP_INIT_DONE</symbolicName>
+		<text>$I7 The NSP library is loaded</text>
+	</message>
+	<message>
+		<messageID>0x80A0</messageID>
+		<symbolicName>IDSE_APP_THREAD_HOOK</symbolicName>
+		<text>$I7 Hook thread %8.8X %Z.\nstarted\nterminating...\naborted</text>
+	</message>
+	<message>
+		<messageID>0x80A1</messageID>
+		<symbolicName>IDSE_APP_THREAD_ABORT</symbolicName>
+		<text>$W1 Thread %8.8X aborted.</text>
+	</message>
+	<message>
+		<messageID>0x80A2</messageID>
+		<symbolicName>IDSE_CHN_MUST_SENT_COMMAND</symbolicName>
+		<text>$W2 After %d retries to this channel must be sent command %Z.\nSTART\nSTOP</text>
+	</message>
+	<message>
+		<messageID>0x80A3</messageID>
+		<symbolicName>IDSE_APP_LINE_STATUS_CHANGED</symbolicName>
+		<text>$I7 Lines status changed: %Y (%.0dcurrent=%8.8X).</text>
+	</message>
+	<message>
+		<messageID>0x80A4</messageID>
+		<symbolicName>IDSE_CHN_ATTACHED_TO_LINE</symbolicName>
+		<text>$I6 Channel %.0d attached to line %d</text>
+	</message>
+	<message>
+		<messageID>0x80A5</messageID>
+		<symbolicName>IDSE_APP_ACM_INIT_DONE</symbolicName>
+		<text>$I7 ACM loaded</text>
+	</message>
+	<message>
+		<messageID>0x80A6</messageID>
+		<symbolicName>IDSE_APP_LINE_ATTACHNMENT_CHANGED</symbolicName>
+		<text>$I4 Lines attachment changed: %Y (%.0dcurrent=%8.8X).</text>
+	</message>
+	<message>
+		<messageID>0x80A7</messageID>
+		<symbolicName>IDSE_CHN_RENAME_RECORD_ERROR</symbolicName>
+		<text>$E1 ERROR: record %B cannot be renamed</text>
+	</message>
+	<message>
+		<messageID>0x80A8</messageID>
+		<symbolicName>IDSE_CHN_OS_ERROR</symbolicName>
+		<text>$E1 ERROR : OS code = %d</text>
+	</message>
+	<message>
+		<messageID>0x80A9</messageID>
+		<symbolicName>IDSE_CHN_WAVE_ERROR</symbolicName>
+		<text>$E0 ERROR: %Z\nThere's no signal!\nLong silence</text>
+	</message>
+	<message>
+		<messageID>0x80AA</messageID>
+		<symbolicName>IDSE_CHN_WAVE_NO_ERROR</symbolicName>
+		<text>$W0 %Z\nSignal detected\nSilence broken\nOverload of sound track</text>
+	</message>
+	<message>
+		<messageID>0x9000</messageID>
+		<symbolicName>IDEV____COMMANDS____</symbolicName>
+		<text>!!!!!!!!!!!!!!!!! commands start identifier !!!!!!!!!!!!!!!!!!!!</text>
+	</message>
+	<message>
+		<messageID>0x9001</messageID>
+		<symbolicName>IDSQ_TIME</symbolicName>
+		<text>IDSQ_TIME</text>
+	</message>
+	<message>
+		<messageID>0x9002</messageID>
+		<symbolicName>IDSA_TIME</symbolicName>
+		<text>IDSA_TIME: %ld milliseconds lost</text>
+	</message>
+	<message>
+		<messageID>0x9003</messageID>
+		<symbolicName>IDSQ_CHN_STATE</symbolicName>
+		<text>IDSQ_CHN_STATE</text>
+	</message>
+	<message>
+		<messageID>0x9004</messageID>
+		<symbolicName>IDSA_CHN_STATE</symbolicName>
+		<text>IDSA_CHN_STATE: %ld state</text>
+	</message>
+	<message>
+		<messageID>0x9005</messageID>
+		<symbolicName>IDSQ_CHN_CHANGE_STATE</symbolicName>
+		<text>IDSQ_CHN_CHANGE_STATE</text>
+	</message>
+	<message>
+		<messageID>0x9006</messageID>
+		<symbolicName>IDSA_CHN_CHANGE_STATE</symbolicName>
+		<text>IDSA_CHN_CHANGE_STATE: %lu new state, %lu old state</text>
+	</message>
+	<message>
+		<messageID>0x9007</messageID>
+		<symbolicName>IDSQ_ATTACH_EVENTS_LOG</symbolicName>
+		<text>IDSQ_ATTACH_EVENTS_LOG</text>
+	</message>
+	<message>
+		<messageID>0x9008</messageID>
+		<symbolicName>IDSA_ATTACH_EVENTS_LOG</symbolicName>
+		<text>IDSA_ATTACH_EVENTS_LOG</text>
+	</message>
+	<message>
+		<messageID>0x9009</messageID>
+		<symbolicName>IDSQ_DETACH_EVENTS_LOG</symbolicName>
+		<text>IDSQ_DETACH_EVENTS_LOG</text>
+	</message>
+	<message>
+		<messageID>0x900A</messageID>
+		<symbolicName>IDSA_DETACH_EVENTS_LOG</symbolicName>
+		<text>IDSA_DETACH_EVENTS_LOG</text>
+	</message>
+	<message>
+		<messageID>0x900B</messageID>
+		<symbolicName>IDSQ_INFO</symbolicName>
+		<text>IDSQ_INFO</text>
+	</message>
+	<message>
+		<messageID>0x900C</messageID>
+		<symbolicName>IDSA_INFO</symbolicName>
+		<text>IDSA_INFO</text>
+	</message>
+	<message>
+		<messageID>0x900D</messageID>
+		<symbolicName>IDSQ_CHN_FILESIZE</symbolicName>
+		<text>IDSQ_CHN_FILESIZE</text>
+	</message>
+	<message>
+		<messageID>0x900E</messageID>
+		<symbolicName>IDSA_CHN_FILESIZE</symbolicName>
+		<text>IDSA_CHN_FILESIZE</text>
+	</message>
+	<message>
+		<messageID>0x97FF</messageID>
+		<symbolicName>IDEV____END____</symbolicName>
+		<text>!!!!!!!!!!!!!!!!! last identifier !!!!!!!!!!!!!!!!!!!!</text>
+	</message>
+	<message>
+		<messageID>0xEF20</messageID>
+		<symbolicName>IDEV____BEGIN_____2</symbolicName>
+		<text>!!!!!!!!!!!!!!!!! first identifier !!!!!!!!!!!!!!!!!!!!</text>
+	</message>
+	<message>
+		<messageID>0xEF27</messageID>
+		<symbolicName>IDEV_APPSTART</symbolicName>
+		<text>$I0 Application started</text>
+	</message>
+	<message>
+		<messageID>0xEF28</messageID>
+		<symbolicName>IDEV_APPSTOP</symbolicName>
+		<text>$I0 Application terminated</text>
+	</message>
+	<message>
+		<messageID>0xEF2F</messageID>
+		<symbolicName>IDEV____END____2</symbolicName>
+		<text>!!!!!!!!!!!!!!!!! last identifier !!!!!!!!!!!!!!!!!!!!</text>
+	</message>
+	<message/>
+	<message>
+		<messageID>0x0FDF</messageID>
+		<symbolicName>IDS_PASSWORD_DIALOG</symbolicName>
+		<text>Enter credentials:</text>
+	</message>
+	<message>
+		<messageID>0x0FE0</messageID>
+		<symbolicName>IDS_CURRENT_USER</symbolicName>
+		<text>Current user:</text>
+	</message>
+	<message>
+		<messageID>0x0FE1</messageID>
+		<symbolicName>IDS_DOMAIN</symbolicName>
+		<text>Domain:</text>
+	</message>
+	<message>
+		<messageID>0x0FE2</messageID>
+		<symbolicName>IDS_USER</symbolicName>
+		<text>User:</text>
+	</message>
+	<message>
+		<messageID>0x0FE3</messageID>
+		<symbolicName>IDS_PASSWORD</symbolicName>
+		<text>Password:</text>
+	</message>
+	<message>
+		<messageID>0x0FE4</messageID>
+		<symbolicName>IDS_PASSWORD_RETYPE</symbolicName>
+		<text>Confirm password:</text>
+	</message>
+	<message>
+		<messageID>0x0FE5</messageID>
+		<symbolicName>IDS_PASSWORD_IGNORE</symbolicName>
+		<text>Ignore password checking</text>
+	</message>
+	<message>
+		<messageID>0x0FE6</messageID>
+		<symbolicName>IDS_PASSWORD_IS_BAD</symbolicName>
+		<text>The password is not recognized by the system. Enter the correct password!</text>
+	</message>
+	<message>
+		<messageID>0x0FE7</messageID>
+		<symbolicName>IDS_ALL</symbolicName>
+		<text>All</text>
+	</message>
+	<message/>
+	<message>
+		<messageID>0xD900</messageID>
+		<symbolicName>IDD_MULTIMEDIA_EXPORT</symbolicName>
+		<text>Export</text>
+	</message>
+	<message>
+		<messageID>0xD9C5</messageID>
+		<symbolicName>IDC_STATIC_SOURCE_DATA</symbolicName>
+		<text>Source data</text>
+	</message>
+	<message>
+		<messageID>0xD9A2</messageID>
+		<symbolicName>IDC_CHECK_ALL_RECORD</symbolicName>
+		<text>all</text>
+	</message>
+	<message>
+		<messageID>0xD929</messageID>
+		<symbolicName>IDC_DATETIMEPICKER_START</symbolicName>
+		<text>DateTimePicker2</text>
+	</message>
+	<message>
+		<messageID>0xD92B</messageID>
+		<symbolicName>IDC_DATETIMEPICKER_STOP</symbolicName>
+		<text>DateTimePicker2</text>
+	</message>
+	<message>
+		<messageID>0xD9C6</messageID>
+		<symbolicName>IDC_STATIC_PERIOD</symbolicName>
+		<text>Interval:</text>
+	</message>
+	<message>
+		<messageID>0xD9C7</messageID>
+		<symbolicName>IDC_STATIC_BEG</symbolicName>
+		<text>start:</text>
+	</message>
+	<message>
+		<messageID>0xD9B2</messageID>
+		<symbolicName>IDC_CHECK_SELECTED_RECORD</symbolicName>
+		<text>selection</text>
+	</message>
+	<message>
+		<messageID>0xD9A4</messageID>
+		<symbolicName>IDC_CHECK_ALL_AUDIO</symbolicName>
+		<text>all</text>
+	</message>
+	<message>
+		<messageID>0xD9A3</messageID>
+		<symbolicName>IDC_COMBO_AUDIO_MIC</symbolicName>
+		<text/>
+	</message>
+	<message>
+		<messageID>0xD9C9</messageID>
+		<symbolicName>IDC_STATIC_MICROPHONE</symbolicName>
+		<text>Microphone:</text>
+	</message>
+	<message>
+		<messageID>0xD9A6</messageID>
+		<symbolicName>IDC_CHECK_ALL_VIDEO</symbolicName>
+		<text>all</text>
+	</message>
+	<message>
+		<messageID>0xD9A5</messageID>
+		<symbolicName>IDC_COMBO_VIDEO_CAM</symbolicName>
+		<text/>
+	</message>
+	<message>
+		<messageID>0xD9CA</messageID>
+		<symbolicName>IDC_STATIC_CAMERA</symbolicName>
+		<text>Camera:</text>
+	</message>
+	<message>
+		<messageID>0xD9CB</messageID>
+		<symbolicName>IDC_STATIC_AUDIO</symbolicName>
+		<text>Audio</text>
+	</message>
+	<message>
+		<messageID>0xD9A8</messageID>
+		<symbolicName>IDC_CHECK_SAME_AUDIO</symbolicName>
+		<text>original</text>
+	</message>
+	<message>
+		<messageID>0xD9A7</messageID>
+		<symbolicName>IDC_COMBO_AUDIO_CODEC</symbolicName>
+		<text>mp3\naac\nadpcm_ima_wav\npcm_s16le</text>
+	</message>
+	<message>
+		<messageID>0xD9BE</messageID>
+		<symbolicName>IDC_STATIC_ACODEC</symbolicName>
+		<text>Codec:</text>
+	</message>
+	<message>
+		<messageID>0xD9B6</messageID>
+		<symbolicName>IDC_MIN_AUD</symbolicName>
+		<text>minimal</text>
+	</message>
+	<message>
+		<messageID>0xD9B7</messageID>
+		<symbolicName>IDC_MAX_AUD</symbolicName>
+		<text>maximal</text>
+	</message>
+	<message>
+		<messageID>0xD9A9</messageID>
+		<symbolicName>IDC_SLIDER_COMPRESSION_AUDIO</symbolicName>
+		<text>Slider1</text>
+	</message>
+	<message>
+		<messageID>0xD9B5</messageID>
+		<symbolicName>IDC_AUDIO_COMPRESS_COMBO</symbolicName>
+		<text>Minimal\nMiddle\nMaximal</text>
+	</message>
+	<message>
+		<messageID>0xD912</messageID>
+		<symbolicName>IDC_EDIT_COMPRESSION_AUDIO</symbolicName>
+		<text/>
+	</message>
+	<message>
+		<messageID>0xD9CE</messageID>
+		<symbolicName>IDC_STATIC_ACOMPRESS</symbolicName>
+		<text>The degree of compression:</text>
+	</message>
+	<message>
+		<messageID>0xD9AA</messageID>
+		<symbolicName>IDC_EDIT_AUDIO_FORMAT</symbolicName>
+		<text/>
+	</message>
+	<message>
+		<messageID>0xD9D0</messageID>
+		<symbolicName>IDC_STATIC_AFORMAT</symbolicName>
+		<text>Format:</text>
+	</message>
+	<message>
+		<messageID>0xD9C2</messageID>
+		<symbolicName>IDC_USE_PLAYBACK_SETTINGS</symbolicName>
+		<text>Use playback options</text>
+	</message>
+	<message>
+		<messageID>0xD9CC</messageID>
+		<symbolicName>IDC_STATIC_VIDEO</symbolicName>
+		<text>Video</text>
+	</message>
+	<message>
+		<messageID>0xD9AE</messageID>
+		<symbolicName>IDC_CHECK_SAME_VIDEO</symbolicName>
+		<text>original</text>
+	</message>
+	<message>
+		<messageID>0xD9AD</messageID>
+		<symbolicName>IDC_COMBO_VIDEO_CODEC</symbolicName>
+		<text>MPEG-2</text>
+	</message>
+	<message>
+		<messageID>0xD9BF</messageID>
+		<symbolicName>IDC_STATIC_VCODEC</symbolicName>
+		<text>Codec:</text>
+	</message>
+	<message>
+		<messageID>0xD9B3</messageID>
+		<symbolicName>IDC_COMBO_VIDEO_CROP</symbolicName>
+		<text>original\nup left quarter\nup right quarter\ndown left quarter\ndown right quarter</text>
+	</message>
+	<message>
+		<messageID>0xD9BC</messageID>
+		<symbolicName>IDC_STATIC_WINDOW</symbolicName>
+		<text>Window:</text>
+	</message>
+	<message>
+		<messageID>0xD9B1</messageID>
+		<symbolicName>IDC_COMBO_VIDEO_RESOLUTION</symbolicName>
+		<text>original\nnormal\neconomical\n128x96\n176x144\n320x240</text>
+	</message>
+	<message>
+		<messageID>0xD9BD</messageID>
+		<symbolicName>IDC_STATIC_QUALITY</symbolicName>
+		<text>Quality:</text>
+	</message>
+	<message>
+		<messageID>0xD9BA</messageID>
+		<symbolicName>IDC_MIN_VID</symbolicName>
+		<text>minimal</text>
+	</message>
+	<message>
+		<messageID>0xD9BB</messageID>
+		<symbolicName>IDC_MAX_VID</symbolicName>
+		<text>maximal</text>
+	</message>
+	<message>
+		<messageID>0xD9AF</messageID>
+		<symbolicName>IDC_SLIDER_COMPRESSION_VIDEO</symbolicName>
+		<text>Slider1</text>
+	</message>
+	<message>
+		<messageID>0xD9B8</messageID>
+		<symbolicName>IDC_VIDEO_COMPRESS_COMBO</symbolicName>
+		<text>Minimal\nMiddle\nMaximal</text>
+	</message>
+	<message>
+		<messageID>0xD911</messageID>
+		<symbolicName>IDC_EDIT_COMPRESSION_VIDEO</symbolicName>
+		<text/>
+	</message>
+	<message>
+		<messageID>0xD9CF</messageID>
+		<symbolicName>IDC_STATIC_VCOMPRESS</symbolicName>
+		<text>The degree of compression:</text>
+	</message>
+	<message>
+		<messageID>0xD9B0</messageID>
+		<symbolicName>IDC_EDIT_VIDEO_FORMAT</symbolicName>
+		<text/>
+	</message>
+	<message>
+		<messageID>0xD9D1</messageID>
+		<symbolicName>IDC_STATIC_VFORMAT</symbolicName>
+		<text>Format:</text>
+	</message>
+	<message>
+		<messageID>0xD9CD</messageID>
+		<symbolicName>IDC_STATIC_TEXT</symbolicName>
+		<text>Text</text>
+	</message>
+	<message>
+		<messageID>0xD9B4</messageID>
+		<symbolicName>IDC_COMBO_TEXT_CODEC</symbolicName>
+		<text/>
+	</message>
+	<message>
+		<messageID>0xD9D2</messageID>
+		<symbolicName>IDC_STATIC_TEXT_TYPE</symbolicName>
+		<text>Type:</text>
+	</message>
+	<message>
+		<messageID>0xD9C4</messageID>
+		<symbolicName>IDC_EXPORT_TEXT</symbolicName>
+		<text>Text export</text>
+	</message>
+	<message>
+		<messageID>0xD9D3</messageID>
+		<symbolicName>IDC_STATIC_RESULT</symbolicName>
+		<text>Result</text>
+	</message>
+	<message>
+		<messageID>0xD9AB</messageID>
+		<symbolicName>IDC_COMBO_CONTAINER</symbolicName>
+		<text>AVI\nFLV\nSWF\nMOV\nVOB\nMP4\nWAV\nMP3\nM4A</text>
+	</message>
+	<message>
+		<messageID>0xD9D4</messageID>
+		<symbolicName>IDC_STATIC_FILE_TYPE</symbolicName>
+		<text>File type:</text>
+	</message>
+	<message>
+		<messageID>0xD9AC</messageID>
+		<symbolicName>IDC_EDIT_FILE_PATH</symbolicName>
+		<text/>
+	</message>
+	<message>
+		<messageID>0xD9D5</messageID>
+		<symbolicName>IDC_STATIC_FILE</symbolicName>
+		<text>File:</text>
+	</message>
+	<message>
+		<messageID>0xD9A1</messageID>
+		<symbolicName>IDC_BUTTON_BROWSE_FILE</symbolicName>
+		<text>...</text>
+	</message>
+	<message>
+		<messageID>0xD9C0</messageID>
+		<symbolicName>IDC_STATIC_SIZELB</symbolicName>
+		<text>Size, MB: </text>
+	</message>
+	<message>
+		<messageID>0xD9C1</messageID>
+		<symbolicName>IDC_STATIC_OUTSIZE</symbolicName>
+		<text>0</text>
+	</message>
+	<message>
+		<messageID>0xD9C3</messageID>
+		<symbolicName>IDC_SINGLE_FILE</symbolicName>
+		<text>Single file</text>
+	</message>
+	<message>
+		<messageID>0xD901</messageID>
+		<symbolicName>IDC_SAVE_XML</symbolicName>
+		<text>-&gt;XML...</text>
+	</message>
+	<message>
+		<messageID>0xD914</messageID>
+		<symbolicName>IDC_BUTTON_PLAY</symbolicName>
+		<text>&gt;</text>
+	</message>
+	<message>
+		<messageID>0xD9B9</messageID>
+		<symbolicName>IDC_ADVANCED_MODE</symbolicName>
+		<text>Expert</text>
+	</message>
+</messages>

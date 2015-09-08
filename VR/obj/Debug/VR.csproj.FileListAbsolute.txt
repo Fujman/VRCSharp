@@ -20,4 +20,7 @@ C:\Users\Narek\Desktop\vr1\VRC-\VR\obj\Debug\VR.exe
 C:\Users\Narek\Desktop\vr1\VRC-\VR\obj\Debug\VR.pdb
 C:\Users\Narek\Desktop\vr1\VRC-\VR\bin\Debug\VR.exe
 C:\Users\Narek\Desktop\vr1\VRC-\VR\bin\Debug\VR.pdb
+C:\Users\Narek\Desktop\vr1\VRC-\VR\obj\Debug\VR.Properties.Resources.resources
+C:\Users\Narek\Desktop\vr1\VRC-\VR\obj\Debug\VR.csproj.GenerateResource.Cache
+C:\Users\Narek\Desktop\vr1\VRC-\VR\obj\Debug\VR.messages_en.resources
 C:\Users\Narek\Desktop\vr1\VRC-\VR\obj\Debug\VR.csprojResolveAssemblyReference.cache
