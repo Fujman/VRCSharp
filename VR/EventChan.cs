@@ -77,9 +77,51 @@ namespace VR
             if (messageText.Contains("%.0d"))
             {
                 var m_dwData1_1 = m_dwData1 & 0xFFFF;
-                var put = m_dwData1_1;
+                var put = m_dwData1_1+1;
                 messageText = messageText.Replace("%.0d", put.ToString());
             }
+
+            //IN PROGRESS
+
+            if (messageText.Contains("%Z"))
+            {
+                var m_dwData1_2 = m_dwData1 >> 16; // taking last 2 bytes
+              
+                Int16 nCase = (Int16)m_dwData1_2;
+                var nData = m_dwData1 & 0xFFFF;
+
+                string szCase="";
+                int iEnd = 0;
+                for (int i = 0; i < messageText.Length; ++i)
+                {
+                    char asd = messageText[i];
+                    if (messageText[i] == '\\' && i<messageText.Length-1 && messageText[i+1]=='n')
+                    {
+                        if (iEnd == (int)nCase)
+                        {
+                            szCase = messageText.Substring(i+2);
+                            break;
+                        }
+                        ++iEnd;
+                    }
+                }
+
+                if (szCase.Length>0)
+                {
+                    int iPos = szCase.IndexOf('\\');
+                    if (iPos >= 0)
+                        szCase = szCase.Remove(iPos,szCase.Length-iPos);
+                }
+
+                int z_index = messageText.IndexOf("%Z");
+                messageText=messageText.Remove(z_index).Insert(z_index,szCase);
+            }
+
+            if (messageText.Contains("%8.8X"))
+            {
+                messageText=messageText.Replace("%8.8X", m_dwData2.ToString("X8"));
+            }
+
 
         }
 
@@ -98,7 +140,8 @@ namespace VR
         {   
             GetText();
             // to add variables
-            string text = "Class:" + m_nClass + " | Type:" + m_nType + " | MessageID:" + Convert.ToString(m_nData, 16) + " | Time:" + GetTimeEx() +"  "+ messageText;
+            string text = "Class:" + m_nClass + " | Type:" + m_nType + " | MessageID:" + Convert.ToString(m_nData, 16) + " | Time:" + GetTimeEx() +
+                " | Ints:  "+Convert.ToString(m_dwData1,16)+"  "+Convert.ToString(m_dwData2,16)+"  " + messageText;
             return text;
         }
     }

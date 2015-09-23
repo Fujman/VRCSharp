@@ -64,7 +64,45 @@ namespace VR
 
                 messageText = messageText.Replace("%lu", finalVariable.ToString());
             }
-            //if
+
+            if (messageText.Contains("%Z"))
+            {
+                int nCase = (int)m_dwData1;
+                int nData = (int) m_dwData2;
+
+
+                string szCase = "";
+                int iEnd = 0;
+                for (int i = 0; i < messageText.Length; ++i)
+                {
+                    char asd = messageText[i];
+                    if (messageText[i] == '\\' && i < messageText.Length - 1 && messageText[i + 1] == 'n')
+                    {
+                        if (iEnd == (int)nCase)
+                        {
+                            szCase = messageText.Substring(i + 2);
+                            break;
+                        }
+                        ++iEnd;
+                    }
+                }
+
+                if (szCase.Length > 0)
+                {
+                    int iPos = szCase.IndexOf('\\');
+                    if (iPos >= 0)
+                        szCase = szCase.Remove(iPos, szCase.Length - iPos);
+                }
+
+                int z_index = messageText.IndexOf("%Z");
+                messageText = messageText.Remove(z_index).Insert(z_index, szCase);
+            }
+
+
+            if (messageText.Contains("%8.8X"))
+            {
+                messageText = messageText.Replace("%8.8X", m_dwData2.ToString("X8"));
+            }
 
         }
 

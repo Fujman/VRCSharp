@@ -53,7 +53,7 @@ namespace VR
 
             //
             // Test\
-           
+
             
             Console.WriteLine("Введите путь к файлу для чтения:");
             var readPath = Console.ReadLine();
