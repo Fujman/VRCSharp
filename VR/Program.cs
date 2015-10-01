@@ -15,6 +15,7 @@ namespace VR
     {
         private static void Main(string[] args)
         {
+
             // TEST
             //
             //
@@ -53,7 +54,7 @@ namespace VR
 
             //
             // Test\
-
+            
             
             Console.WriteLine("Введите путь к файлу для чтения:");
             var readPath = Console.ReadLine();
@@ -93,6 +94,7 @@ namespace VR
                     {
                         //newEvent.Created();
                         //newEvent.Show();
+                        
                         fileWriter.WriteLine(newEvent.GetLine());
                     }
 

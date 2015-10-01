@@ -1,6 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.CompilerServices;
+using System.Runtime.InteropServices;
+using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -65,9 +68,6 @@ namespace VR
             }
 
 
-
-            //IN PROGRESS
-
             if (messageText.Contains("%d"))
             {
                 var m_dwData1_2 = m_dwData1 >>16; // taking last 2 bytes
@@ -81,13 +81,12 @@ namespace VR
                 messageText = messageText.Replace("%.0d", put.ToString());
             }
 
-            //IN PROGRESS
 
             if (messageText.Contains("%Z"))
             {
                 var m_dwData1_2 = m_dwData1 >> 16; // taking last 2 bytes
-              
                 Int16 nCase = (Int16)m_dwData1_2;
+
                 var nData = m_dwData1 & 0xFFFF;
 
                 string szCase="";
@@ -117,14 +116,71 @@ namespace VR
                 messageText=messageText.Remove(z_index).Insert(z_index,szCase);
             }
 
+
             if (messageText.Contains("%8.8X"))
             {
                 messageText=messageText.Replace("%8.8X", m_dwData2.ToString("X8"));
             }
 
-
+            if (messageText.Contains("%s"))
+            {
+                string replace = s_handler();
+                messageText = messageText.Replace("%s", replace);
+            }
+            if (messageText.Contains("%B"))
+            {
+                string bcdstring = bcdnumber2string();
+                int index = messageText.IndexOf("%B");
+                messageText = messageText.Remove(index,2).Insert(index,bcdstring).Remove(index+9,3);
+            }
         }
 
+        // %s placeholder handler
+        public unsafe string bcdnumber2string()
+        {
+            tagSTR str = new tagSTR();
+            var m_dwData1_2 = m_dwData1 >> 16; // taking last 2 bytes
+            str.dataStruct.sh = (UInt16)m_dwData1_2;
+            str.dataStruct.sh ^= 0xEAEA;
+
+            str.dataStruct.ui = m_dwData2;
+            str.dataStruct.ui ^= 0xAEAEAEAE;
+
+            char[] ach = { '0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '-', '*', '#', '.', '?', '_' };
+            char[] symb= new char[12];
+            for (int i = 0,j=0; i < 6 && ach[str.ab[i] & 0x0F] != '\0' && ach[str.ab[i] >> 4] != '\0'; i++,j++)
+            {
+                symb[j]=ach[str.ab[i]&0x0F];
+                j++;
+                symb[j]=ach[str.ab[i]>>4];
+            }
+            
+            string bcdstring= new string(symb);
+            return bcdstring;
+        }
+        public unsafe string s_handler()
+        {
+
+            tagSTR str = new tagSTR();
+            var m_dwData1_2 = m_dwData1 >> 16; // taking last 2 bytes
+            str.dataStruct.sh = (UInt16)m_dwData1_2;
+            str.dataStruct.sh ^= 0xEAEA;
+
+            str.dataStruct.ui = m_dwData2;
+            str.dataStruct.ui ^= 0xAEAEAEAE;
+
+            char [] sz = new char[6];
+
+            
+            for (int i = 0; i < 6 && str.ab[i] != '\0'; i++)
+            {
+                sz[i] = (char)str.ab[i];
+                
+            }
+            string s = new string(sz);
+            
+            return s;
+        }
         //public override void Write()
         //{
 
@@ -136,13 +192,39 @@ namespace VR
         //        file.WriteLine(text);
         //    }
         //}
-        public override string GetLine()
+        public  override string GetLine()
         {   
             GetText();
-            // to add variables
+            
             string text = "Class:" + m_nClass + " | Type:" + m_nType + " | MessageID:" + Convert.ToString(m_nData, 16) + " | Time:" + GetTimeEx() +
-                " | Ints:  "+Convert.ToString(m_dwData1,16)+"  "+Convert.ToString(m_dwData2,16)+"  " + messageText;
+                //" | Ints:  "+Convert.ToString(m_dwData1,16)+"  "+Convert.ToString(m_dwData2,16)+
+                "  " + messageText;
             return text;
+        }
+
+
+        //Structs for %s placeholder handling
+
+        [StructLayout(LayoutKind.Explicit, Pack = 1)]
+        public struct DataStruct
+        {
+            [FieldOffset(0)]
+            public ushort sh;
+            [FieldOffset(2)]
+            public uint ui;
+            [FieldOffset(6)]
+            public byte ab;
+
+        }
+
+        [StructLayout(LayoutKind.Explicit, Pack = 1)]
+        unsafe public struct tagSTR
+        {
+            [FieldOffset(0)]
+            public DataStruct dataStruct;
+            [FieldOffset(0)]
+            public fixed byte ab[6];
+
         }
     }
 }

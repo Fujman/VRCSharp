@@ -42,10 +42,10 @@ namespace VR
                 return null;
 
             //presumably skips title
-            if (_byteArray[i]==0x3c)
-            {
-                i += 16;
-            }
+            //if (_byteArray[i]==0x3c)
+            //{
+            //    i += 16;
+            //}
 
             switch (getClass(i))
             {
