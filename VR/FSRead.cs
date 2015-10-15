@@ -25,7 +25,7 @@ namespace VR
             // const int nBytes = 4096;
             byte[] byteArray = new byte[fs.Length];
             int nBytesRead = fs.Read(byteArray, 0,(int) fs.Length);
-            Console.WriteLine("{0} bytes have been read from the specified file.", nBytesRead);
+            //Console.WriteLine("{0} bytes have been read from the specified file.", nBytesRead);
             _byteArray = byteArray;
         }
 

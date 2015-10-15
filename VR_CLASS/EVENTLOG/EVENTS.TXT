@@ -1,8 +1,0 @@
-
-//012345678901234567890123456789012345678901234567890123 4  //
-//01.02.1980 Wed 02:03:55,999 C T DATA\0                    // len=37 16 bit C-class, T-type, DATA-16 bit data in hex
-//01.02.1980 Wed 02:03:55,999 C  XDATA\0                    // len=37 20 bit C-class, XDATA-20 bit data in hex
-//01.02.1980 Wed 02:03:55,999 C T DA16 DATA32BI DATA32BI\0  // len=54 64 bit
-//01.02.1980 Wed 02:03:55,999     OUT(338H)  FFH\0          // len=42 20 bit C-class, XDATA-20 bit data in hex
-//01.02.1980 Wed 02:03:55,999 #32 Message.....
-

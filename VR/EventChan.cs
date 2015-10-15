@@ -30,7 +30,8 @@ namespace VR
             m_nData = nData;
             m_dwData1 = dwData1;
             m_dwData2 = dwData2;
-            messageText = ResourceHandler.getText(m_nData);
+            var handler = ResourceHandler.GetHandler();
+            messageText = handler.getText(nData);
             setMessageTypePriority();
 
         }

@@ -1,0 +1,3562 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<messages xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<message>
+		<messageID>0x0000</messageID>
+		<symbolicName>IDSX_BASE_IDENTIFIER</symbolicName>
+		<text>!</text>
+	</message>
+	<message>
+		<messageID>0xFFFF</messageID>
+		<symbolicName>IDSX_LAST_IDENTIFIER</symbolicName>
+		<text>?</text>
+	</message>
+	<message/>
+	<message/>
+	<message/>
+	<message/>
+	<message/>
+	<message>
+		<messageID>0x0001</messageID>
+		<symbolicName>LANGUAGE_NAME</symbolicName>
+		<text>Русский</text>
+	</message>
+	<message>
+		<messageID>0x0002</messageID>
+		<symbolicName>FONTS_MAPPING</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0x0003</messageID>
+		<symbolicName>STANDARD_WORDS</symbolicName>
+		<text>Готово\nОтмена\nПрервать\nПовторить\nПропустить\nДа\nНет\nЗакрыть\nПомощь\nПрименить\nВозвратить\nПо умолчанию\nОткрыть\nСохранить\nСохранить как\n</text>
+	</message>
+	<message>
+		<messageID>0x000F</messageID>
+		<symbolicName>SELECT_LANGUAGE</symbolicName>
+		<text>Выбор языка</text>
+	</message>
+	<message/>
+	<message>
+		<messageID>0x0100</messageID>
+		<symbolicName>IDC_STATIC_PRODUCT</symbolicName>
+		<text>SRS® Регистратор судебных заседаний</text>
+	</message>
+	<message>
+		<messageID>0x0101</messageID>
+		<symbolicName>IDC_STATIC_COPYRIGHT</symbolicName>
+		<text>© Специальные регистрирующие системы, 2001-2014. Все права защищены</text>
+	</message>
+	<message>
+		<messageID>0x0102</messageID>
+		<symbolicName>IDC_STATIC_LICENSED</symbolicName>
+		<text>Правом использования данной копии продукта обладает:</text>
+	</message>
+	<message>
+		<messageID>0x0103</messageID>
+		<symbolicName>IDC_STATIC_WARNING</symbolicName>
+		<text>ВНИМАНИЕ! Данный программный продукт защищен законами об авторских правах и международными соглашениями. Незаконное воспроизведение или распространение данной программы или ее части влечет гражданскую и уголовную ответственность.</text>
+	</message>
+	<message>
+		<messageID>0x0104</messageID>
+		<symbolicName>IDC_STATIC_CONTACTS</symbolicName>
+		<text>Контакты и техническая поддержка:</text>
+	</message>
+	<message>
+		<messageID>0x0105</messageID>
+		<symbolicName>IDC_STATIC_PHONE</symbolicName>
+		<text>Телефон:    +380(44) 248-79-91</text>
+	</message>
+	<message>
+		<messageID>0x0106</messageID>
+		<symbolicName>IDC_STATIC_PHONEFAX</symbolicName>
+		<text>Тел./факс: +380(44) 248-79-90</text>
+	</message>
+	<message/>
+	<message>
+		<messageID>0x05DC</messageID>
+		<symbolicName>IDS_COL_TIME</symbolicName>
+		<text>Время</text>
+	</message>
+	<message>
+		<messageID>0x05DD</messageID>
+		<symbolicName>IDS_COL_ACTION</symbolicName>
+		<text>Действие</text>
+	</message>
+	<message>
+		<messageID>0x05DE</messageID>
+		<symbolicName>IDS_COL_PERSONE</symbolicName>
+		<text>Действующее лицо</text>
+	</message>
+	<message>
+		<messageID>0x05DF</messageID>
+		<symbolicName>IDS_COL_NOTES</symbolicName>
+		<text>Примечание</text>
+	</message>
+	<message>
+		<messageID>0x05E0</messageID>
+		<symbolicName>IDS_CASE_NUMBER</symbolicName>
+		<text>Номер дела:</text>
+	</message>
+	<message>
+		<messageID>0x05E6</messageID>
+		<symbolicName>IDS_QUERY_NEW_TEMPLATE</symbolicName>
+		<text>Открыть новый тип дела на основе существующего типа  \"%s\" ?</text>
+	</message>
+	<message>
+		<messageID>0x05E7</messageID>
+		<symbolicName>IDS_QUERY_DELETE_TEMPLATE</symbolicName>
+		<text>Удалить тип дела  \"%s\" ?</text>
+	</message>
+	<message>
+		<messageID>0x05E8</messageID>
+		<symbolicName>IDS_QUERY_START</symbolicName>
+		<text>Выбор режима работы</text>
+	</message>
+	<message>
+		<messageID>0x05E9</messageID>
+		<symbolicName>IDS_QUERY_STOP_RECORD</symbolicName>
+		<text>Запись включена. Выйти без выключения записи?</text>
+	</message>
+	<message>
+		<messageID>0x05EA</messageID>
+		<symbolicName>IDS_QUERY_IMPORT_PERSONES</symbolicName>
+		<text>Импортировать список действующих лиц из предыдущего заседания?</text>
+	</message>
+	<message>
+		<messageID>0x05EB</messageID>
+		<symbolicName>IDS_ENTER_MEDIA_NUMBER</symbolicName>
+		<text>Введите серийный номер носителя (компакт-диска):</text>
+	</message>
+	<message>
+		<messageID>0x05EC</messageID>
+		<symbolicName>IDS_QUERY_BUSINESS_EXISTS</symbolicName>
+		<text>Такое заседание уже существует!</text>
+	</message>
+	<message>
+		<messageID>0x05ED</messageID>
+		<symbolicName>IDS_TEMPLATE_NAME_CONFLICT</symbolicName>
+		<text>Шаблон существует. Перезаписать или скопировать?</text>
+	</message>
+	<message>
+		<messageID>0x05EE</messageID>
+		<symbolicName>IDS_TEMPLATE_SAVE</symbolicName>
+		<text>Шаблон изменен. Сохранить?</text>
+	</message>
+	<message>
+		<messageID>0x05EF</messageID>
+		<symbolicName>IDS_USE_SIGNATURE</symbolicName>
+		<text>Использовать цифровую подпись</text>
+	</message>
+	<message>
+		<messageID>0x05F0</messageID>
+		<symbolicName>IDS_QUERY_KILL_BACKUP</symbolicName>
+		<text>Резервная копия будет удалена навсегда! Удалить?</text>
+	</message>
+	<message>
+		<messageID>0x0618</messageID>
+		<symbolicName>IDS_ERROR_EDITOR_CALL</symbolicName>
+		<text>Текстовый редактор не найден!\n%s</text>
+	</message>
+	<message>
+		<messageID>0x0619</messageID>
+		<symbolicName>IDS_ERROR_MAKE_FILE</symbolicName>
+		<text>Невозможно создать файл\n%s\nЗакройте все ранее открытые окна с этим документом.</text>
+	</message>
+	<message>
+		<messageID>0x061A</messageID>
+		<symbolicName>IDS_QUERY_DISABLE_VIDEO</symbolicName>
+		<text>Видеосервер не найден. Отключить поддержку видео?</text>
+	</message>
+	<message>
+		<messageID>0x061B</messageID>
+		<symbolicName>IDS_QUERY_OVERWRITE</symbolicName>
+		<text>Заменить существующий файл?</text>
+	</message>
+	<message>
+		<messageID>0x061C</messageID>
+		<symbolicName>IDS_QUERY_WORK_OFFLINE</symbolicName>
+		<text>Работать автономно?</text>
+	</message>
+	<message>
+		<messageID>0x061D</messageID>
+		<symbolicName>IDS_MESSAGE_WORK_OFFLINE</symbolicName>
+		<text>Автономная работа</text>
+	</message>
+	<message>
+		<messageID>0x061E</messageID>
+		<symbolicName>IDS_MESSAGE_UNKNOWN_VERSION_LOADED</symbolicName>
+		<text>Неизвестная версия файла будет загружена с диска</text>
+	</message>
+	<message>
+		<messageID>0x061F</messageID>
+		<symbolicName>IDS_QUERY_SELECT_VERSION</symbolicName>
+		<text>Выберите версию</text>
+	</message>
+	<message>
+		<messageID>0x0620</messageID>
+		<symbolicName>IDS_MESSAGE_VERSION_LOCKED</symbolicName>
+		<text>Версия %d уже открыта. Закройте ее или попросите своего системного администратора разблокировать версию.</text>
+	</message>
+	<message>
+		<messageID>0x0640</messageID>
+		<symbolicName>IDS_MESSAGE_ON_LANGUAGE_SELECT</symbolicName>
+		<text>Язык интерфейса будет изменен при следующем запуске программы</text>
+	</message>
+	<message>
+		<messageID>0x0641</messageID>
+		<symbolicName>IDS_MESSAGE_LOCKED_DURING_RECORDING</symbolicName>
+		<text>Операция невыполнима в процессе записи.</text>
+	</message>
+	<message>
+		<messageID>0x0642</messageID>
+		<symbolicName>IDS_MESSAGE_PREVIOUS_TRIAL_NOT_FOUND</symbolicName>
+		<text>Предыдущих заседаний не обнаружено.</text>
+	</message>
+	<message>
+		<messageID>0x0643</messageID>
+		<symbolicName>IDS_OUT_OF_LICENSE</symbolicName>
+		<text>Превышено количество лицензированных каналов </text>
+	</message>
+	<message>
+		<messageID>0x07BC</messageID>
+		<symbolicName>IDS_BUSINESS_WORD</symbolicName>
+		<text>Дело №</text>
+	</message>
+	<message>
+		<messageID>0x07BD</messageID>
+		<symbolicName>IDS_SESSION_WORD</symbolicName>
+		<text>Заседание от</text>
+	</message>
+	<message>
+		<messageID>0x07BE</messageID>
+		<symbolicName>IDS_NAME_WORD</symbolicName>
+		<text>Название заседания:</text>
+	</message>
+	<message>
+		<messageID>0x07BF</messageID>
+		<symbolicName>IDS_NAME_WORD2</symbolicName>
+		<text>По обвинению / По иску:</text>
+	</message>
+	<message>
+		<messageID>0x07C0</messageID>
+		<symbolicName>IDS_WORD_SIZE</symbolicName>
+		<text>Размер</text>
+	</message>
+	<message>
+		<messageID>0x07C1</messageID>
+		<symbolicName>IDS_SIZE_FORMAT1</symbolicName>
+		<text>%s, %d записей, %d папок</text>
+	</message>
+	<message>
+		<messageID>0x07C2</messageID>
+		<symbolicName>IDS_SIZE_FORMAT2</symbolicName>
+		<text>%s, %d записей</text>
+	</message>
+	<message>
+		<messageID>0x07C3</messageID>
+		<symbolicName>IDS_SIZE_FORMAT3</symbolicName>
+		<text>%s</text>
+	</message>
+	<message>
+		<messageID>0x07C4</messageID>
+		<symbolicName>IDS_KB</symbolicName>
+		<text>кБ</text>
+	</message>
+	<message>
+		<messageID>0x07C5</messageID>
+		<symbolicName>IDS_MB</symbolicName>
+		<text>МБ</text>
+	</message>
+	<message>
+		<messageID>0x07C6</messageID>
+		<symbolicName>IDS_GB</symbolicName>
+		<text>ГБ</text>
+	</message>
+	<message>
+		<messageID>0x07C7</messageID>
+		<symbolicName>IDS_WORD_TYPE</symbolicName>
+		<text>Тип</text>
+	</message>
+	<message>
+		<messageID>0x07CF</messageID>
+		<symbolicName>IDS_BUSINESS_FILENAME_FORMAT</symbolicName>
+		<text>Case #%s from %s</text>
+	</message>
+	<message>
+		<messageID>0x07D0</messageID>
+		<symbolicName>IDS_BUSINESS_TITLE_FORMAT</symbolicName>
+		<text>Дело №%s от %s</text>
+	</message>
+	<message>
+		<messageID>0x07D1</messageID>
+		<symbolicName>IDS_CURRENT_TEMPLATE</symbolicName>
+		<text>&lt;&lt;&lt;текущий&gt;&gt;&gt;</text>
+	</message>
+	<message>
+		<messageID>0x07D2</messageID>
+		<symbolicName>IDS_RECORDING_START</symbolicName>
+		<text>&lt;&lt;&lt;начало звукозаписи&gt;&gt;&gt;</text>
+	</message>
+	<message>
+		<messageID>0x07D3</messageID>
+		<symbolicName>IDS_RECORDING_STOP</symbolicName>
+		<text>&lt;&lt;&lt;конец звукозаписи&gt;&gt;&gt;</text>
+	</message>
+	<message>
+		<messageID>0x07D4</messageID>
+		<symbolicName>IDS_WORD_COPY</symbolicName>
+		<text> [Копия %d]</text>
+	</message>
+	<message>
+		<messageID>0x07D5</messageID>
+		<symbolicName>IDS_WORD_INTERNAL</symbolicName>
+		<text>*</text>
+	</message>
+	<message>
+		<messageID>0x07D6</messageID>
+		<symbolicName>IDS_DOCUMENT_VARIABLES_LOCALIZED</symbolicName>
+		<text>дело\nдата\nназвание\nзал\nноситель\nначало\nконец\nжурнал звукозаписи\nприсутствующие\nподпись\nсерийный номер\ndate_local\n</text>
+	</message>
+	<message>
+		<messageID>0x07D7</messageID>
+		<symbolicName>IDS_DOCUMENT_BODY_VARIABLE_LOCALIZED</symbolicName>
+		<text>время\nдействие\nлицо\nпримечание\ndate_local\n</text>
+	</message>
+	<message>
+		<messageID>0x07D8</messageID>
+		<symbolicName>IDS_DOCUMENT_VARIABLES</symbolicName>
+		<text>number\ndate\nname\nnumroom\nvolume\nstart\nfinish\naudiorecording journal\nactual persones\nsignature\nserial number\ndate_local\n</text>
+	</message>
+	<message>
+		<messageID>0x07D9</messageID>
+		<symbolicName>IDS_DOCUMENT_BODY_VARIABLE</symbolicName>
+		<text>time\naction\nperson\nnote\ndate_local\n</text>
+	</message>
+	<message>
+		<messageID>0x07DD</messageID>
+		<symbolicName>IDS_CHOOSE_FOLDER</symbolicName>
+		<text>Выберите папку документов судебных заседаний</text>
+	</message>
+	<message>
+		<messageID>0x07DF</messageID>
+		<symbolicName>IDS_OK_CANCEL</symbolicName>
+		<text>Да\nНет\n</text>
+	</message>
+	<message>
+		<messageID>0x07E0</messageID>
+		<symbolicName>IDS_BUTTONS_TEMPLATE_ACTIONS</symbolicName>
+		<text>Создать действие (Ins)\nУдалить действие (Del)\nРедактировать действие (Alt+F2)\nПовысить уровень (Alt + &lt;-)\nПонизить уровень (Alt + -&gt;)\nПереместить вверх (Alt + срелка вверх)\nПереместить вниз (Alt + стрелка вниз)\nУстановить формат абзаца (Alt + Ins)\nУдалить формат абзаца (Alt + Del)\n</text>
+	</message>
+	<message>
+		<messageID>0x07E1</messageID>
+		<symbolicName>IDS_BUTTONS_TEMPLATE_PERSONES</symbolicName>
+		<text>Создать действующее лицо (Ins)\nУдалить действующее лицо (Del)\nРедактировать (Alt + F2)\nРедактировать предварительный просмотр (Alt + F3)\nВставить как переменную (Alt + Enter)\n</text>
+	</message>
+	<message>
+		<messageID>0x07E2</messageID>
+		<symbolicName>IDS_BUTTONS_TEMPLATE_AUTO</symbolicName>
+		<text>Редактировать предварительный просмотр (Alt + F3)\nВставить как переменную (Alt + Enter)\n</text>
+	</message>
+	<message>
+		<messageID>0x07E3</messageID>
+		<symbolicName>IDS_BUTTONS_TEMPLATE_FORMATTING</symbolicName>
+		<text>Шрифт\nВыбрать размер шрифта\nМасштаб\nОбычный текст\nТекст по условию: все переменные\nТекст по условию: любая переменная\nПолужирный\nКурсив\nПодчеркнутый\nПо левому краю\nПо центру\nПо правому краю\nПо ширине\nМаркированный список\nНадстрочный\nПодстрочный\n</text>
+	</message>
+	<message>
+		<messageID>0x07E4</messageID>
+		<symbolicName>IDS_INPUT_TEMPLATE_NAME</symbolicName>
+		<text>Переименование шаблона\nВведите новое имя:</text>
+	</message>
+	<message>
+		<messageID>0x07EE</messageID>
+		<symbolicName>IDS_DOCUMENT_VARIABLES_LOCALIZED_TRANSLATED</symbolicName>
+		<text>дело\nдата\nназвание\nзал\nноситель\nначало\nконец\nжурнал звукозаписи\nприсутствующие\nподпись\nсерийный номер\n</text>
+	</message>
+	<message>
+		<messageID>0x07EF</messageID>
+		<symbolicName>IDS_DOCUMENT_BODY_VARIABLE_LOCALIZED_TRANSLATED</symbolicName>
+		<text>время\nдействие\nлицо\nпримечание\n</text>
+	</message>
+	<message>
+		<messageID>0x0BB8</messageID>
+		<symbolicName>IDS_COMBO_ARCHIVE_PERIOD</symbolicName>
+		<text>15 15 секунд\n30 30 секунд\n60 60 секунд\n120 2 минуты\n300 5 минут\n600 10 минут</text>
+	</message>
+	<message>
+		<messageID>0x0BB9</messageID>
+		<symbolicName>IDS_COMBO_CDRW_PERIOD</symbolicName>
+		<text>300 5 минут\n600 10 минут\n1800 30 минут\n3600 1 час</text>
+	</message>
+	<message>
+		<messageID>0x0BBA</messageID>
+		<symbolicName>IDS_COMBO_TIMEOUT</symbolicName>
+		<text>100 0.1 секунды\n250 0.25 секунды\n500 0.5 секунды\n750 0.75 секунды\n1000 1 секунда</text>
+	</message>
+	<message>
+		<messageID>0x0BBB</messageID>
+		<symbolicName>IDS_WORD_READONLY</symbolicName>
+		<text>(только для чтения)</text>
+	</message>
+	<message/>
+	<message>
+		<messageID>0x0BEA</messageID>
+		<symbolicName>IDS_PLAYER_SPEED_TOOLTIPS</symbolicName>
+		<text>100%% - Нормальная скорость\n%d%% - Ускорение в %3.1lf раза\n%d%% - Замедление в %3.1lf раза</text>
+	</message>
+	<message>
+		<messageID>0x0BEB</messageID>
+		<symbolicName>IDS_PLAYER_VOLUME_TOOLTIPS</symbolicName>
+		<text>Громкость - %d%%</text>
+	</message>
+	<message>
+		<messageID>0x0BEC</messageID>
+		<symbolicName>IDS_PLAYER_MASTER_VOLUME_TOOLTIPS</symbolicName>
+		<text>Общая громкость - %d%%</text>
+	</message>
+	<message>
+		<messageID>0x0BED</messageID>
+		<symbolicName>IDS_PLAYER_CONTROL_SPEED_TOOLTIPS</symbolicName>
+		<text>Управление скоростью</text>
+	</message>
+	<message>
+		<messageID>0x0BEE</messageID>
+		<symbolicName>IDS_PLAYER_CONTROL_VOLUME_TOOLTIPS</symbolicName>
+		<text>Управление дорожкой %d. Используйте правую кнопку мыши для настройки.</text>
+	</message>
+	<message>
+		<messageID>0x0BEF</messageID>
+		<symbolicName>IDS_PLAYER_CONTROL_MASTER_VOLUME_TOOLTIPS</symbolicName>
+		<text>Управление воспроизведением. Используйте правую кнопку мыши для настройки.</text>
+	</message>
+	<message>
+		<messageID>0x0BF0</messageID>
+		<symbolicName>IDS_PLAYER_CONTROL_AGC</symbolicName>
+		<text>Автоматическая регулировка уровня.\nГлубина: %d дБ\nПорог: %d%%\nСкорость реакции: %d%%\nАвтоматическая регулировка уровня: %s</text>
+	</message>
+	<message>
+		<messageID>0x0BF1</messageID>
+		<symbolicName>IDS_PLAYER_CONTROL_AGC_PREDEFINED</symbolicName>
+		<text>Пользовательская\nПо умолчанию\n6дБ max\n20дБ max</text>
+	</message>
+	<message>
+		<messageID>0x0BF2</messageID>
+		<symbolicName>IDS_PLAYER_CONTROL_EQUALIZER</symbolicName>
+		<text>Эквалайзер.\n%d дБ - %s\nЭквалайзер: %s</text>
+	</message>
+	<message>
+		<messageID>0x0BF3</messageID>
+		<symbolicName>IDS_PLAYER_CONTROL_EQUALIZER_PREDEFINED</symbolicName>
+		<text>Пользовательская\nПо умолчанию\nГолос\nУбрать 50 Гц</text>
+	</message>
+	<message>
+		<messageID>0x0BF4</messageID>
+		<symbolicName>IDS_PLAYER_CONTROL_EQUALIZER_NAMES</symbolicName>
+		<text>Низкие (%dHz)\nНизкие средние  (%dHz)\nСредние (%dHz)\nВысокие средние (%dHz)\nВысокие (%dHz)</text>
+	</message>
+	<message>
+		<messageID>0x0BF6</messageID>
+		<symbolicName>IDS_PLAYER_CONTROL_EQUALIZER_PREDEFINED2</symbolicName>
+		<text>Пользовательская\nПо умолчанию\nГолос\nУбрать 50 Гц\nПрисутствие\nЯркость\nРазборчивость</text>
+	</message>
+	<message>
+		<messageID>0x0BF7</messageID>
+		<symbolicName>IDS_PLAYER_CONTROL_PROCESSING</symbolicName>
+		<text>Обработка звука.\n%d дБ\nОбработка: %s</text>
+	</message>
+	<message>
+		<messageID>0x0BF8</messageID>
+		<symbolicName>IDS_PLAYER_CONTROL_PROCESSING_HZCLICKSTIMBRE</symbolicName>
+		<text>Гц\nЩелчки\nНормализовать тембр\nОбработка звука\nЭксперт...</text>
+	</message>
+	<message/>
+	<message>
+		<messageID>0x0BFF</messageID>
+		<symbolicName>IDS_AUDIO_PLAYER</symbolicName>
+		<text>Проигрыватель аудио</text>
+	</message>
+	<message>
+		<messageID>0x0C00</messageID>
+		<symbolicName>IDS_VIDEO_PLAYER</symbolicName>
+		<text>Проигрыватель видео</text>
+	</message>
+	<message>
+		<messageID>0x0C01</messageID>
+		<symbolicName>IDS_VIDEO_PREVIEW</symbolicName>
+		<text>Предварительный просмотр</text>
+	</message>
+	<message>
+		<messageID>0x0C02</messageID>
+		<symbolicName>IDS_CAMERA_INSIDE</symbolicName>
+		<text>&amp;Встроить окно</text>
+	</message>
+	<message>
+		<messageID>0x0C03</messageID>
+		<symbolicName>IDS_CAMERA_OUTSIDE</symbolicName>
+		<text>&amp;Отделить окно</text>
+	</message>
+	<message>
+		<messageID>0x0C04</messageID>
+		<symbolicName>IDS_CAMERA_FULL_SCREEN</symbolicName>
+		<text>Во весь &amp;экран</text>
+	</message>
+	<message/>
+	<message>
+		<messageID>0x0C10</messageID>
+		<symbolicName>IDS_IMAPI_FORMAT2_DATA_WRITE_ACTION_VALIDATING_MEDIA</symbolicName>
+		<text>Проверка текущего носителя…</text>
+	</message>
+	<message>
+		<messageID>0x0C11</messageID>
+		<symbolicName>IDS_IMAPI_FORMAT2_DATA_WRITE_ACTION_FORMATTING_MEDIA</symbolicName>
+		<text>Форматирование носителя…</text>
+	</message>
+	<message>
+		<messageID>0x0C12</messageID>
+		<symbolicName>IDS_IMAPI_FORMAT2_DATA_WRITE_ACTION_INITIALIZING_HARDWARE</symbolicName>
+		<text>Инициализация оборудования…</text>
+	</message>
+	<message>
+		<messageID>0x0C13</messageID>
+		<symbolicName>IDS_IMAPI_FORMAT2_DATA_WRITE_ACTION_CALIBRATING_POWER</symbolicName>
+		<text>Оптимизация мощности лазера…</text>
+	</message>
+	<message>
+		<messageID>0x0C14</messageID>
+		<symbolicName>IDS_IMAPI_FORMAT2_DATA_WRITE_ACTION_WRITING_DATA</symbolicName>
+		<text>Запись данных…</text>
+	</message>
+	<message>
+		<messageID>0x0C15</messageID>
+		<symbolicName>IDS_IMAPI_FORMAT2_DATA_WRITE_ACTION_FINALIZATION</symbolicName>
+		<text>Завершение записи…</text>
+	</message>
+	<message>
+		<messageID>0x0C16</messageID>
+		<symbolicName>IDS_IMAPI_FORMAT2_DATA_WRITE_ACTION_COMPLETED</symbolicName>
+		<text>Готово!</text>
+	</message>
+	<message>
+		<messageID>0x0C17</messageID>
+		<symbolicName>IDS_IMAPI_ERASE_DISK</symbolicName>
+		<text>Стирание диска…</text>
+	</message>
+	<message/>
+	<message>
+		<messageID>0x0C7F</messageID>
+		<symbolicName>IDS_YFTDLG_FORMATS</symbolicName>
+		<text>Папка: \t%A\nФайл: \t%N\nИсточник: \t%S%P%N\nНазначение: \t%T%P%N\n%F файлов, %D папок (%B байт)\nВсего %tF файлов, %tD папок (%tB байт)\nПапка: \t%S%P\nОперация: %s\nАппаратный буфер:\nВремя: %s всего, %s осталось\n\n</text>
+	</message>
+	<message>
+		<messageID>0x0C80</messageID>
+		<symbolicName>IDS_YFTDLG_COPY</symbolicName>
+		<text>Подготовка копирования...\nКопирование...\nУдаление...\nПроверка...\nСтирание...\nПрожиг...\n\n</text>
+	</message>
+	<message>
+		<messageID>0x0C81</messageID>
+		<symbolicName>IDS_YFTDLG_DELETE</symbolicName>
+		<text>Подготовка удаления...\nКопирование...\nУдаление...\nПроверка...\n</text>
+	</message>
+	<message>
+		<messageID>0x0C82</messageID>
+		<symbolicName>IDS_YFTDLG_PROCESS</symbolicName>
+		<text>Сканирование...\nОбработка файлов...\nОбработка файлов...\nПроверка...\n</text>
+	</message>
+	<message>
+		<messageID>0x0C83</messageID>
+		<symbolicName>IDS_YFTDLG_IMPORT_FORMATS</symbolicName>
+		<text>Папка: \t%A\nФайл: \t%N\nИсточник: \t%S%P%N\nНазначение: \t%T%P%N\n%F файлов, %D папок (%B байт)\nВсего %tF файлов, %tD папок (%tB байт)\nПапка: \t%S%P\n\n</text>
+	</message>
+	<message/>
+	<message>
+		<messageID>0x0C88</messageID>
+		<symbolicName>IDS_IMPORT_IMPOSSIBLE</symbolicName>
+		<text>Импорт невозможен, так как последнее сохранение завершилось аварийно</text>
+	</message>
+	<message>
+		<messageID>0x0C89</messageID>
+		<symbolicName>IDS_QUERY_IMPORT_UPDATE</symbolicName>
+		<text>Импортировать документ в основной архив?</text>
+	</message>
+	<message>
+		<messageID>0x0C8A</messageID>
+		<symbolicName>IDS_QUERY_IMPORT_OVERWRITE</symbolicName>
+		<text>Импортировать документ в основной архив?\nВНИМАНИЕ! В процессе импорта более новая версия документа будет удалена!</text>
+	</message>
+	<message>
+		<messageID>0x0C8B</messageID>
+		<symbolicName>IDS_RECORD_IMPOSSIBLE</symbolicName>
+		<text>Нельзя продолжить запись без предварительного импорта в основной архив</text>
+	</message>
+	<message/>
+	<message>
+		<messageID>0x0D00</messageID>
+		<symbolicName>IDCS_ROOM_NUMBER</symbolicName>
+		<text>Зал</text>
+	</message>
+	<message>
+		<messageID>0x0D01</messageID>
+		<symbolicName>IDCS_MEDIA_SERIAL_NUMBER</symbolicName>
+		<text>Серийный номер cъемного носителя (компакт-диска)</text>
+	</message>
+	<message>
+		<messageID>0x0D02</messageID>
+		<symbolicName>IDCS_CASE_TYPE</symbolicName>
+		<text>Тип дела</text>
+	</message>
+	<message>
+		<messageID>0x0D03</messageID>
+		<symbolicName>IDS_INTERVALS</symbolicName>
+		<text>любой\nчас\nдень\nнеделя\nмесяц\n3 месяца\n1 год\n10 лет\n</text>
+	</message>
+	<message>
+		<messageID>0x0D04</messageID>
+		<symbolicName>IDS_SEPARATE_WINDOW</symbolicName>
+		<text>В отдельном окне</text>
+	</message>
+	<message/>
+	<message>
+		<messageID>0x0FA0</messageID>
+		<symbolicName>IDS_TEMPLATE_NAME_STAGE</symbolicName>
+		<text>Стадия</text>
+	</message>
+	<message>
+		<messageID>0x0FA1</messageID>
+		<symbolicName>IDS_TEMPLATE_NAME_ACTION</symbolicName>
+		<text>Действие</text>
+	</message>
+	<message>
+		<messageID>0x0FA2</messageID>
+		<symbolicName>IDS_TEMPLATE_NAME_PERSON</symbolicName>
+		<text>Лицо</text>
+	</message>
+	<message>
+		<messageID>0x0FA3</messageID>
+		<symbolicName>IDS_TEMPLATE_NAME_ACTION_PERSON</symbolicName>
+		<text>Действие + лицо</text>
+	</message>
+	<message>
+		<messageID>0x0FA4</messageID>
+		<symbolicName>IDS_TEMPLATE_NAME_ACTION_PERSON_NOTE</symbolicName>
+		<text>Действие +  лицо + примечание</text>
+	</message>
+	<message>
+		<messageID>0x0FA5</messageID>
+		<symbolicName>IDS_TEMPLATE_NAME_ACTION_NOTE</symbolicName>
+		<text>Действие + примечание</text>
+	</message>
+	<message>
+		<messageID>0x0FA6</messageID>
+		<symbolicName>IDS_TEMPLATE_NAME_PERSON_NOTE</symbolicName>
+		<text>Лицо + примечание</text>
+	</message>
+	<message>
+		<messageID>0x0FA7</messageID>
+		<symbolicName>IDS_TEMPLATE_NAME_NOTE</symbolicName>
+		<text>Примечание</text>
+	</message>
+	<message/>
+	<message/>
+	<message/>
+	<message>
+		<messageID>0x0FC1</messageID>
+		<symbolicName>IDS_FIND_SERVERS</symbolicName>
+		<text>Поиск серверов…</text>
+	</message>
+	<message>
+		<messageID>0x0FC2</messageID>
+		<symbolicName>IDS_WORD_CLUSTER</symbolicName>
+		<text>Кластер</text>
+	</message>
+	<message>
+		<messageID>0x0FC3</messageID>
+		<symbolicName>IDS_WORD_SERVER</symbolicName>
+		<text>Сервер</text>
+	</message>
+	<message>
+		<messageID>0x0FC7</messageID>
+		<symbolicName>IDS_WORD_DEVICES</symbolicName>
+		<text>Устройства</text>
+	</message>
+	<message>
+		<messageID>0x0FC4</messageID>
+		<symbolicName>IDS_APPLICATION_ALREADY_ACTIVE</symbolicName>
+		<text>Приложение уже загружено!</text>
+	</message>
+	<message>
+		<messageID>0x0FC5</messageID>
+		<symbolicName>IDS_SECONDS_REMAINED</symbolicName>
+		<text>%d секунд(ы) осталось </text>
+	</message>
+	<message>
+		<messageID>0x0FC6</messageID>
+		<symbolicName>IDS_INTERNAL_SERVER</symbolicName>
+		<text>Встроенный сервер</text>
+	</message>
+	<message/>
+	<message>
+		<messageID>0x0643</messageID>
+		<symbolicName>IDC_CHECK_NO_VIDEO</symbolicName>
+		<text>Отключить поддержку видео</text>
+	</message>
+	<message>
+		<messageID>0x0644</messageID>
+		<symbolicName>IDC_PRINT_CASE</symbolicName>
+		<text>Печать дела</text>
+	</message>
+	<message/>
+	<message>
+		<messageID>0x8000</messageID>
+		<symbolicName>ID_CANCEL_EDIT_CNTR</symbolicName>
+		<text>Отменить контроль редактирования\n</text>
+	</message>
+	<message>
+		<messageID>0x8001</messageID>
+		<symbolicName>ID_CANCEL_EDIT_SRVR</symbolicName>
+		<text>\n</text>
+	</message>
+	<message>
+		<messageID>0x8005</messageID>
+		<symbolicName>ID_PROTOCOL_ANSWER</symbolicName>
+		<text>Вопрос/Ответ\nВопрос/Ответ</text>
+	</message>
+	<message/>
+	<message>
+		<messageID>0x8010</messageID>
+		<symbolicName>ID_SYSMENU_ABOUT</symbolicName>
+		<text>&amp;О программе...</text>
+	</message>
+	<message>
+		<messageID>0x8020</messageID>
+		<symbolicName>ID_SYSMENU_LANGUAGE</symbolicName>
+		<text>&amp;Выбор языка...</text>
+	</message>
+	<message>
+		<messageID>0x8030</messageID>
+		<symbolicName>ID_SYSMENU_OPTIONS</symbolicName>
+		<text>&amp;Настройка...</text>
+	</message>
+	<message>
+		<messageID>0x9850</messageID>
+		<symbolicName>ID_SYSMENU_TUNE_KEYBOARD</symbolicName>
+		<text>&amp;Настройка клавиатуры...</text>
+	</message>
+	<message>
+		<messageID>0x9860</messageID>
+		<symbolicName>ID_SYSMENU_CHANGE_PARAMETERS</symbolicName>
+		<text>&amp;Изменить номер и название дела</text>
+	</message>
+	<message>
+		<messageID>0x9870</messageID>
+		<symbolicName>ID_SYSMENU_SAVE_AS</symbolicName>
+		<text>&amp;Сохранить как... </text>
+	</message>
+	<message>
+		<messageID>0x9880</messageID>
+		<symbolicName>ID_SYSMENU_HELP_1</symbolicName>
+		<text>&amp;Справка...</text>
+	</message>
+	<message>
+		<messageID>0x9890</messageID>
+		<symbolicName>ID_SYSMENU_HELP_2</symbolicName>
+		<text>&amp;Справка...</text>
+	</message>
+	<message>
+		<messageID>0x98A0</messageID>
+		<symbolicName>ID_SYSMENU_HELP_3</symbolicName>
+		<text>&amp;Справка...</text>
+	</message>
+	<message>
+		<messageID>0x98B0</messageID>
+		<symbolicName>ID_SYSMENU_HELP_4</symbolicName>
+		<text>&amp;Справка...</text>
+	</message>
+	<message>
+		<messageID>0x98C0</messageID>
+		<symbolicName>ID_SYSMENU_HELP_5</symbolicName>
+		<text>&amp;Справка...</text>
+	</message>
+	<message>
+		<messageID>0x98D0</messageID>
+		<symbolicName>ID_SYSMENU_HELP_6</symbolicName>
+		<text>&amp;Справка...</text>
+	</message>
+	<message>
+		<messageID>0x98E0</messageID>
+		<symbolicName>ID_SYSMENU_HELP_7</symbolicName>
+		<text>&amp;Справка...</text>
+	</message>
+	<message>
+		<messageID>0x98F0</messageID>
+		<symbolicName>ID_SYSMENU_HELP_8</symbolicName>
+		<text>&amp;Справка...</text>
+	</message>
+	<message>
+		<messageID>0x9900</messageID>
+		<symbolicName>ID_SYSMENU_HELP_9</symbolicName>
+		<text>&amp;Справка...</text>
+	</message>
+	<message>
+		<messageID>0x9910</messageID>
+		<symbolicName>ID_SYSMENU_HELP_10</symbolicName>
+		<text>&amp;Справка...</text>
+	</message>
+	<message>
+		<messageID>0x9920</messageID>
+		<symbolicName>ID_SYSMENU_HELP_11</symbolicName>
+		<text>&amp;Справка...</text>
+	</message>
+	<message>
+		<messageID>0x9930</messageID>
+		<symbolicName>ID_SYSMENU_HELP_12</symbolicName>
+		<text>&amp;Справка...</text>
+	</message>
+	<message>
+		<messageID>0x9940</messageID>
+		<symbolicName>ID_SYSMENU_HELP_13</symbolicName>
+		<text>&amp;Справка...</text>
+	</message>
+	<message>
+		<messageID>0x9950</messageID>
+		<symbolicName>ID_SYSMENU_HELP_14</symbolicName>
+		<text>&amp;Справка...</text>
+	</message>
+	<message>
+		<messageID>0x9960</messageID>
+		<symbolicName>ID_SYSMENU_HELP_15</symbolicName>
+		<text>&amp;Справка...</text>
+	</message>
+	<message>
+		<messageID>0x9970</messageID>
+		<symbolicName>ID_SYSMENU_HELP_16</symbolicName>
+		<text>&amp;Справка...</text>
+	</message>
+	<message>
+		<messageID>0x9980</messageID>
+		<symbolicName>ID_SYSMENU_MERGE</symbolicName>
+		<text>&amp;Объединить…</text>
+	</message>
+	<message>
+		<messageID>0x9A50</messageID>
+		<symbolicName>ID_SYSMENU_IMPORT</symbolicName>
+		<text>&amp;Импорт…</text>
+	</message>
+	<message>
+		<messageID>0x9A60</messageID>
+		<symbolicName>ID_SYSMENU_EXPORT</symbolicName>
+		<text>&amp;Экпорт…</text>
+	</message>
+	<message>
+		<messageID>0x9A70</messageID>
+		<symbolicName>ID_SYSMENU_EVENTS</symbolicName>
+		<text>&amp;Журнал системных событий…</text>
+	</message>
+	<message/>
+	<message>
+		<messageID>0x991F</messageID>
+		<symbolicName>ID_RUN</symbolicName>
+		<text>&amp;Пуск</text>
+	</message>
+	<message>
+		<messageID>0x991E</messageID>
+		<symbolicName>ID_STOP_STOP</symbolicName>
+		<text>&amp;Стоп</text>
+	</message>
+	<message>
+		<messageID>0x991D</messageID>
+		<symbolicName>ID_EXIT</symbolicName>
+		<text>&amp;Выход</text>
+	</message>
+	<message/>
+	<message>
+		<messageID>0x9921</messageID>
+		<symbolicName>ID_PLAY</symbolicName>
+		<text>Воспроизвести</text>
+	</message>
+	<message>
+		<messageID>0x9922</messageID>
+		<symbolicName>ID_STOP</symbolicName>
+		<text>Стоп</text>
+	</message>
+	<message>
+		<messageID>0x9923</messageID>
+		<symbolicName>ID_PAUSE</symbolicName>
+		<text>Пауза </text>
+	</message>
+	<message>
+		<messageID>0x9924</messageID>
+		<symbolicName>ID_RESUME</symbolicName>
+		<text>Продолжить</text>
+	</message>
+	<message>
+		<messageID>0x9925</messageID>
+		<symbolicName>ID_POSITION</symbolicName>
+		<text>Позиция</text>
+	</message>
+	<message>
+		<messageID>0x9926</messageID>
+		<symbolicName>ID_AGC</symbolicName>
+		<text>&amp;Автоматическая регулировка уровня</text>
+	</message>
+	<message>
+		<messageID>0x9927</messageID>
+		<symbolicName>ID_ACB</symbolicName>
+		<text>Автоматический &amp;баланс каналов</text>
+	</message>
+	<message>
+		<messageID>0x9928</messageID>
+		<symbolicName>ID_INVERT_CHANNEL</symbolicName>
+		<text>&amp;Инверсия канала</text>
+	</message>
+	<message>
+		<messageID>0x9929</messageID>
+		<symbolicName>ID_SELECT_SOUND_DEVICE</symbolicName>
+		<text>Выбор устройства воспроизведения...</text>
+	</message>
+	<message>
+		<messageID>0x992A</messageID>
+		<symbolicName>ID_EQUALIZER</symbolicName>
+		<text>&amp;Эквалайзер...</text>
+	</message>
+	<message>
+		<messageID>0x992B</messageID>
+		<symbolicName>ID_AGC_PARAMETERS</symbolicName>
+		<text>&amp;Параметры автоматической регулировки уровня...</text>
+	</message>
+	<message>
+		<messageID>0x992C</messageID>
+		<symbolicName>ID_SUMMARIZE</symbolicName>
+		<text>&amp;Суммировать дорожки\n&amp;Одна дорожка</text>
+	</message>
+	<message>
+		<messageID>0x992D</messageID>
+		<symbolicName>ID_ENABLE_DIASABLE</symbolicName>
+		<text>&amp;Включить\n&amp;Выключить</text>
+	</message>
+	<message>
+		<messageID>0x992E</messageID>
+		<symbolicName>ID_PEDAL_RIGHT</symbolicName>
+		<text>Правая кнопка ножной педали</text>
+	</message>
+	<message>
+		<messageID>0x992F</messageID>
+		<symbolicName>ID_PEDAL_LEFT</symbolicName>
+		<text>Левая кнопка ножной педали</text>
+	</message>
+	<message/>
+	<message>
+		<messageID>0x9931</messageID>
+		<symbolicName>ID_PLAYER_PLAYPAUSE</symbolicName>
+		<text>Воспроизвести/приостановить</text>
+	</message>
+	<message>
+		<messageID>0x9932</messageID>
+		<symbolicName>ID_PLAYER_STOP</symbolicName>
+		<text>Остановить воспроизведение</text>
+	</message>
+	<message>
+		<messageID>0x9933</messageID>
+		<symbolicName>ID_RECORD_START</symbolicName>
+		<text>Запись</text>
+	</message>
+	<message>
+		<messageID>0x9934</messageID>
+		<symbolicName>ID_RECORD_STOP</symbolicName>
+		<text>Остановить запись</text>
+	</message>
+	<message>
+		<messageID>0x9935</messageID>
+		<symbolicName>ID_PLAYER_NEXT</symbolicName>
+		<text>Вперед</text>
+	</message>
+	<message>
+		<messageID>0x9936</messageID>
+		<symbolicName>ID_PLAYER_PRIOR</symbolicName>
+		<text>Назад</text>
+	</message>
+	<message>
+		<messageID>0x9937</messageID>
+		<symbolicName>ID_PLAYER_INCREASE_SCALE</symbolicName>
+		<text>Увеличить масштаб</text>
+	</message>
+	<message>
+		<messageID>0x9938</messageID>
+		<symbolicName>ID_PLAYER_DECREASE_SCALE</symbolicName>
+		<text>Уменьшить масштаб</text>
+	</message>
+	<message>
+		<messageID>0x9939</messageID>
+		<symbolicName>ID_PLAYER_SCROLL_FORWARD</symbolicName>
+		<text>Прокрутить вперед</text>
+	</message>
+	<message>
+		<messageID>0x993A</messageID>
+		<symbolicName>ID_PLAYER_SCROLL_BACK</symbolicName>
+		<text>Прокрутить назад</text>
+	</message>
+	<message>
+		<messageID>0x993B</messageID>
+		<symbolicName>ID_EXPERT_SETTINGS</symbolicName>
+		<text>&amp;Экспертные настройки...</text>
+	</message>
+	<message>
+		<messageID>0x993C</messageID>
+		<symbolicName>ID_PROCESSING</symbolicName>
+		<text>Обработка звука</text>
+	</message>
+	<message/>
+	<message>
+		<messageID>0x993D</messageID>
+		<symbolicName>ID_EDITOR_ACTION</symbolicName>
+		<text>Действие</text>
+	</message>
+	<message>
+		<messageID>0x993E</messageID>
+		<symbolicName>ID_EDITOR_PERSONE</symbolicName>
+		<text>Участник</text>
+	</message>
+	<message>
+		<messageID>0x993F</messageID>
+		<symbolicName>ID_EDITOR_LOCATION</symbolicName>
+		<text>Место</text>
+	</message>
+	<message>
+		<messageID>0x9941</messageID>
+		<symbolicName>ID_EDITOR_LOCATION1</symbolicName>
+		<text>Место 1</text>
+	</message>
+	<message>
+		<messageID>0x9942</messageID>
+		<symbolicName>ID_EDITOR_LOCATION2</symbolicName>
+		<text>Место 2</text>
+	</message>
+	<message>
+		<messageID>0x9943</messageID>
+		<symbolicName>ID_EDITOR_LOCATION3</symbolicName>
+		<text>Место 3</text>
+	</message>
+	<message>
+		<messageID>0x9944</messageID>
+		<symbolicName>ID_EDITOR_LOCATION4</symbolicName>
+		<text>Место 4</text>
+	</message>
+	<message>
+		<messageID>0x9945</messageID>
+		<symbolicName>ID_EDITOR_LOCATION5</symbolicName>
+		<text>Место 5</text>
+	</message>
+	<message>
+		<messageID>0x9946</messageID>
+		<symbolicName>ID_EDITOR_LOCATION6</symbolicName>
+		<text>Место 6</text>
+	</message>
+	<message>
+		<messageID>0x9947</messageID>
+		<symbolicName>ID_EDITOR_LOCATION7</symbolicName>
+		<text>Место 7</text>
+	</message>
+	<message>
+		<messageID>0x9948</messageID>
+		<symbolicName>ID_EDITOR_LOCATION8</symbolicName>
+		<text>Место 8</text>
+	</message>
+	<message>
+		<messageID>0x9949</messageID>
+		<symbolicName>ID_EDITOR_LOCATION9</symbolicName>
+		<text>Место 9</text>
+	</message>
+	<message>
+		<messageID>0x994A</messageID>
+		<symbolicName>ID_PLAYER_LOCATION</symbolicName>
+		<text>Прослушать места</text>
+	</message>
+	<message>
+		<messageID>0x994B</messageID>
+		<symbolicName>ID_EDITOR_EVENT</symbolicName>
+		<text>Новое событие</text>
+	</message>
+	<message>
+		<messageID>0x9984</messageID>
+		<symbolicName>ID_RESET_VOLUMES</symbolicName>
+		<text>&amp;Сброс громкостей</text>
+	</message>
+	<message>
+		<messageID>0x9990</messageID>
+		<symbolicName>ID_SEARCH</symbolicName>
+		<text>&amp;Поиск…</text>
+	</message>
+	<message>
+		<messageID>0x9991</messageID>
+		<symbolicName>ID_SEARCH_AND_REPLACE</symbolicName>
+		<text>&amp;Заменить…</text>
+	</message>
+	<message>
+		<messageID>0x9992</messageID>
+		<symbolicName>ID_PEDAL_MIDDLE</symbolicName>
+		<text>Средняя кнопка ножной педали</text>
+	</message>
+	<message>
+		<messageID>0x9993</messageID>
+		<symbolicName>ID_REPORT_APPOINT</symbolicName>
+		<text>Назначить задание транскрибирования</text>
+	</message>
+	<message>
+		<messageID>0x9994</messageID>
+		<symbolicName>ID_REPORT_UPDATE</symbolicName>
+		<text>Обновить транскрипции</text>
+	</message>
+	<message/>
+	<message>
+		<messageID>0x99A0</messageID>
+		<symbolicName>IDC_STATIC_REPLACE_MESSAGE_A</symbolicName>
+		<text>Текущий шаблон документа не сохранен на диске. Сохранить шаблон на диск?\nСохранить шаблон на диск.\nЗаменить шаблон документа без сохранения (текущий шаблон документа будет уничтожен!)\n</text>
+	</message>
+	<message>
+		<messageID>0x99A1</messageID>
+		<symbolicName>IDC_STATIC_REPLACE_MESSAGE_B</symbolicName>
+		<text>!</text>
+	</message>
+	<message>
+		<messageID>0x99A2</messageID>
+		<symbolicName>IDC_STATIC_REPLACE_MESSAGE_C</symbolicName>
+		<text>Шаблон документа и его копия на диске не совпадают. Обновить шаблон на диске?\nОбновить шаблон на диске.\nСохранить шаблон документа с другим именем.\nЗаменить шаблон документа без сохранения (текущий шаблон документа будет уничтожен!)\n</text>
+	</message>
+	<message>
+		<messageID>0x99A3</messageID>
+		<symbolicName>IDC_STATIC_REPLACE_MESSAGE_D</symbolicName>
+		<text>Шаблон документа и его копия на диске не совпадают. Обновить шаблон на диске?\nСохранить текущий шаблон документа с другим именем.\nЗаменить шаблон документа без сохранения (текущий шаблон документа будет уничтожен!)\n</text>
+	</message>
+	<message/>
+	<message>
+		<messageID>0x9C40</messageID>
+		<symbolicName>ERR_FAILURE</symbolicName>
+		<text>Неизвестная ошибка</text>
+	</message>
+	<message>
+		<messageID>0x9D08</messageID>
+		<symbolicName>ERR_RECORD_NOT_FOUND</symbolicName>
+		<text>Запись отсуствует</text>
+	</message>
+	<message>
+		<messageID>0x9D09</messageID>
+		<symbolicName>ERR_BAD_TEMPLATE</symbolicName>
+		<text>Неправильный формат шаблона заседания</text>
+	</message>
+	<message>
+		<messageID>0x9D0A</messageID>
+		<symbolicName>ERR_TEMPLATES_NOT_FOUND</symbolicName>
+		<text>Шаблоны заседаний не найдены</text>
+	</message>
+	<message>
+		<messageID>0x9D0B</messageID>
+		<symbolicName>ERR_TEMPLATE_NAME_ALREDY_EXIST</symbolicName>
+		<text>Такое имя уже используется</text>
+	</message>
+	<message>
+		<messageID>0x9D0C</messageID>
+		<symbolicName>ERR_NAME_NOT_DEFINED</symbolicName>
+		<text>Фамилия не задана</text>
+	</message>
+	<message>
+		<messageID>0x9D0D</messageID>
+		<symbolicName>ERR_PERSONE_ALREADY_DEFINED</symbolicName>
+		<text>Такое действующее лицо уже существует</text>
+	</message>
+	<message>
+		<messageID>0x9D0E</messageID>
+		<symbolicName>ERR_BAD_HEADER_FORMAT</symbolicName>
+		<text>Неправильный формат записи шаблона заголовка</text>
+	</message>
+	<message>
+		<messageID>0x9D0F</messageID>
+		<symbolicName>ERR_BAD_DATE</symbolicName>
+		<text>Неправильная дата</text>
+	</message>
+	<message>
+		<messageID>0x9D10</messageID>
+		<symbolicName>ERR_BAD_BUSINESS_NUMBER</symbolicName>
+		<text>Неправильный номер дела - \nномер дела не должен быть пустым и\nне может включать символы / : &gt; &lt; = \? \" \\ |</text>
+	</message>
+	<message>
+		<messageID>0x9D11</messageID>
+		<symbolicName>ERR_TEMPLATE_NOT_FOUND</symbolicName>
+		<text>Шаблон заседания не найден</text>
+	</message>
+	<message>
+		<messageID>0x9D12</messageID>
+		<symbolicName>ERR_NOT_SAVED</symbolicName>
+		<text>Сделанные изменения не сохранены. Сохранить?\n\"Да\" - запись\n\"Нет\" - полная потеря исправлений\n\"Отмена\" для продолжения работы</text>
+	</message>
+	<message>
+		<messageID>0x9D13</messageID>
+		<symbolicName>ERR_PHONO_BOUNDARIES</symbolicName>
+		<text>Невозможно определить границы фонограммы.\nФонограмма не должна быть  пустой и должна оканчиваться служебной записью &lt;&lt;&lt;конец&gt;&gt;&gt;  или  &lt;&lt;&lt;перерыв&gt;&gt;&gt;</text>
+	</message>
+	<message>
+		<messageID>0x9D14</messageID>
+		<symbolicName>ERR_OUT_OF_DISK_SPACE</symbolicName>
+		<text>Недостаточно места на носителе.\nЕсли запись осуществляется на компакт-диск, \nнеобходимо вставить новый чистый диск.</text>
+	</message>
+	<message>
+		<messageID>0x9D15</messageID>
+		<symbolicName>ERR_PROTOCOL_IS_NOT_FORMED</symbolicName>
+		<text>Не введено ни одного действия!</text>
+	</message>
+	<message>
+		<messageID>0x9D16</messageID>
+		<symbolicName>ERR_CHANGE_RECORDING_SETTINGS_IMPOSSIBLE</symbolicName>
+		<text>Нельзя изменять настройки записи во время записи!</text>
+	</message>
+	<message>
+		<messageID>0x9D17</messageID>
+		<symbolicName>ERR_CAN_NOT_CREATE_DIRECTORY</symbolicName>
+		<text>Невозможно создать папку\n\"%s\"</text>
+	</message>
+	<message>
+		<messageID>0x9D18</messageID>
+		<symbolicName>ERR_BACKUP_PRESENT</symbolicName>
+		<text>Возможно, последнее сохранение завершилось аварийно.\nВосстановить данные из резервной копии?</text>
+	</message>
+	<message>
+		<messageID>0x9D19</messageID>
+		<symbolicName>ERR_DLL_SAVE_TO_ANOTHER</symbolicName>
+		<text>Сохранение отменено. \nСохранить в другой каталог?</text>
+	</message>
+	<message>
+		<messageID>0x9D1A</messageID>
+		<symbolicName>ERR_CHANNELS_IS_NOT_SELECTED</symbolicName>
+		<text>Каналы записи не выбраны!</text>
+	</message>
+	<message>
+		<messageID>0x9D1B</messageID>
+		<symbolicName>ERR_BAD_RECORD_FORMAT</symbolicName>
+		<text>Неизвестный формат записи!</text>
+	</message>
+	<message>
+		<messageID>0x9D1C</messageID>
+		<symbolicName>ERR_ROLE_NOT_DEFINED</symbolicName>
+		<text>Роль не задана</text>
+	</message>
+	<message>
+		<messageID>0x9D1E</messageID>
+		<symbolicName>ERR_DISK_NOT_FORMATTED</symbolicName>
+		<text>Диск не форматирован</text>
+	</message>
+	<message>
+		<messageID>0x9D1F</messageID>
+		<symbolicName>ERR_AUDIO_OUTPUT_DEVICE_NOT_FOUND</symbolicName>
+		<text>Устройство воспроизведения звука не найдено</text>
+	</message>
+	<message>
+		<messageID>0x9D20</messageID>
+		<symbolicName>ERR_REPLICATION_FAILED</symbolicName>
+		<text>Ошибка репликации</text>
+	</message>
+	<message>
+		<messageID>0x9D21</messageID>
+		<symbolicName>ERR_SELECTION_NOT_DEFINED</symbolicName>
+		<text>Выделение не задано</text>
+	</message>
+	<message>
+		<messageID>0x9D22</messageID>
+		<symbolicName>ERR_SERVER_NOT_DEFINED</symbolicName>
+		<text>Сервер не задан. Продолжить?</text>
+	</message>
+	<message>
+		<messageID>0x9D23</messageID>
+		<symbolicName>IDS_NETWORK_ALSO</symbolicName>
+		<text>сохранить также в сетевой архив</text>
+	</message>
+	<message>
+		<messageID>0x9D24</messageID>
+		<symbolicName>ERR_IMAPI_FORMAT2_DATA_MEDIA_STATE</symbolicName>
+		<text>только перезапись\nзапись со случайным доступом\nпустой\nдополняемый\nзавершенная сессия\nповрежден\nтребуется стирание\nне пустая сессия\nзащищен от записи\nзавершен\nнеподдерживаемый носитель</text>
+	</message>
+	<message/>
+	<message>
+		<messageID>0x9D25</messageID>
+		<symbolicName>ERR_next</symbolicName>
+		<text>next</text>
+	</message>
+	<message/>
+	<message>
+		<messageID>0xE000</messageID>
+		<symbolicName>AFX_IDS_APP_TITLE</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xE010</messageID>
+		<symbolicName>IDS_APP_LICENSE</symbolicName>
+		<text>Пользователь:%s\r\nОрганизация:%s\r\nСерийный номер:%s</text>
+	</message>
+	<message>
+		<messageID>0xE011</messageID>
+		<symbolicName>IDS_APP_LICENSE_LOCALIZED</symbolicName>
+		<text>?</text>
+	</message>
+	<message/>
+	<message>
+		<messageID>0xE100</messageID>
+		<symbolicName>ID_FILE_NEW</symbolicName>
+		<text>Создать новый документ\nСоздать</text>
+	</message>
+	<message>
+		<messageID>0xE101</messageID>
+		<symbolicName>ID_FILE_OPEN</symbolicName>
+		<text>Открыть существующий документ\nОткрыть</text>
+	</message>
+	<message>
+		<messageID>0xE102</messageID>
+		<symbolicName>ID_FILE_CLOSE</symbolicName>
+		<text>Закрыть текущий документ\nЗакрыть</text>
+	</message>
+	<message>
+		<messageID>0xE103</messageID>
+		<symbolicName>ID_FILE_SAVE</symbolicName>
+		<text>Сохранить текущий документ\nСохранить</text>
+	</message>
+	<message>
+		<messageID>0xE104</messageID>
+		<symbolicName>ID_FILE_SAVE_AS</symbolicName>
+		<text>Сохранить текущий документ с новым именем\nСохранить</text>
+	</message>
+	<message>
+		<messageID>0xE105</messageID>
+		<symbolicName>ID_FILE_PAGE_SETUP</symbolicName>
+		<text>Сменить настройки для печати\nПараметры страницы</text>
+	</message>
+	<message>
+		<messageID>0xE106</messageID>
+		<symbolicName>ID_FILE_PRINT_SETUP</symbolicName>
+		<text>Сменить принтер и настройки для печати\nПараметры печати</text>
+	</message>
+	<message>
+		<messageID>0xE107</messageID>
+		<symbolicName>ID_FILE_PRINT</symbolicName>
+		<text>Печатать текущий документ\nПечать</text>
+	</message>
+	<message>
+		<messageID>0xE108</messageID>
+		<symbolicName>ID_FILE_PRINT_DIRECT</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xE109</messageID>
+		<symbolicName>ID_FILE_PRINT_PREVIEW</symbolicName>
+		<text>Показать все страницы\nПредварительный просмотр</text>
+	</message>
+	<message>
+		<messageID>0xE10A</messageID>
+		<symbolicName>ID_FILE_UPDATE</symbolicName>
+		<text>Обновить контейнер, чтобы показать все изменения\nОбновить</text>
+	</message>
+	<message>
+		<messageID>0xE10B</messageID>
+		<symbolicName>ID_FILE_SAVE_COPY_AS</symbolicName>
+		<text>Сохранить копию текущего документ с новым именем\nСохранить копию </text>
+	</message>
+	<message>
+		<messageID>0xE10C</messageID>
+		<symbolicName>ID_FILE_SEND_MAIL</symbolicName>
+		<text>Отослать текущий документ по электронной почте\nОтослать по электронной почте</text>
+	</message>
+	<message>
+		<messageID>0xE10D</messageID>
+		<symbolicName>ID_FILE_NEW_FRAME</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xE110</messageID>
+		<symbolicName>ID_FILE_MRU_FILE1</symbolicName>
+		<text>Открыть этот документ</text>
+	</message>
+	<message>
+		<messageID>0xE111</messageID>
+		<symbolicName>ID_FILE_MRU_FILE2</symbolicName>
+		<text>Открыть этот документ</text>
+	</message>
+	<message>
+		<messageID>0xE112</messageID>
+		<symbolicName>ID_FILE_MRU_FILE3</symbolicName>
+		<text>Открыть этот документ</text>
+	</message>
+	<message>
+		<messageID>0xE113</messageID>
+		<symbolicName>ID_FILE_MRU_FILE4</symbolicName>
+		<text>Открыть этот документ</text>
+	</message>
+	<message>
+		<messageID>0xE114</messageID>
+		<symbolicName>ID_FILE_MRU_FILE5</symbolicName>
+		<text>Открыть этот документ</text>
+	</message>
+	<message>
+		<messageID>0xE115</messageID>
+		<symbolicName>ID_FILE_MRU_FILE6</symbolicName>
+		<text>Открыть этот документ</text>
+	</message>
+	<message>
+		<messageID>0xE116</messageID>
+		<symbolicName>ID_FILE_MRU_FILE7</symbolicName>
+		<text>Открыть этот документ</text>
+	</message>
+	<message>
+		<messageID>0xE117</messageID>
+		<symbolicName>ID_FILE_MRU_FILE8</symbolicName>
+		<text>Открыть этот документ</text>
+	</message>
+	<message>
+		<messageID>0xE118</messageID>
+		<symbolicName>ID_FILE_MRU_FILE9</symbolicName>
+		<text>Открыть этот документ</text>
+	</message>
+	<message>
+		<messageID>0xE119</messageID>
+		<symbolicName>ID_FILE_MRU_FILE10</symbolicName>
+		<text>Открыть этот документ</text>
+	</message>
+	<message>
+		<messageID>0xE11A</messageID>
+		<symbolicName>ID_FILE_MRU_FILE11</symbolicName>
+		<text>Открыть этот документ</text>
+	</message>
+	<message>
+		<messageID>0xE11B</messageID>
+		<symbolicName>ID_FILE_MRU_FILE12</symbolicName>
+		<text>Открыть этот документ</text>
+	</message>
+	<message>
+		<messageID>0xE11C</messageID>
+		<symbolicName>ID_FILE_MRU_FILE13</symbolicName>
+		<text>Открыть этот документ</text>
+	</message>
+	<message>
+		<messageID>0xE11D</messageID>
+		<symbolicName>ID_FILE_MRU_FILE14</symbolicName>
+		<text>Открыть этот документ</text>
+	</message>
+	<message>
+		<messageID>0xE11E</messageID>
+		<symbolicName>ID_FILE_MRU_FILE15</symbolicName>
+		<text>Открыть этот документ</text>
+	</message>
+	<message>
+		<messageID>0xE11F</messageID>
+		<symbolicName>ID_FILE_MRU_FILE16</symbolicName>
+		<text>Открыть этот документ</text>
+	</message>
+	<message>
+		<messageID>0xE120</messageID>
+		<symbolicName>ID_EDIT_CLEAR        </symbolicName>
+		<text>Стереть выделение\nСтереть</text>
+	</message>
+	<message>
+		<messageID>0xE121</messageID>
+		<symbolicName>ID_EDIT_CLEAR_ALL    </symbolicName>
+		<text>Стереть все\nСтереть все</text>
+	</message>
+	<message>
+		<messageID>0xE122</messageID>
+		<symbolicName>ID_EDIT_COPY         </symbolicName>
+		<text>Скопировать выделение в буфер обмена\nКопировать</text>
+	</message>
+	<message>
+		<messageID>0xE123</messageID>
+		<symbolicName>ID_EDIT_CUT          </symbolicName>
+		<text>Вырезать выделение и вставить в буфер обмена\nВырезать</text>
+	</message>
+	<message>
+		<messageID>0xE124</messageID>
+		<symbolicName>ID_EDIT_FIND         </symbolicName>
+		<text>Найти указанный текст\nНайти</text>
+	</message>
+	<message>
+		<messageID>0xE125</messageID>
+		<symbolicName>ID_EDIT_PASTE        </symbolicName>
+		<text>Вставить содержание буфера обмена\nВставить</text>
+	</message>
+	<message>
+		<messageID>0xE126</messageID>
+		<symbolicName>ID_EDIT_PASTE_LINK   </symbolicName>
+		<text>Вставить содержание буфера обмена и добавить ссылку на его источник\nДобавить ссылку</text>
+	</message>
+	<message>
+		<messageID>0xE127</messageID>
+		<symbolicName>ID_EDIT_PASTE_SPECIAL</symbolicName>
+		<text>Вставить содержание буфера обмена с опциями\nВставить избранное</text>
+	</message>
+	<message>
+		<messageID>0xE128</messageID>
+		<symbolicName>ID_EDIT_REPEAT       </symbolicName>
+		<text>Повторить последнее действие\nПовторить</text>
+	</message>
+	<message>
+		<messageID>0xE129</messageID>
+		<symbolicName>ID_EDIT_REPLACE      </symbolicName>
+		<text>Заменить указанный текст другим\nЗаменить</text>
+	</message>
+	<message>
+		<messageID>0xE12A</messageID>
+		<symbolicName>ID_EDIT_SELECT_ALL   </symbolicName>
+		<text>Выделить весь документ\nВыделить все</text>
+	</message>
+	<message>
+		<messageID>0xE12B</messageID>
+		<symbolicName>ID_EDIT_UNDO         </symbolicName>
+		<text>Вернуть последнее действие\nВернуть</text>
+	</message>
+	<message>
+		<messageID>0xE12C</messageID>
+		<symbolicName>ID_EDIT_REDO         </symbolicName>
+		<text>Повторить предыдущее отмененное действие\nПовторить</text>
+	</message>
+	<message>
+		<messageID>0xE130</messageID>
+		<symbolicName>ID_WINDOW_NEW      </symbolicName>
+		<text>Открыть другое окно для текущего документа\nНовое окно</text>
+	</message>
+	<message>
+		<messageID>0xE131</messageID>
+		<symbolicName>ID_WINDOW_ARRANGE  </symbolicName>
+		<text>Упорядочить пиктограммы в нижней части окна\nУпорядочить пиктограммы</text>
+	</message>
+	<message>
+		<messageID>0xE132</messageID>
+		<symbolicName>ID_WINDOW_CASCADE  </symbolicName>
+		<text>Разместить окна каскадом\nОкна каскадом</text>
+	</message>
+	<message>
+		<messageID>0xE133</messageID>
+		<symbolicName>ID_WINDOW_TILE_HORZ</symbolicName>
+		<text>Разместить окна друг возле друга\nРазместить окна мозаикой</text>
+	</message>
+	<message>
+		<messageID>0xE134</messageID>
+		<symbolicName>ID_WINDOW_TILE_VERT</symbolicName>
+		<text>Разместить окна друг возле друга\nРазместить окна мозаикой</text>
+	</message>
+	<message>
+		<messageID>0xE135</messageID>
+		<symbolicName>ID_WINDOW_SPLIT    </symbolicName>
+		<text>Разделить активное окно на несколько окон\nРазделить окно</text>
+	</message>
+	<message>
+		<messageID>0xE140</messageID>
+		<symbolicName>ID_APP_ABOUT    </symbolicName>
+		<text>Отобразить информацию о программе, версии и авторских правах\nО программе</text>
+	</message>
+	<message>
+		<messageID>0xE141</messageID>
+		<symbolicName>ID_APP_EXIT     </symbolicName>
+		<text>Выйти из приложения; подсказки сохранить документы\nВыйти</text>
+	</message>
+	<message>
+		<messageID>0xE142</messageID>
+		<symbolicName>ID_HELP_INDEX   </symbolicName>
+		<text>Список тем справки\nИндекс справки</text>
+	</message>
+	<message>
+		<messageID>0xE143</messageID>
+		<symbolicName>ID_HELP_FINDER  </symbolicName>
+		<text>Список тем справки\nТемы справки</text>
+	</message>
+	<message>
+		<messageID>0xE144</messageID>
+		<symbolicName>ID_HELP_USING   </symbolicName>
+		<text>Показать указания касательно использования справки\nСправка</text>
+	</message>
+	<message>
+		<messageID>0xE145</messageID>
+		<symbolicName>ID_CONTEXT_HELP </symbolicName>
+		<text>Показать помощь для клавиш, меню та окон\nСправка</text>
+	</message>
+	<message>
+		<messageID>0xE146</messageID>
+		<symbolicName>ID_HELP         </symbolicName>
+		<text>Показать помощь для текущего действия или команды\nСправка</text>
+	</message>
+	<message>
+		<messageID>0xE147</messageID>
+		<symbolicName>ID_DEFAULT_HELP </symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xE150</messageID>
+		<symbolicName>ID_NEXT_PANE</symbolicName>
+		<text>Перейти к другой части окна\nСледующее окошко</text>
+	</message>
+	<message>
+		<messageID>0xE151</messageID>
+		<symbolicName>ID_PREV_PANE</symbolicName>
+		<text>Вернутся к предыдущей части окна\nПредыдущее окошко</text>
+	</message>
+	<message>
+		<messageID>0xE160</messageID>
+		<symbolicName>ID_FORMAT_FONT</symbolicName>
+		<text>Выбрать шрифт для текущего выделения\nШрифт</text>
+	</message>
+	<message>
+		<messageID>0xE200</messageID>
+		<symbolicName>ID_OLE_INSERT_NEW       </symbolicName>
+		<text>Вставить новый вложенный объект\nНовый объект</text>
+	</message>
+	<message>
+		<messageID>0xE201</messageID>
+		<symbolicName>ID_OLE_EDIT_LINKS       </symbolicName>
+		<text>Редактировать связанные объекты\nРедактировать ссылки</text>
+	</message>
+	<message>
+		<messageID>0xE202</messageID>
+		<symbolicName>ID_OLE_EDIT_CONVERT     </symbolicName>
+		<text>Сменить тип обозначенного объекта\nКонвертировать объект</text>
+	</message>
+	<message>
+		<messageID>0xE203</messageID>
+		<symbolicName>ID_OLE_EDIT_CHANGE_ICON </symbolicName>
+		<text>Сменить пиктограмму обозначенного объекта\nСменить пиктограмму</text>
+	</message>
+	<message>
+		<messageID>0xE204</messageID>
+		<symbolicName>ID_OLE_EDIT_PROPERTIES  </symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xE210</messageID>
+		<symbolicName>ID_OLE_VERB_FIRST       </symbolicName>
+		<text>Активировать вложенный или связанный объект</text>
+	</message>
+	<message>
+		<messageID>0xE21F</messageID>
+		<symbolicName>ID_OLE_VERB_LAST        </symbolicName>
+		<text>Активировать вложенный или связанный объект</text>
+	</message>
+	<message>
+		<messageID>0xE230</messageID>
+		<symbolicName>AFX_ID_PREVIEW_CLOSE   </symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xE231</messageID>
+		<symbolicName>AFX_ID_PREVIEW_NUMPAGE </symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xE232</messageID>
+		<symbolicName>AFX_ID_PREVIEW_NEXT    </symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xE233</messageID>
+		<symbolicName>AFX_ID_PREVIEW_PREV    </symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xE234</messageID>
+		<symbolicName>AFX_ID_PREVIEW_PRINT   </symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xE235</messageID>
+		<symbolicName>AFX_ID_PREVIEW_ZOOMIN  </symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xE236</messageID>
+		<symbolicName>AFX_ID_PREVIEW_ZOOMOUT </symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xE700</messageID>
+		<symbolicName>ID_INDICATOR_EXT</symbolicName>
+		<text>EXT</text>
+	</message>
+	<message>
+		<messageID>0xE701</messageID>
+		<symbolicName>ID_INDICATOR_CAPS</symbolicName>
+		<text>CAP</text>
+	</message>
+	<message>
+		<messageID>0xE702</messageID>
+		<symbolicName>ID_INDICATOR_NUM</symbolicName>
+		<text>NUM</text>
+	</message>
+	<message>
+		<messageID>0xE703</messageID>
+		<symbolicName>ID_INDICATOR_SCRL</symbolicName>
+		<text>SCRL</text>
+	</message>
+	<message>
+		<messageID>0xE704</messageID>
+		<symbolicName>ID_INDICATOR_OVR</symbolicName>
+		<text>OVR</text>
+	</message>
+	<message>
+		<messageID>0xE705</messageID>
+		<symbolicName>ID_INDICATOR_REC</symbolicName>
+		<text>REC</text>
+	</message>
+	<message>
+		<messageID>0xE800</messageID>
+		<symbolicName>ID_VIEW_TOOLBAR    </symbolicName>
+		<text>Показать или спрятать панель инструментов\nПанель инструментов</text>
+	</message>
+	<message>
+		<messageID>0xE801</messageID>
+		<symbolicName>ID_VIEW_STATUS_BAR </symbolicName>
+		<text>Показать или спрятать панель состояния\nПолоса состояния</text>
+	</message>
+	<message>
+		<messageID>0xE804</messageID>
+		<symbolicName>ID_VIEW_REBAR      </symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xE805</messageID>
+		<symbolicName>ID_VIEW_AUTOARRANGE</symbolicName>
+		<text>Упорядочить пиктограммы </text>
+	</message>
+	<message>
+		<messageID>0xE810</messageID>
+		<symbolicName>ID_VIEW_SMALLICON  </symbolicName>
+		<text>Показать маленькие пиктограммы\nМаленькие пиктограммы</text>
+	</message>
+	<message>
+		<messageID>0xE811</messageID>
+		<symbolicName>ID_VIEW_LARGEICON  </symbolicName>
+		<text>Показать большие пиктограммы\nБольшие пиктограммы</text>
+	</message>
+	<message>
+		<messageID>0xE812</messageID>
+		<symbolicName>ID_VIEW_LIST       </symbolicName>
+		<text>Показать элементы в форме списка\nСписок</text>
+	</message>
+	<message>
+		<messageID>0xE813</messageID>
+		<symbolicName>ID_VIEW_DETAILS    </symbolicName>
+		<text>Показать детальную информацию о каждом элементе в окне\nДетальная информация</text>
+	</message>
+	<message>
+		<messageID>0xE814</messageID>
+		<symbolicName>ID_VIEW_LINEUP     </symbolicName>
+		<text>Упорядочить пиктограммы в сетку.</text>
+	</message>
+	<message>
+		<messageID>0xE815</messageID>
+		<symbolicName>ID_VIEW_BYNAME     </symbolicName>
+		<text>Сортировать пиктограммы по алфавиту.</text>
+	</message>
+	<message>
+		<messageID>0xE900</messageID>
+		<symbolicName>ID_RECORD_FIRST</symbolicName>
+		<text>Перейти к первой записи\nПервая запись</text>
+	</message>
+	<message>
+		<messageID>0xE901</messageID>
+		<symbolicName>ID_RECORD_LAST </symbolicName>
+		<text>Перейти к последней записи\nПоследняя запись</text>
+	</message>
+	<message>
+		<messageID>0xE902</messageID>
+		<symbolicName>ID_RECORD_NEXT </symbolicName>
+		<text>Перейти к следующей записи\nСледующая запись</text>
+	</message>
+	<message>
+		<messageID>0xE903</messageID>
+		<symbolicName>ID_RECORD_PREV </symbolicName>
+		<text>Перейти к предыдущей записи\nПредыдущая запись</text>
+	</message>
+	<message>
+		<messageID>0xEF00</messageID>
+		<symbolicName>AFX_IDS_SCSIZE      </symbolicName>
+		<text>Изменить размер окна </text>
+	</message>
+	<message>
+		<messageID>0xEF01</messageID>
+		<symbolicName>AFX_IDS_SCMOVE      </symbolicName>
+		<text>Изменить положение окна </text>
+	</message>
+	<message>
+		<messageID>0xEF02</messageID>
+		<symbolicName>AFX_IDS_SCMINIMIZE  </symbolicName>
+		<text>Уменьшить окно к размеру пиктограммы</text>
+	</message>
+	<message>
+		<messageID>0xEF03</messageID>
+		<symbolicName>AFX_IDS_SCMAXIMIZE  </symbolicName>
+		<text>Полностью увеличить окно </text>
+	</message>
+	<message>
+		<messageID>0xEF04</messageID>
+		<symbolicName>AFX_IDS_SCNEXTWINDOW</symbolicName>
+		<text>Перейти к следующему окну документа</text>
+	</message>
+	<message>
+		<messageID>0xEF05</messageID>
+		<symbolicName>AFX_IDS_SCPREVWINDOW</symbolicName>
+		<text>Перейти к предыдущему окну документа</text>
+	</message>
+	<message>
+		<messageID>0xEF06</messageID>
+		<symbolicName>AFX_IDS_SCCLOSE</symbolicName>
+		<text>Закрыть активное окно и сохранить документы</text>
+	</message>
+	<message>
+		<messageID>0xEF12</messageID>
+		<symbolicName>AFX_IDS_SCRESTORE  </symbolicName>
+		<text>Сделать окно нормального размера</text>
+	</message>
+	<message>
+		<messageID>0xEF13</messageID>
+		<symbolicName>AFX_IDS_SCTASKLIST </symbolicName>
+		<text>Активировать список задач</text>
+	</message>
+	<message/>
+	<message>
+		<messageID>0xEFDA</messageID>
+		<symbolicName>AFX_IDS_DESKACCESSORY</symbolicName>
+		<text>Открыть выделенный объект</text>
+	</message>
+	<message/>
+	<message>
+		<messageID>0xF000</messageID>
+		<symbolicName>AFX_IDS_OPENFILE     </symbolicName>
+		<text>Открытие документа</text>
+	</message>
+	<message>
+		<messageID>0xF001</messageID>
+		<symbolicName>AFX_IDS_SAVEFILE     </symbolicName>
+		<text>Сохранение документа</text>
+	</message>
+	<message>
+		<messageID>0xF002</messageID>
+		<symbolicName>AFX_IDS_ALLFILTER    </symbolicName>
+		<text>Все файлы (*.*)</text>
+	</message>
+	<message>
+		<messageID>0xF003</messageID>
+		<symbolicName>AFX_IDS_UNTITLED     </symbolicName>
+		<text>Новый</text>
+	</message>
+	<message>
+		<messageID>0xF004</messageID>
+		<symbolicName>AFX_IDS_SAVEFILECOPY </symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF005</messageID>
+		<symbolicName>AFX_IDS_PREVIEW_CLOSE</symbolicName>
+		<text>Закрыть режим предварительного просмотра для печати\nЗакрыть предварительный просмотр</text>
+	</message>
+	<message>
+		<messageID>0xF006</messageID>
+		<symbolicName>AFX_IDS_UNNAMED_FILE </symbolicName>
+		<text>Неименованный файл</text>
+	</message>
+	<message>
+		<messageID>0xF011</messageID>
+		<symbolicName>AFX_IDS_HIDE         </symbolicName>
+		<text>&amp;Скрыть</text>
+	</message>
+	<message>
+		<messageID>0xF020</messageID>
+		<symbolicName>AFX_IDP_NO_ERROR_AVAILABLE     </symbolicName>
+		<text>Сообщения об ошибках отсутствуют.</text>
+	</message>
+	<message>
+		<messageID>0xF021</messageID>
+		<symbolicName>AFX_IDS_NOT_SUPPORTED_EXCEPTION</symbolicName>
+		<text>Попытка произвести недопустимую операцию.</text>
+	</message>
+	<message>
+		<messageID>0xF022</messageID>
+		<symbolicName>AFX_IDS_RESOURCE_EXCEPTION     </symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF023</messageID>
+		<symbolicName>AFX_IDS_MEMORY_EXCEPTION       </symbolicName>
+		<text>Недостаточно памяти.</text>
+	</message>
+	<message>
+		<messageID>0xF024</messageID>
+		<symbolicName>AFX_IDS_USER_EXCEPTION         </symbolicName>
+		<text>Возникла неизвестная ошибка.</text>
+	</message>
+	<message>
+		<messageID>0xF025</messageID>
+		<symbolicName>AFX_IDS_INVALID_ARG_EXCEPTION  </symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF040</messageID>
+		<symbolicName>AFX_IDS_PRINTONPORT    </symbolicName>
+		<text>на %1</text>
+	</message>
+	<message>
+		<messageID>0xF041</messageID>
+		<symbolicName>AFX_IDS_ONEPAGE        </symbolicName>
+		<text>&amp;Одна страница</text>
+	</message>
+	<message>
+		<messageID>0xF042</messageID>
+		<symbolicName>AFX_IDS_TWOPAGE        </symbolicName>
+		<text>&amp;Две страницы</text>
+	</message>
+	<message>
+		<messageID>0xF043</messageID>
+		<symbolicName>AFX_IDS_PRINTPAGENUM   </symbolicName>
+		<text>Стр. %d</text>
+	</message>
+	<message>
+		<messageID>0xF044</messageID>
+		<symbolicName>AFX_IDS_PREVIEWPAGEDESC</symbolicName>
+		<text>Страница %и\nСтраницы %u-%u\n</text>
+	</message>
+	<message>
+		<messageID>0xF045</messageID>
+		<symbolicName>AFX_IDS_PRINTDEFAULTEXT</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF046</messageID>
+		<symbolicName>AFX_IDS_PRINTDEFAULT   </symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF047</messageID>
+		<symbolicName>AFX_IDS_PRINTFILTER    </symbolicName>
+		<text>Файлы печати (*.prn)</text>
+	</message>
+	<message>
+		<messageID>0xF048</messageID>
+		<symbolicName>AFX_IDS_PRINTCAPTION   </symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF049</messageID>
+		<symbolicName>AFX_IDS_PRINTTOFILE    </symbolicName>
+		<text>файл %1</text>
+	</message>
+	<message>
+		<messageID>0xF080</messageID>
+		<symbolicName>AFX_IDS_OBJECT_MENUITEM</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF081</messageID>
+		<symbolicName>AFX_IDS_EDIT_VERB</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF082</messageID>
+		<symbolicName>AFX_IDS_ACTIVATE_VERB</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF083</messageID>
+		<symbolicName>AFX_IDS_CHANGE_LINK</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF084</messageID>
+		<symbolicName>AFX_IDS_AUTO</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF085</messageID>
+		<symbolicName>AFX_IDS_MANUAL</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF086</messageID>
+		<symbolicName>AFX_IDS_FROZEN</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF087</messageID>
+		<symbolicName>AFX_IDS_ALL_FILES</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF088</messageID>
+		<symbolicName>AFX_IDS_SAVE_MENU</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF089</messageID>
+		<symbolicName>AFX_IDS_UPDATE_MENU</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF08A</messageID>
+		<symbolicName>AFX_IDS_SAVE_AS_MENU</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF08B</messageID>
+		<symbolicName>AFX_IDS_SAVE_COPY_AS_MENU</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF08C</messageID>
+		<symbolicName>AFX_IDS_EXIT_MENU</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF08D</messageID>
+		<symbolicName>AFX_IDS_UPDATING_ITEMS</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF08E</messageID>
+		<symbolicName>AFX_IDS_METAFILE_FORMAT</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF08F</messageID>
+		<symbolicName>AFX_IDS_DIB_FORMAT</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF090</messageID>
+		<symbolicName>AFX_IDS_BITMAP_FORMAT</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF091</messageID>
+		<symbolicName>AFX_IDS_LINKSOURCE_FORMAT</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF092</messageID>
+		<symbolicName>AFX_IDS_EMBED_FORMAT</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF094</messageID>
+		<symbolicName>AFX_IDS_PASTELINKEDTYPE</symbolicName>
+		<text>Связано с %s</text>
+	</message>
+	<message>
+		<messageID>0xF095</messageID>
+		<symbolicName>AFX_IDS_UNKNOWNTYPE</symbolicName>
+		<text>Неизвестный тип</text>
+	</message>
+	<message>
+		<messageID>0xF096</messageID>
+		<symbolicName>AFX_IDS_RTF_FORMAT</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF097</messageID>
+		<symbolicName>AFX_IDS_TEXT_FORMAT</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF098</messageID>
+		<symbolicName>AFX_IDS_INVALID_CURRENCY</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF099</messageID>
+		<symbolicName>AFX_IDS_INVALID_DATETIME</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF09A</messageID>
+		<symbolicName>AFX_IDS_INVALID_DATETIMESPAN</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF100</messageID>
+		<symbolicName>AFX_IDP_INVALID_FILENAME</symbolicName>
+		<text>Недопустимое имя файла.</text>
+	</message>
+	<message>
+		<messageID>0xF101</messageID>
+		<symbolicName>AFX_IDP_FAILED_TO_OPEN_DOC</symbolicName>
+		<text>Ошибка при открытии документа.</text>
+	</message>
+	<message>
+		<messageID>0xF102</messageID>
+		<symbolicName>AFX_IDP_FAILED_TO_SAVE_DOC</symbolicName>
+		<text>Ошибка при сохранении документа.</text>
+	</message>
+	<message>
+		<messageID>0xF103</messageID>
+		<symbolicName>AFX_IDP_ASK_TO_SAVE</symbolicName>
+		<text>Сохранить изменения в файле %1?</text>
+	</message>
+	<message>
+		<messageID>0xF104</messageID>
+		<symbolicName>AFX_IDP_FAILED_TO_CREATE_DOC</symbolicName>
+		<text>Ошибка при создании пустого документа. </text>
+	</message>
+	<message>
+		<messageID>0xF105</messageID>
+		<symbolicName>AFX_IDP_FILE_TOO_LARGE</symbolicName>
+		<text>Слишком большой файл, чтобы его открыть.</text>
+	</message>
+	<message>
+		<messageID>0xF106</messageID>
+		<symbolicName>AFX_IDP_FAILED_TO_START_PRINT</symbolicName>
+		<text>Ошибка при инициализации процесса печати.</text>
+	</message>
+	<message>
+		<messageID>0xF107</messageID>
+		<symbolicName>AFX_IDP_FAILED_TO_LAUNCH_HELP</symbolicName>
+		<text>Ошибка при вызове справочной информации.</text>
+	</message>
+	<message>
+		<messageID>0xF108</messageID>
+		<symbolicName>AFX_IDP_INTERNAL_FAILURE</symbolicName>
+		<text>Внутренняя ошибка приложения.</text>
+	</message>
+	<message>
+		<messageID>0xF109</messageID>
+		<symbolicName>AFX_IDP_COMMAND_FAILURE</symbolicName>
+		<text>Ошибка при выполнении команды.</text>
+	</message>
+	<message>
+		<messageID>0xF10A</messageID>
+		<symbolicName>AFX_IDP_FAILED_MEMORY_ALLOC</symbolicName>
+		<text>Недостаточно памяти для данной операции. </text>
+	</message>
+	<message>
+		<messageID>0xF10B</messageID>
+		<symbolicName>AFX_IDP_UNREG_DONE</symbolicName>
+		<text>Записи из системного реестра удалены, а файл .INI (если таковой имелся) уничтожен.</text>
+	</message>
+	<message>
+		<messageID>0xF10C</messageID>
+		<symbolicName>AFX_IDP_UNREG_FAILURE</symbolicName>
+		<text>Невозможно удалить записи из системного реестра или уничтожить файл INI.</text>
+	</message>
+	<message>
+		<messageID>0xF10D</messageID>
+		<symbolicName>AFX_IDP_DLL_LOAD_FAILED</symbolicName>
+		<text>Эта программа использует файл %s, который невозможно найти в данной системе.</text>
+	</message>
+	<message>
+		<messageID>0xF10E</messageID>
+		<symbolicName>AFX_IDP_DLL_BAD_VERSION</symbolicName>
+		<text>Данная программа связана с отсутствующим объектом %s в файле %s. На данном компьютере установлена несовместимая версия %s. </text>
+	</message>
+	<message>
+		<messageID>0xF110</messageID>
+		<symbolicName>AFX_IDP_PARSE_INT</symbolicName>
+		<text>Введите целое число.</text>
+	</message>
+	<message>
+		<messageID>0xF111</messageID>
+		<symbolicName>AFX_IDP_PARSE_REAL</symbolicName>
+		<text>Введите число.</text>
+	</message>
+	<message>
+		<messageID>0xF112</messageID>
+		<symbolicName>AFX_IDP_PARSE_INT_RANGE</symbolicName>
+		<text>Введите целое число в диапазоне от %1 до %2.</text>
+	</message>
+	<message>
+		<messageID>0xF113</messageID>
+		<symbolicName>AFX_IDP_PARSE_REAL_RANGE</symbolicName>
+		<text>Введите число в диапазоне от %1 до %2.</text>
+	</message>
+	<message>
+		<messageID>0xF114</messageID>
+		<symbolicName>AFX_IDP_PARSE_STRING_SIZE</symbolicName>
+		<text>Введите не более %1 символов.</text>
+	</message>
+	<message>
+		<messageID>0xF115</messageID>
+		<symbolicName>AFX_IDP_PARSE_RADIO_BUTTON</symbolicName>
+		<text>Выберите кнопку.</text>
+	</message>
+	<message>
+		<messageID>0xF116</messageID>
+		<symbolicName>AFX_IDP_PARSE_BYTE</symbolicName>
+		<text>Введите целое число в диапазоне от 0 до 255. </text>
+	</message>
+	<message>
+		<messageID>0xF117</messageID>
+		<symbolicName>AFX_IDP_PARSE_UINT</symbolicName>
+		<text>Введите допустимое целое число.</text>
+	</message>
+	<message>
+		<messageID>0xF118</messageID>
+		<symbolicName>AFX_IDP_PARSE_DATETIME</symbolicName>
+		<text>Введите дату и/или время.</text>
+	</message>
+	<message>
+		<messageID>0xF119</messageID>
+		<symbolicName>AFX_IDP_PARSE_CURRENCY</symbolicName>
+		<text>Введите величину в денежном формате.</text>
+	</message>
+	<message>
+		<messageID>0xF11A</messageID>
+		<symbolicName>AFX_IDP_PARSE_GUID</symbolicName>
+		<text>Введите GUID.</text>
+	</message>
+	<message>
+		<messageID>0xF11B</messageID>
+		<symbolicName>AFX_IDP_PARSE_TIME</symbolicName>
+		<text>Введите время. </text>
+	</message>
+	<message>
+		<messageID>0xF11C</messageID>
+		<symbolicName>AFX_IDP_PARSE_DATE</symbolicName>
+		<text>Введите дату. </text>
+	</message>
+	<message>
+		<messageID>0xF120</messageID>
+		<symbolicName>AFX_IDP_FAILED_INVALID_FORMAT</symbolicName>
+		<text>Неизвестный формат файла.</text>
+	</message>
+	<message>
+		<messageID>0xF121</messageID>
+		<symbolicName>AFX_IDP_FAILED_INVALID_PATH</symbolicName>
+		<text>%1\nДанный файл отсутствует.\nПроверьте правильность задания пути и имени файла. </text>
+	</message>
+	<message>
+		<messageID>0xF122</messageID>
+		<symbolicName>AFX_IDP_FAILED_DISK_FULL</symbolicName>
+		<text>На указанном диске отсутствует необходимое свободное пространство. </text>
+	</message>
+	<message>
+		<messageID>0xF123</messageID>
+		<symbolicName>AFX_IDP_FAILED_ACCESS_READ</symbolicName>
+		<text>Невозможно чтение файла %1, он открыт другим приложением. </text>
+	</message>
+	<message>
+		<messageID>0xF124</messageID>
+		<symbolicName>AFX_IDP_FAILED_ACCESS_WRITE</symbolicName>
+		<text>Невозможна запись в файл %1, он открыт только для чтения или открыт другим приложением. </text>
+	</message>
+	<message>
+		<messageID>0xF125</messageID>
+		<symbolicName>AFX_IDP_FAILED_IO_ERROR_READ</symbolicName>
+		<text>Неизвестная ошибка при чтении файла %1. </text>
+	</message>
+	<message>
+		<messageID>0xF126</messageID>
+		<symbolicName>AFX_IDP_FAILED_IO_ERROR_WRITE</symbolicName>
+		<text>Неизвестная ошибка при записи файла %1. </text>
+	</message>
+	<message>
+		<messageID>0xF130</messageID>
+		<symbolicName>AFX_IDP_SCRIPT_ERROR</symbolicName>
+		<text>%1: %2\nПродолжать выполнение сценария?</text>
+	</message>
+	<message>
+		<messageID>0xF131</messageID>
+		<symbolicName>AFX_IDP_SCRIPT_DISPATCH_EXCEPTION</symbolicName>
+		<text>Диспетчировать исключение: %1</text>
+	</message>
+	<message>
+		<messageID>0xF180</messageID>
+		<symbolicName>AFX_IDP_STATIC_OBJECT</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF181</messageID>
+		<symbolicName>AFX_IDP_FAILED_TO_CONNECT</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF182</messageID>
+		<symbolicName>AFX_IDP_SERVER_BUSY</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF183</messageID>
+		<symbolicName>AFX_IDP_BAD_VERB</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF184</messageID>
+		<symbolicName>AFX_IDS_NOT_DOCOBJECT</symbolicName>
+		<text>Файл не может быть обработан сервером документов.</text>
+	</message>
+	<message>
+		<messageID>0xF185</messageID>
+		<symbolicName>AFX_IDP_FAILED_TO_NOTIFY</symbolicName>
+		<text>%1\nНевозможно зарегистрировать документ.\nДокумент, возможно, уже открыт. </text>
+	</message>
+	<message>
+		<messageID>0xF186</messageID>
+		<symbolicName>AFX_IDP_FAILED_TO_LAUNCH</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF187</messageID>
+		<symbolicName>AFX_IDP_ASK_TO_UPDATE</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF188</messageID>
+		<symbolicName>AFX_IDP_FAILED_TO_UPDATE</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF189</messageID>
+		<symbolicName>AFX_IDP_FAILED_TO_REGISTER</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF18A</messageID>
+		<symbolicName>AFX_IDP_FAILED_TO_AUTO_REGISTER</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF18B</messageID>
+		<symbolicName>AFX_IDP_FAILED_TO_CONVERT</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF18C</messageID>
+		<symbolicName>AFX_IDP_GET_NOT_SUPPORTED</symbolicName>
+		<text>Чтение невозможно. Файл открыт только для записи.</text>
+	</message>
+	<message>
+		<messageID>0xF18D</messageID>
+		<symbolicName>AFX_IDP_SET_NOT_SUPPORTED</symbolicName>
+		<text>Запись невозможна. Файл открыт только для чтения.</text>
+	</message>
+	<message>
+		<messageID>0xF18E</messageID>
+		<symbolicName>AFX_IDP_ASK_TO_DISCARD</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF18F</messageID>
+		<symbolicName>AFX_IDP_FAILED_TO_CREATE</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF190</messageID>
+		<symbolicName>AFX_IDP_FAILED_MAPI_LOAD</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF191</messageID>
+		<symbolicName>AFX_IDP_INVALID_MAPI_DLL</symbolicName>
+		<text>Некорректная версия системной DLL электронной почты.</text>
+	</message>
+	<message>
+		<messageID>0xF192</messageID>
+		<symbolicName>AFX_IDP_FAILED_MAPI_SEND</symbolicName>
+		<text>Приложение Send Mail не смогло отправить сообщение.</text>
+	</message>
+	<message>
+		<messageID>0xF1A0</messageID>
+		<symbolicName>AFX_IDP_FILE_NONE</symbolicName>
+		<text>Ошибки отсутствуют.</text>
+	</message>
+	<message>
+		<messageID>0xF1A1</messageID>
+		<symbolicName>AFX_IDP_FILE_GENERIC</symbolicName>
+		<text>Возникла неизвестная ошибка при доступе к %1. </text>
+	</message>
+	<message>
+		<messageID>0xF1A2</messageID>
+		<symbolicName>AFX_IDP_FILE_NOT_FOUND</symbolicName>
+		<text>Файл %1 не найден.</text>
+	</message>
+	<message>
+		<messageID>0xF1A3</messageID>
+		<symbolicName>AFX_IDP_FILE_BAD_PATH</symbolicName>
+		<text>Файл %1 имеет некорректный путь.</text>
+	</message>
+	<message>
+		<messageID>0xF1A4</messageID>
+		<symbolicName>AFX_IDP_FILE_TOO_MANY_OPEN</symbolicName>
+		<text>Файл %1 не может быть открыт, поскольку в системе открыто слишком много файлов.</text>
+	</message>
+	<message>
+		<messageID>0xF1A5</messageID>
+		<symbolicName>AFX_IDP_FILE_ACCESS_DENIED</symbolicName>
+		<text>Отказ в доступе к файлу %1.</text>
+	</message>
+	<message>
+		<messageID>0xF1A6</messageID>
+		<symbolicName>AFX_IDP_FILE_INVALID_FILE</symbolicName>
+		<text>Файл %1 имеет недопустимый дескриптор.</text>
+	</message>
+	<message>
+		<messageID>0xF1A7</messageID>
+		<symbolicName>AFX_IDP_FILE_REMOVE_CURRENT</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF1A8</messageID>
+		<symbolicName>AFX_IDP_FILE_DIR_FULL</symbolicName>
+		<text>Файл %1 не может быть создан, поскольку текущий каталог переполнен.</text>
+	</message>
+	<message>
+		<messageID>0xF1A9</messageID>
+		<symbolicName>AFX_IDP_FILE_BAD_SEEK</symbolicName>
+		<text>На %1 файл отсутствует. </text>
+	</message>
+	<message>
+		<messageID>0xF1AA</messageID>
+		<symbolicName>AFX_IDP_FILE_HARD_IO</symbolicName>
+		<text>При доступе к файлу %1 возникла аппаратная ошибка ввода/ вывода.</text>
+	</message>
+	<message>
+		<messageID>0xF1AB</messageID>
+		<symbolicName>AFX_IDP_FILE_SHARING</symbolicName>
+		<text>При доступе к файлу %1 возникла ошибка при разделении ресурсов.</text>
+	</message>
+	<message>
+		<messageID>0xF1AC</messageID>
+		<symbolicName>AFX_IDP_FILE_LOCKING</symbolicName>
+		<text>При доступе к файлу %1 произошло нарушение защиты.</text>
+	</message>
+	<message>
+		<messageID>0xF1AD</messageID>
+		<symbolicName>AFX_IDP_FILE_DISKFULL</symbolicName>
+		<text>При доступе к файлу %1 произошло переполнение диска.</text>
+	</message>
+	<message>
+		<messageID>0xF1AE</messageID>
+		<symbolicName>AFX_IDP_FILE_EOF</symbolicName>
+		<text>Произошла попытка доступа к записи в файле %1, расположенной после его конца.</text>
+	</message>
+	<message>
+		<messageID>0xF1B0</messageID>
+		<symbolicName>AFX_IDP_ARCH_NONE</symbolicName>
+		<text>Ошибки отсутствуют.</text>
+	</message>
+	<message>
+		<messageID>0xF1B1</messageID>
+		<symbolicName>AFX_IDP_ARCH_GENERIC</symbolicName>
+		<text>Возникла неизвестная ошибка при доступе к %1. </text>
+	</message>
+	<message>
+		<messageID>0xF1B2</messageID>
+		<symbolicName>AFX_IDP_ARCH_READONLY</symbolicName>
+		<text>Произошла попытка записи в файл %1, открытый только для чтения.</text>
+	</message>
+	<message>
+		<messageID>0xF1B3</messageID>
+		<symbolicName>AFX_IDP_ARCH_ENDOFFILE</symbolicName>
+		<text>Произошла прпытка доступа к записи в файле %1, расположенной после его конца.</text>
+	</message>
+	<message>
+		<messageID>0xF1B4</messageID>
+		<symbolicName>AFX_IDP_ARCH_WRITEONLY</symbolicName>
+		<text>Произошла попытка чтения из файла %1, открытого только для записи.</text>
+	</message>
+	<message>
+		<messageID>0xF1B5</messageID>
+		<symbolicName>AFX_IDP_ARCH_BADINDEX</symbolicName>
+		<text>Файл %1 имеет недопустимый формат.</text>
+	</message>
+	<message>
+		<messageID>0xF1B6</messageID>
+		<symbolicName>AFX_IDP_ARCH_BADCLASS</symbolicName>
+		<text>Файл %1 содержит недопустимый объект.</text>
+	</message>
+	<message>
+		<messageID>0xF1B7</messageID>
+		<symbolicName>AFX_IDP_ARCH_BADSCHEMA</symbolicName>
+		<text>Файл %1 содержит неправильную схему.</text>
+	</message>
+	<message>
+		<messageID>0xF1C0</messageID>
+		<symbolicName>AFX_IDS_OCC_SCALEUNITS_PIXELS</symbolicName>
+		<text>Элементы изображения. </text>
+	</message>
+	<message>
+		<messageID>0xF230</messageID>
+		<symbolicName>AFX_IDS_STATUS_FONT</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF231</messageID>
+		<symbolicName>AFX_IDS_TOOLTIP_FONT</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF232</messageID>
+		<symbolicName>AFX_IDS_UNICODE_FONT</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF233</messageID>
+		<symbolicName>AFX_IDS_MINI_FONT</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF280</messageID>
+		<symbolicName>AFX_IDP_SQL_FIRST</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF281</messageID>
+		<symbolicName>AFX_IDP_SQL_CONNECT_FAIL</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF282</messageID>
+		<symbolicName>AFX_IDP_SQL_RECORDSET_FORWARD_ONLY</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF283</messageID>
+		<symbolicName>AFX_IDP_SQL_EMPTY_COLUMN_LIST</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF284</messageID>
+		<symbolicName>AFX_IDP_SQL_FIELD_SCHEMA_MISMATCH</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF285</messageID>
+		<symbolicName>AFX_IDP_SQL_ILLEGAL_MODE</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF286</messageID>
+		<symbolicName>AFX_IDP_SQL_MULTIPLE_ROWS_AFFECTED</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF287</messageID>
+		<symbolicName>AFX_IDP_SQL_NO_CURRENT_RECORD</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF288</messageID>
+		<symbolicName>AFX_IDP_SQL_NO_ROWS_AFFECTED</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF289</messageID>
+		<symbolicName>AFX_IDP_SQL_RECORDSET_READONLY</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF28A</messageID>
+		<symbolicName>AFX_IDP_SQL_SQL_NO_TOTAL</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF28B</messageID>
+		<symbolicName>AFX_IDP_SQL_ODBC_LOAD_FAILED</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF28C</messageID>
+		<symbolicName>AFX_IDP_SQL_DYNASET_NOT_SUPPORTED</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF28D</messageID>
+		<symbolicName>AFX_IDP_SQL_SNAPSHOT_NOT_SUPPORTED</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF28E</messageID>
+		<symbolicName>AFX_IDP_SQL_API_CONFORMANCE</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF28F</messageID>
+		<symbolicName>AFX_IDP_SQL_SQL_CONFORMANCE</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF290</messageID>
+		<symbolicName>AFX_IDP_SQL_NO_DATA_FOUND</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF291</messageID>
+		<symbolicName>AFX_IDP_SQL_ROW_UPDATE_NOT_SUPPORTED</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF292</messageID>
+		<symbolicName>AFX_IDP_SQL_ODBC_V2_REQUIRED</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF293</messageID>
+		<symbolicName>AFX_IDP_SQL_NO_POSITIONED_UPDATES</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF294</messageID>
+		<symbolicName>AFX_IDP_SQL_LOCK_MODE_NOT_SUPPORTED</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF295</messageID>
+		<symbolicName>AFX_IDP_SQL_DATA_TRUNCATED</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF296</messageID>
+		<symbolicName>AFX_IDP_SQL_ROW_FETCH</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF297</messageID>
+		<symbolicName>AFX_IDP_SQL_INCORRECT_ODBC</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF298</messageID>
+		<symbolicName>AFX_IDP_SQL_UPDATE_DELETE_FAILED</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF299</messageID>
+		<symbolicName>AFX_IDP_SQL_DYNAMIC_CURSOR_NOT_SUPPORTED</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF29A</messageID>
+		<symbolicName>AFX_IDP_SQL_FIELD_NOT_FOUND</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF29B</messageID>
+		<symbolicName>AFX_IDP_SQL_BOOKMARKS_NOT_SUPPORTED</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF29C</messageID>
+		<symbolicName>AFX_IDP_SQL_BOOKMARKS_NOT_ENABLED</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF29D</messageID>
+		<symbolicName>AFX_IDS_DELETED</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF2B0</messageID>
+		<symbolicName>AFX_IDP_DAO_ENGINE_INITIALIZATION</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF2B1</messageID>
+		<symbolicName>AFX_IDP_DAO_DFX_BIND</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF2B2</messageID>
+		<symbolicName>AFX_IDP_DAO_OBJECT_NOT_OPEN</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF2B3</messageID>
+		<symbolicName>AFX_IDP_DAO_ROWTOOSHORT</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF2B4</messageID>
+		<symbolicName>AFX_IDP_DAO_BADBINDINFO</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF2B5</messageID>
+		<symbolicName>AFX_IDP_DAO_COLUMNUNAVAILABLE</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF2D1</messageID>
+		<symbolicName>AFX_IDS_HTTP_TITLE</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF2D2</messageID>
+		<symbolicName>AFX_IDS_HTTP_NO_TEXT</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF2D3</messageID>
+		<symbolicName>AFX_IDS_HTTP_BAD_REQUEST</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF2D4</messageID>
+		<symbolicName>AFX_IDS_HTTP_AUTH_REQUIRED</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF2D5</messageID>
+		<symbolicName>AFX_IDS_HTTP_FORBIDDEN</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF2D6</messageID>
+		<symbolicName>AFX_IDS_HTTP_NOT_FOUND</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF2D7</messageID>
+		<symbolicName>AFX_IDS_HTTP_SERVER_ERROR</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF2D8</messageID>
+		<symbolicName>AFX_IDS_HTTP_NOT_IMPLEMENTED</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xF2E1</messageID>
+		<symbolicName>AFX_IDS_CHECKLISTBOX_UNCHECK</symbolicName>
+		<text>He отмечен. </text>
+	</message>
+	<message>
+		<messageID>0xF2E2</messageID>
+		<symbolicName>AFX_IDS_CHECKLISTBOX_CHECK</symbolicName>
+		<text>Отмечен. </text>
+	</message>
+	<message>
+		<messageID>0xF2E3</messageID>
+		<symbolicName>AFX_IDS_CHECKLISTBOX_MIXED</symbolicName>
+		<text>Смешанный.</text>
+	</message>
+	<message/>
+	<message>
+		<messageID>0x803F</messageID>
+		<symbolicName>____EVENT_LOG_BEGIN_ID</symbolicName>
+		<text>!!!!!!!!!!!!!!!!!external identifier!!!!!!!!!!!!!!!!!!!!</text>
+	</message>
+	<message>
+		<messageID>0x9800</messageID>
+		<symbolicName>____EVENT_LOG_END_ID</symbolicName>
+		<text>!!!!!!!!!!!!!!!!!external identifier!!!!!!!!!!!!!!!!!!!!</text>
+	</message>
+	<message>
+		<messageID>0xEF1F</messageID>
+		<symbolicName>____EVENT_LOG_BEGIN_ID2</symbolicName>
+		<text>!!!!!!!!!!!!!!!!!external identifier!!!!!!!!!!!!!!!!!!!!</text>
+	</message>
+	<message>
+		<messageID>0xEF30</messageID>
+		<symbolicName>____EVENT_LOG_END_ID2</symbolicName>
+		<text>!!!!!!!!!!!!!!!!!external identifier!!!!!!!!!!!!!!!!!!!!</text>
+	</message>
+	<message>
+		<messageID>0x8040</messageID>
+		<symbolicName>IDEV____BEGIN_____</symbolicName>
+		<text>!!!!!!!!!!!!!!!!! first identifier !!!!!!!!!!!!!!!!!!!!</text>
+	</message>
+	<message>
+		<messageID>0x8048</messageID>
+		<symbolicName>IDSE_APP_BOARD_DETECTED</symbolicName>
+		<text>$I1 Найден телефонный адаптер %s</text>
+	</message>
+	<message>
+		<messageID>0x8049</messageID>
+		<symbolicName>IDSE_APP_LOGON</symbolicName>
+		<text>$I2 Вход в систему пользователя %s</text>
+	</message>
+	<message>
+		<messageID>0x804A</messageID>
+		<symbolicName>IDSE_CHN_START</symbolicName>
+		<text>$I1 Запись начата</text>
+	</message>
+	<message>
+		<messageID>0x804B</messageID>
+		<symbolicName>IDSE_CHN_STOP</symbolicName>
+		<text>$I1 Запись закончена</text>
+	</message>
+	<message>
+		<messageID>0x804C</messageID>
+		<symbolicName>IDSE_APP_LOGON2</symbolicName>
+		<text>$I2 %s</text>
+	</message>
+	<message>
+		<messageID>0x804D</messageID>
+		<symbolicName>IDSE_APP_LOGOFF</symbolicName>
+		<text>$I2 Пользователь вышел из приложения</text>
+	</message>
+	<message>
+		<messageID>0x804E</messageID>
+		<symbolicName>IDSE_CHN_CHANGE_PROPERTIES</symbolicName>
+		<text>$I1 Настройки канала изменены</text>
+	</message>
+	<message>
+		<messageID>0x804F</messageID>
+		<symbolicName>IDSE_APP_CHANGE_PROPERTIES</symbolicName>
+		<text>$I1 Настройки приложения изменены</text>
+	</message>
+	<message>
+		<messageID>0x8050</messageID>
+		<symbolicName>IDSE_APP_USER_CHANGE_RIGHTS</symbolicName>
+		<text>$I2 Права пользователя изменены</text>
+	</message>
+	<message>
+		<messageID>0x8051</messageID>
+		<symbolicName>IDSE_APP_USER_ADDED</symbolicName>
+		<text>$I2 Пользователь добавлен</text>
+	</message>
+	<message>
+		<messageID>0x8052</messageID>
+		<symbolicName>IDSE_APP_USER_PASSWORD_CHANGED</symbolicName>
+		<text>$I2 Пользовательский пароль изменен</text>
+	</message>
+	<message>
+		<messageID>0x8053</messageID>
+		<symbolicName>IDSE_APP_USER_REMOVED</symbolicName>
+		<text>$I2 Пользователь удален</text>
+	</message>
+	<message>
+		<messageID>0x8054</messageID>
+		<symbolicName>IDSE_APP_FREE_SPACE</symbolicName>
+		<text>$I6 На устройстве оперативной записи свободно %ld MB</text>
+	</message>
+	<message>
+		<messageID>0x8055</messageID>
+		<symbolicName>IDSE_APP_PURGE_SPACE</symbolicName>
+		<text>$I3 Устаревшие файлы удалены</text>
+	</message>
+	<message>
+		<messageID>0x8056</messageID>
+		<symbolicName>IDSE_APP_PURGE_ERROR</symbolicName>
+		<text>$E0 ОШИБКА: невозможно очистить место на устройстве оперативной записи!</text>
+	</message>
+	<message>
+		<messageID>0x8057</messageID>
+		<symbolicName>IDSE_APP_PURGE_DIRECTORY</symbolicName>
+		<text>$I6 Удаление файлов в директории %s...</text>
+	</message>
+	<message>
+		<messageID>0x8058</messageID>
+		<symbolicName>IDSE_APP_PURGE_INFO</symbolicName>
+		<text>$I3 Удалены %lu файл(а,ов) объемом %lu байт</text>
+	</message>
+	<message>
+		<messageID>0x8059</messageID>
+		<symbolicName>IDSE_APP_PURGE_FILE_ERROR</symbolicName>
+		<text>$E1 ОШИБКА: невозможно удалить файл %s!</text>
+	</message>
+	<message>
+		<messageID>0x805A</messageID>
+		<symbolicName>IDSE_APP_PURGE_DIR_ERROR</symbolicName>
+		<text>$E1 ОШИБКА: невозможно удалить директорий %s!</text>
+	</message>
+	<message>
+		<messageID>0x805B</messageID>
+		<symbolicName>IDSE_APP_ADD_CHANNEL</symbolicName>
+		<text>$I1 Каналы устройства добавлены</text>
+	</message>
+	<message>
+		<messageID>0x805C</messageID>
+		<symbolicName>IDSE_APP_DELETE_CHANNEL</symbolicName>
+		<text>$I1 Каналы устройства удалены</text>
+	</message>
+	<message>
+		<messageID>0x805D</messageID>
+		<symbolicName>IDSE_APP_PROPERTY_CHANNEL</symbolicName>
+		<text>$I1 Каналы устройства перенастроены</text>
+	</message>
+	<message>
+		<messageID>0x805E</messageID>
+		<symbolicName>IDSE_APP_WATCHDOG_DETECTED</symbolicName>
+		<text>$I4 Инициализировано устройство сигнализации %s</text>
+	</message>
+	<message>
+		<messageID>0x805F</messageID>
+		<symbolicName>IDSE_APP_PHONE_UNEXPECTED_COMMAND</symbolicName>
+		<text>$I4 Неожиданная команда на телефонном адаптере %s</text>
+	</message>
+	<message>
+		<messageID>0x8060</messageID>
+		<symbolicName>IDSE_APP_PHONE_UNRECOGNIZED_COMMAND</symbolicName>
+		<text>$E4 Нераспознанная команда на телефонном адаптере %s</text>
+	</message>
+	<message>
+		<messageID>0x8061</messageID>
+		<symbolicName>IDSE_APP_PHONE_UNRECOGNIZED_COMMAND2</symbolicName>
+		<text>$E4   всего нераспознано %lu команд из %lu</text>
+	</message>
+	<message>
+		<messageID>0x8062</messageID>
+		<symbolicName>IDSE_APP_PHONE_REJECT</symbolicName>
+		<text>$I6 Пропущен цикл опроса на телефонном адаптере %s</text>
+	</message>
+	<message>
+		<messageID>0x8063</messageID>
+		<symbolicName>IDSE_APP_PHONE_REJECT2</symbolicName>
+		<text>$I6   всего пропущено %lu циклов</text>
+	</message>
+	<message>
+		<messageID>0x8064</messageID>
+		<symbolicName>IDSE_APP_CPU_OVERLOADED</symbolicName>
+		<text>$W0 Загрузка процессора %lu%%</text>
+	</message>
+	<message>
+		<messageID>0x8065</messageID>
+		<symbolicName>IDSE_APP_PHONE_LOST_QUERIES</symbolicName>
+		<text>$I6   потеряно %lu%% запросов к адаптеру</text>
+	</message>
+	<message>
+		<messageID>0x8066</messageID>
+		<symbolicName>IDSE_APP_VERSION</symbolicName>
+		<text>$I1 Версия: %s</text>
+	</message>
+	<message>
+		<messageID>0x8067</messageID>
+		<symbolicName>IDSE_APP_SERIAL_NUMBER</symbolicName>
+		<text>$I2 Серийный номер: %s</text>
+	</message>
+	<message>
+		<messageID>0x8068</messageID>
+		<symbolicName>IDSE_APP_CHANGE_ENVIRONMENT</symbolicName>
+		<text>$I1 Конфигурация компьютера изменена</text>
+	</message>
+	<message>
+		<messageID>0x8069</messageID>
+		<symbolicName>IDSE_APP_ANY_STRING</symbolicName>
+		<text>$I1 %s</text>
+	</message>
+	<message>
+		<messageID>0x806A</messageID>
+		<symbolicName>IDSE_APP_ANY_STRING_AS_WARNING</symbolicName>
+		<text>$W1 %s</text>
+	</message>
+	<message>
+		<messageID>0x8084</messageID>
+		<symbolicName>IDSE_CHN_AON_DETECT</symbolicName>
+		<text>$I7 Определяется входящий номер %B</text>
+	</message>
+	<message>
+		<messageID>0x8085</messageID>
+		<symbolicName>IDSE_CHN_AON_DETECT2</symbolicName>
+		<text>$I7 Определяется входящий номер (2) %B</text>
+	</message>
+	<message>
+		<messageID>0x8086</messageID>
+		<symbolicName>IDSE_CHN_AON_DETECT_END</symbolicName>
+		<text>$I4 Определен входящий номер %B</text>
+	</message>
+	<message>
+		<messageID>0x8087</messageID>
+		<symbolicName>IDSE_CHN_AON_DETECT_END2</symbolicName>
+		<text>$I4 Определен входящий номер (2) %B</text>
+	</message>
+	<message>
+		<messageID>0x8088</messageID>
+		<symbolicName>IDSE_CHN_AON_DETECT_FAILURE</symbolicName>
+		<text>$I6 Входящий номер не определен</text>
+	</message>
+	<message>
+		<messageID>0x8089</messageID>
+		<symbolicName>IDSE_CHN_AON_DETECT_FAILURE2</symbolicName>
+		<text>$I6 Входящий номер не определен (2)</text>
+	</message>
+	<message>
+		<messageID>0x808A</messageID>
+		<symbolicName>IDSE_CHN_AON_DETECT_START</symbolicName>
+		<text>$I7 Определение номера...</text>
+	</message>
+	<message>
+		<messageID>0x808B</messageID>
+		<symbolicName>IDSE_CHN_AON_DETECT_START2</symbolicName>
+		<text>$I7 Определение входящего номера (2)...</text>
+	</message>
+	<message>
+		<messageID>0x808C</messageID>
+		<symbolicName>IDSE_CHN_ERROR</symbolicName>
+		<text>$E0 ОШИБКА: Канал неработоспособен!</text>
+	</message>
+	<message>
+		<messageID>0x808D</messageID>
+		<symbolicName>IDSE_CHN_NO_ERROR</symbolicName>
+		<text>$W0 Канал работоспособен</text>
+	</message>
+	<message>
+		<messageID>0x808E</messageID>
+		<symbolicName>IDSE_LOGRECREATE</symbolicName>
+		<text>$E0 Ошибка журнала событий. Произведен аварийный дамп. Журнал создан заново.</text>
+	</message>
+	<message>
+		<messageID>0x808F</messageID>
+		<symbolicName>IDSE_CHN_DTMF_DETECT</symbolicName>
+		<text>$I7 Определяется исходящий номер %B (тоновый набор)</text>
+	</message>
+	<message>
+		<messageID>0x8090</messageID>
+		<symbolicName>IDSE_CHN_DTMF_DETECT_END</symbolicName>
+		<text>$I4 Определен исходящий номер %B (тоновый набор)</text>
+	</message>
+	<message>
+		<messageID>0x8091</messageID>
+		<symbolicName>IDSE_CHN_DTMF_DETECT_FAILURE</symbolicName>
+		<text>$I6 Исходящий номер не определен (тоновый набор)</text>
+	</message>
+	<message>
+		<messageID>0x8092</messageID>
+		<symbolicName>IDSE_CHN_PULSE_DETECT</symbolicName>
+		<text>$I6 Определяется исходящий номер %B (пульсовый набор)</text>
+	</message>
+	<message>
+		<messageID>0x8093</messageID>
+		<symbolicName>IDSE_CHN_PULSE_DETECT_END</symbolicName>
+		<text>$I4 Определен исходящий номер %B (пульсовый набор)</text>
+	</message>
+	<message>
+		<messageID>0x8094</messageID>
+		<symbolicName>IDSE_CHN_PULSE_FAILURE</symbolicName>
+		<text>$I6 Исходящий номер не определен (пульсовый набор)</text>
+	</message>
+	<message>
+		<messageID>0x8095</messageID>
+		<symbolicName>IDSE_APP_VOX_DETECT_START</symbolicName>
+		<text>$I1 Активация по голосу включена %s</text>
+	</message>
+	<message>
+		<messageID>0x8096</messageID>
+		<symbolicName>IDSE_APP_VOX_DETECT_STOP</symbolicName>
+		<text>$I1 Активация по голосу выключена</text>
+	</message>
+	<message>
+		<messageID>0x8097</messageID>
+		<symbolicName>IDSE_APP_THREAD</symbolicName>
+		<text>$I7 Поток %8.8X %Z.\nначат\nзавершен\nпрерван</text>
+	</message>
+	<message>
+		<messageID>0x8098</messageID>
+		<symbolicName>IDSE_APP_THREAD_CONVERSION</symbolicName>
+		<text>$I7 Конверсионный поток %8.8X %Z.\nначат\nзавершен\nпрерван</text>
+	</message>
+	<message>
+		<messageID>0x8099</messageID>
+		<symbolicName>IDSE_CHN_THREAD_CHANNEL</symbolicName>
+		<text>$I7 Канальный поток %8.8X %Z.\nначат\nзавершен\nпрерван</text>
+	</message>
+	<message>
+		<messageID>0x809A</messageID>
+		<symbolicName>IDSE_APP_THREAD_LINE</symbolicName>
+		<text>$I7 Линейный поток %8.8X %Z.\nначат\nзавершен\nпрерван</text>
+	</message>
+	<message>
+		<messageID>0x809B</messageID>
+		<symbolicName>IDSE_APP_THREAD_MAIN</symbolicName>
+		<text>$I7 Основной поток %8.8X %Z.\nначат\nзавершен\nпрерван</text>
+	</message>
+	<message>
+		<messageID>0x809C</messageID>
+		<symbolicName>IDSE_APP_THREAD_DEVICE</symbolicName>
+		<text>$I7 Поток от прибора %8.8X %Z.\nначат\nзавершается...\nпрерван</text>
+	</message>
+	<message>
+		<messageID>0x809D</messageID>
+		<symbolicName>IDSE_APP_THREAD_TIMER</symbolicName>
+		<text>$I7 Поток таймера %8.8X %Z.\nначат\nзавершается...\nпрерван</text>
+	</message>
+	<message>
+		<messageID>0x809E</messageID>
+		<symbolicName>IDSE_APP_NSP_INIT_FAILURE</symbolicName>
+		<text>$I7 Библиотеки NSP не найдены</text>
+	</message>
+	<message>
+		<messageID>0x809F</messageID>
+		<symbolicName>IDSE_APP_NSP_INIT_DONE</symbolicName>
+		<text>$I7 Библиотеки NSP загружены</text>
+	</message>
+	<message>
+		<messageID>0x80A0</messageID>
+		<symbolicName>IDSE_APP_THREAD_HOOK</symbolicName>
+		<text>$I7 Hook thread %8.8X %Z.\nstarted\nterminating...\naborted</text>
+	</message>
+	<message>
+		<messageID>0x80A1</messageID>
+		<symbolicName>IDSE_APP_THREAD_ABORT</symbolicName>
+		<text>$W1 Поток %8.8X отменен.</text>
+	</message>
+	<message>
+		<messageID>0x80A2</messageID>
+		<symbolicName>IDSE_CHN_MUST_SENT_COMMAND</symbolicName>
+		<text>$W2 После %d попыток данному каналу следует дать команду %Z.\nСТАРТ\nСТОП</text>
+	</message>
+	<message>
+		<messageID>0x80A3</messageID>
+		<symbolicName>IDSE_APP_LINE_STATUS_CHANGED</symbolicName>
+		<text>$I7 Состояние линий изменилось: %Y (%.0dсейчас=%8.8X).</text>
+	</message>
+	<message>
+		<messageID>0x80A4</messageID>
+		<symbolicName>IDSE_CHN_ATTACHED_TO_LINE</symbolicName>
+		<text>$I6 Канал %.0d сопоставлен линии %d</text>
+	</message>
+	<message>
+		<messageID>0x80A5</messageID>
+		<symbolicName>IDSE_APP_ACM_INIT_DONE</symbolicName>
+		<text>$I7 ACM загружен</text>
+	</message>
+	<message>
+		<messageID>0x80A6</messageID>
+		<symbolicName>IDSE_APP_LINE_ATTACHNMENT_CHANGED</symbolicName>
+		<text>$I4 Сопоставление линий изменилось: %Y (%.0dсейчас=%8.8X).</text>
+	</message>
+	<message>
+		<messageID>0x80A7</messageID>
+		<symbolicName>IDSE_CHN_RENAME_RECORD_ERROR</symbolicName>
+		<text>$E1 ОШИБКА: невозможно переименовать запись %B</text>
+	</message>
+	<message>
+		<messageID>0x80A8</messageID>
+		<symbolicName>IDSE_CHN_OS_ERROR</symbolicName>
+		<text>$E1 ОШИБКА : OS code = %d</text>
+	</message>
+	<message>
+		<messageID>0x80A9</messageID>
+		<symbolicName>IDSE_CHN_WAVE_ERROR</symbolicName>
+		<text>$E0 ОШИБКА: %Z\nСигнал отсутствует!\nДлительная тишина</text>
+	</message>
+	<message>
+		<messageID>0x80AA</messageID>
+		<symbolicName>IDSE_CHN_WAVE_NO_ERROR</symbolicName>
+		<text>$W0 %Z\nСигнал обнаружен\nТишина прервана\nПерегрузка звукового тракта</text>
+	</message>
+	<message>
+		<messageID>0x9000</messageID>
+		<symbolicName>IDEV____COMMANDS____</symbolicName>
+		<text>!!!!!!!!!!!!!!!!! commands start identifier !!!!!!!!!!!!!!!!!!!!</text>
+	</message>
+	<message>
+		<messageID>0x9001</messageID>
+		<symbolicName>IDSQ_TIME</symbolicName>
+		<text>IDSQ_TIME</text>
+	</message>
+	<message>
+		<messageID>0x9002</messageID>
+		<symbolicName>IDSA_TIME</symbolicName>
+		<text>IDSA_TIME: %ld milliseconds lost</text>
+	</message>
+	<message>
+		<messageID>0x9003</messageID>
+		<symbolicName>IDSQ_CHN_STATE</symbolicName>
+		<text>IDSQ_CHN_STATE</text>
+	</message>
+	<message>
+		<messageID>0x9004</messageID>
+		<symbolicName>IDSA_CHN_STATE</symbolicName>
+		<text>IDSA_CHN_STATE: %ld state</text>
+	</message>
+	<message>
+		<messageID>0x9005</messageID>
+		<symbolicName>IDSQ_CHN_CHANGE_STATE</symbolicName>
+		<text>IDSQ_CHN_CHANGE_STATE</text>
+	</message>
+	<message>
+		<messageID>0x9006</messageID>
+		<symbolicName>IDSA_CHN_CHANGE_STATE</symbolicName>
+		<text>IDSA_CHN_CHANGE_STATE: %lu new state, %lu old state</text>
+	</message>
+	<message>
+		<messageID>0x9007</messageID>
+		<symbolicName>IDSQ_ATTACH_EVENTS_LOG</symbolicName>
+		<text>IDSQ_ATTACH_EVENTS_LOG</text>
+	</message>
+	<message>
+		<messageID>0x9008</messageID>
+		<symbolicName>IDSA_ATTACH_EVENTS_LOG</symbolicName>
+		<text>IDSA_ATTACH_EVENTS_LOG</text>
+	</message>
+	<message>
+		<messageID>0x9009</messageID>
+		<symbolicName>IDSQ_DETACH_EVENTS_LOG</symbolicName>
+		<text>IDSQ_DETACH_EVENTS_LOG</text>
+	</message>
+	<message>
+		<messageID>0x900A</messageID>
+		<symbolicName>IDSA_DETACH_EVENTS_LOG</symbolicName>
+		<text>IDSA_DETACH_EVENTS_LOG</text>
+	</message>
+	<message>
+		<messageID>0x900B</messageID>
+		<symbolicName>IDSQ_INFO</symbolicName>
+		<text>IDSQ_INFO</text>
+	</message>
+	<message>
+		<messageID>0x900C</messageID>
+		<symbolicName>IDSA_INFO</symbolicName>
+		<text>IDSA_INFO</text>
+	</message>
+	<message>
+		<messageID>0x900D</messageID>
+		<symbolicName>IDSQ_CHN_FILESIZE</symbolicName>
+		<text>IDSQ_CHN_FILESIZE</text>
+	</message>
+	<message>
+		<messageID>0x900E</messageID>
+		<symbolicName>IDSA_CHN_FILESIZE</symbolicName>
+		<text>IDSA_CHN_FILESIZE</text>
+	</message>
+	<message>
+		<messageID>0x97FF</messageID>
+		<symbolicName>IDEV____END____</symbolicName>
+		<text>!!!!!!!!!!!!!!!!! last identifier !!!!!!!!!!!!!!!!!!!!</text>
+	</message>
+	<message>
+		<messageID>0xEF20</messageID>
+		<symbolicName>IDEV____BEGIN_____2</symbolicName>
+		<text>!!!!!!!!!!!!!!!!! first identifier !!!!!!!!!!!!!!!!!!!!</text>
+	</message>
+	<message>
+		<messageID>0xEF27</messageID>
+		<symbolicName>IDEV_APPSTART</symbolicName>
+		<text>$I0 Приложение загружено</text>
+	</message>
+	<message>
+		<messageID>0xEF28</messageID>
+		<symbolicName>IDEV_APPSTOP</symbolicName>
+		<text>$I0 Приложение завершено</text>
+	</message>
+	<message>
+		<messageID>0xEF2F</messageID>
+		<symbolicName>IDEV____END____2</symbolicName>
+		<text>!!!!!!!!!!!!!!!!! last identifier !!!!!!!!!!!!!!!!!!!!</text>
+	</message>
+	<message/>
+	<message>
+		<messageID>0x0FDF</messageID>
+		<symbolicName>IDS_PASSWORD_DIALOG</symbolicName>
+		<text>Введите учетные данные:</text>
+	</message>
+	<message>
+		<messageID>0x0FE0</messageID>
+		<symbolicName>IDS_CURRENT_USER</symbolicName>
+		<text>Текущий пользователь:</text>
+	</message>
+	<message>
+		<messageID>0x0FE1</messageID>
+		<symbolicName>IDS_DOMAIN</symbolicName>
+		<text>Домен:</text>
+	</message>
+	<message>
+		<messageID>0x0FE2</messageID>
+		<symbolicName>IDS_USER</symbolicName>
+		<text>Пользователь:</text>
+	</message>
+	<message>
+		<messageID>0x0FE3</messageID>
+		<symbolicName>IDS_PASSWORD</symbolicName>
+		<text>Пароль:</text>
+	</message>
+	<message>
+		<messageID>0x0FE4</messageID>
+		<symbolicName>IDS_PASSWORD_RETYPE</symbolicName>
+		<text>Повторить пароль:</text>
+	</message>
+	<message>
+		<messageID>0x0FE5</messageID>
+		<symbolicName>IDS_PASSWORD_IGNORE</symbolicName>
+		<text>Не проверять</text>
+	</message>
+	<message>
+		<messageID>0x0FE6</messageID>
+		<symbolicName>IDS_PASSWORD_IS_BAD</symbolicName>
+		<text>Пароль не верен. Введите правильный пароль!</text>
+	</message>
+	<message>
+		<messageID>0x0FE7</messageID>
+		<symbolicName>IDS_ALL</symbolicName>
+		<text>Все</text>
+	</message>
+	<message/>
+	<message>
+		<messageID>0xD900</messageID>
+		<symbolicName>IDD_MULTIMEDIA_EXPORT</symbolicName>
+		<text>Экспорт</text>
+	</message>
+	<message>
+		<messageID>0xD9C5</messageID>
+		<symbolicName>IDC_STATIC_SOURCE_DATA</symbolicName>
+		<text>Исходные данные</text>
+	</message>
+	<message>
+		<messageID>0xD9A2</messageID>
+		<symbolicName>IDC_CHECK_ALL_RECORD</symbolicName>
+		<text>весь</text>
+	</message>
+	<message>
+		<messageID>0xD929</messageID>
+		<symbolicName>IDC_DATETIMEPICKER_START</symbolicName>
+		<text>DateTimePicker2</text>
+	</message>
+	<message>
+		<messageID>0xD92B</messageID>
+		<symbolicName>IDC_DATETIMEPICKER_STOP</symbolicName>
+		<text>DateTimePicker2</text>
+	</message>
+	<message>
+		<messageID>0xD9C6</messageID>
+		<symbolicName>IDC_STATIC_PERIOD</symbolicName>
+		<text>Период:</text>
+	</message>
+	<message>
+		<messageID>0xD9C7</messageID>
+		<symbolicName>IDC_STATIC_BEG</symbolicName>
+		<text>начало:</text>
+	</message>
+	<message>
+		<messageID>0xD9B2</messageID>
+		<symbolicName>IDC_CHECK_SELECTED_RECORD</symbolicName>
+		<text>выделение</text>
+	</message>
+	<message>
+		<messageID>0xD9A4</messageID>
+		<symbolicName>IDC_CHECK_ALL_AUDIO</symbolicName>
+		<text>все</text>
+	</message>
+	<message>
+		<messageID>0xD9A3</messageID>
+		<symbolicName>IDC_COMBO_AUDIO_MIC</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xD9C9</messageID>
+		<symbolicName>IDC_STATIC_MICROPHONE</symbolicName>
+		<text>Микрофон:</text>
+	</message>
+	<message>
+		<messageID>0xD9A6</messageID>
+		<symbolicName>IDC_CHECK_ALL_VIDEO</symbolicName>
+		<text>все</text>
+	</message>
+	<message>
+		<messageID>0xD9A5</messageID>
+		<symbolicName>IDC_COMBO_VIDEO_CAM</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xD9CA</messageID>
+		<symbolicName>IDC_STATIC_CAMERA</symbolicName>
+		<text>Камера:</text>
+	</message>
+	<message>
+		<messageID>0xD9CB</messageID>
+		<symbolicName>IDC_STATIC_AUDIO</symbolicName>
+		<text>Аудио</text>
+	</message>
+	<message>
+		<messageID>0xD9A8</messageID>
+		<symbolicName>IDC_CHECK_SAME_AUDIO</symbolicName>
+		<text>исходный</text>
+	</message>
+	<message>
+		<messageID>0xD9A7</messageID>
+		<symbolicName>IDC_COMBO_AUDIO_CODEC</symbolicName>
+		<text>mp3\naac\nadpcm_ima_wav\npcm_s16le</text>
+	</message>
+	<message>
+		<messageID>0xD9BE</messageID>
+		<symbolicName>IDC_STATIC_ACODEC</symbolicName>
+		<text>Кодек:</text>
+	</message>
+	<message>
+		<messageID>0xD9B6</messageID>
+		<symbolicName>IDC_MIN_AUD</symbolicName>
+		<text>минимальная</text>
+	</message>
+	<message>
+		<messageID>0xD9B7</messageID>
+		<symbolicName>IDC_MAX_AUD</symbolicName>
+		<text>максимальная</text>
+	</message>
+	<message>
+		<messageID>0xD9A9</messageID>
+		<symbolicName>IDC_SLIDER_COMPRESSION_AUDIO</symbolicName>
+		<text>Slider1</text>
+	</message>
+	<message>
+		<messageID>0xD9B5</messageID>
+		<symbolicName>IDC_AUDIO_COMPRESS_COMBO</symbolicName>
+		<text>Минимальная\nСредняя\nМаксимальная</text>
+	</message>
+	<message>
+		<messageID>0xD912</messageID>
+		<symbolicName>IDC_EDIT_COMPRESSION_AUDIO</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xD9CE</messageID>
+		<symbolicName>IDC_STATIC_ACOMPRESS</symbolicName>
+		<text>Степень сжатия:</text>
+	</message>
+	<message>
+		<messageID>0xD9AA</messageID>
+		<symbolicName>IDC_EDIT_AUDIO_FORMAT</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xD9D0</messageID>
+		<symbolicName>IDC_STATIC_AFORMAT</symbolicName>
+		<text>Формат:</text>
+	</message>
+	<message>
+		<messageID>0xD9C2</messageID>
+		<symbolicName>IDC_USE_PLAYBACK_SETTINGS</symbolicName>
+		<text>Использовать настройки вопроизведения</text>
+	</message>
+	<message>
+		<messageID>0xD9CC</messageID>
+		<symbolicName>IDC_STATIC_VIDEO</symbolicName>
+		<text>Видео</text>
+	</message>
+	<message>
+		<messageID>0xD9AE</messageID>
+		<symbolicName>IDC_CHECK_SAME_VIDEO</symbolicName>
+		<text>исходный</text>
+	</message>
+	<message>
+		<messageID>0xD9AD</messageID>
+		<symbolicName>IDC_COMBO_VIDEO_CODEC</symbolicName>
+		<text>MPEG-2</text>
+	</message>
+	<message>
+		<messageID>0xD9BF</messageID>
+		<symbolicName>IDC_STATIC_VCODEC</symbolicName>
+		<text>Кодек:</text>
+	</message>
+	<message>
+		<messageID>0xD9B3</messageID>
+		<symbolicName>IDC_COMBO_VIDEO_CROP</symbolicName>
+		<text>исходное\nверхняя левая четверть\nверхняя правая четверть\nнижняя левая четверть\nнижняя правая четверть</text>
+	</message>
+	<message>
+		<messageID>0xD9BC</messageID>
+		<symbolicName>IDC_STATIC_WINDOW</symbolicName>
+		<text>Окно:</text>
+	</message>
+	<message>
+		<messageID>0xD9B1</messageID>
+		<symbolicName>IDC_COMBO_VIDEO_RESOLUTION</symbolicName>
+		<text>исходное\nобычное\nэкономичное\n128x96\n176x144\n320x240</text>
+	</message>
+	<message>
+		<messageID>0xD9BD</messageID>
+		<symbolicName>IDC_STATIC_QUALITY</symbolicName>
+		<text>Качество:</text>
+	</message>
+	<message>
+		<messageID>0xD9BA</messageID>
+		<symbolicName>IDC_MIN_VID</symbolicName>
+		<text>минимальная</text>
+	</message>
+	<message>
+		<messageID>0xD9BB</messageID>
+		<symbolicName>IDC_MAX_VID</symbolicName>
+		<text>максимальная</text>
+	</message>
+	<message>
+		<messageID>0xD9AF</messageID>
+		<symbolicName>IDC_SLIDER_COMPRESSION_VIDEO</symbolicName>
+		<text>Slider1</text>
+	</message>
+	<message>
+		<messageID>0xD9B8</messageID>
+		<symbolicName>IDC_VIDEO_COMPRESS_COMBO</symbolicName>
+		<text>Минимальная\nСредняя\nМаксимальная</text>
+	</message>
+	<message>
+		<messageID>0xD911</messageID>
+		<symbolicName>IDC_EDIT_COMPRESSION_VIDEO</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xD9CF</messageID>
+		<symbolicName>IDC_STATIC_VCOMPRESS</symbolicName>
+		<text>Степень сжатия:</text>
+	</message>
+	<message>
+		<messageID>0xD9B0</messageID>
+		<symbolicName>IDC_EDIT_VIDEO_FORMAT</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xD9D1</messageID>
+		<symbolicName>IDC_STATIC_VFORMAT</symbolicName>
+		<text>Формат:</text>
+	</message>
+	<message>
+		<messageID>0xD9CD</messageID>
+		<symbolicName>IDC_STATIC_TEXT</symbolicName>
+		<text>Текст</text>
+	</message>
+	<message>
+		<messageID>0xD9B4</messageID>
+		<symbolicName>IDC_COMBO_TEXT_CODEC</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xD9D2</messageID>
+		<symbolicName>IDC_STATIC_TEXT_TYPE</symbolicName>
+		<text>Тип:</text>
+	</message>
+	<message>
+		<messageID>0xD9C4</messageID>
+		<symbolicName>IDC_EXPORT_TEXT</symbolicName>
+		<text>Экспортировать текст</text>
+	</message>
+	<message>
+		<messageID>0xD9D3</messageID>
+		<symbolicName>IDC_STATIC_RESULT</symbolicName>
+		<text>Результат</text>
+	</message>
+	<message>
+		<messageID>0xD9AB</messageID>
+		<symbolicName>IDC_COMBO_CONTAINER</symbolicName>
+		<text>AVI\nFLV\nSWF\nMOV\nVOB\nMP4\nWAV\nMP3\nM4A</text>
+	</message>
+	<message>
+		<messageID>0xD9D4</messageID>
+		<symbolicName>IDC_STATIC_FILE_TYPE</symbolicName>
+		<text>Тип файла:</text>
+	</message>
+	<message>
+		<messageID>0xD9AC</messageID>
+		<symbolicName>IDC_EDIT_FILE_PATH</symbolicName>
+		<text>?</text>
+	</message>
+	<message>
+		<messageID>0xD9D5</messageID>
+		<symbolicName>IDC_STATIC_FILE</symbolicName>
+		<text>Файл:</text>
+	</message>
+	<message>
+		<messageID>0xD9A1</messageID>
+		<symbolicName>IDC_BUTTON_BROWSE_FILE</symbolicName>
+		<text>...</text>
+	</message>
+	<message>
+		<messageID>0xD9C0</messageID>
+		<symbolicName>IDC_STATIC_SIZELB</symbolicName>
+		<text>Размер, МБ: </text>
+	</message>
+	<message>
+		<messageID>0xD9C1</messageID>
+		<symbolicName>IDC_STATIC_OUTSIZE</symbolicName>
+		<text>0</text>
+	</message>
+	<message>
+		<messageID>0xD9C3</messageID>
+		<symbolicName>IDC_SINGLE_FILE</symbolicName>
+		<text>Единый файл</text>
+	</message>
+	<message>
+		<messageID>0xD901</messageID>
+		<symbolicName>IDC_SAVE_XML</symbolicName>
+		<text>-&gt;XML...</text>
+	</message>
+	<message>
+		<messageID>0xD914</messageID>
+		<symbolicName>IDC_BUTTON_PLAY</symbolicName>
+		<text>&gt;</text>
+	</message>
+	<message>
+		<messageID>0xD9B9</messageID>
+		<symbolicName>IDC_ADVANCED_MODE</symbolicName>
+		<text>Эксперт</text>
+	</message>
+</messages>
